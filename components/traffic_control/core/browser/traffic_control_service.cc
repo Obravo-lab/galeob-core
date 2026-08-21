@@ -5,16 +5,24 @@
 
 #include "brave/components/traffic_control/core/browser/traffic_control_service.h"
 
+#include "base/functional/bind.h"
 #include "brave/components/traffic_control/core/browser/pref_names.h"
 #include "brave/components/traffic_control/core/browser/prefs.h"
 #include "brave/components/traffic_control/core/mojom/traffic_control.mojom.h"
 #include "components/prefs/pref_service.h"
+#include "url/gurl.h"
 
 namespace traffic_control {
 
 TrafficControlService::TrafficControlService(PrefService* prefs)
     : prefs_(prefs) {
   CHECK(prefs_);
+  pref_change_registrar_.Init(prefs_);
+  pref_change_registrar_.Add(
+      prefs::kTrafficControlList,
+      base::BindRepeating(&TrafficControlService::RebuildMatcher,
+                          base::Unretained(this)));
+  RebuildMatcher();
 }
 
 TrafficControlService::~TrafficControlService() = default;
@@ -25,6 +33,18 @@ bool TrafficControlService::IsEnabled() const {
 
 std::vector<mojom::TrafficRulePtr> TrafficControlService::GetRules() const {
   return GetRulesFromPrefs(*prefs_);
+}
+
+mojom::TrafficRulePtr TrafficControlService::FindMatchingRule(
+    const GURL& url) const {
+  if (!IsEnabled()) {
+    return nullptr;
+  }
+  return matcher_.FindMatchingRule(url);
+}
+
+void TrafficControlService::RebuildMatcher() {
+  matcher_.Rebuild(GetRulesFromPrefs(*prefs_));
 }
 
 }  // namespace traffic_control
