@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Brave Settings WebUI strings (included from brave_generated_resources.grd). -->
+<!-- Galeob Settings WebUI strings (included from brave_generated_resources.grd). -->
 <grit-part>
 
   <!--Add new items to the appropriate sections below -->
 
   <!-- Strings not associated with a particular section-->
-  <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Brave">
-    Your changes will take effect the next time you relaunch Brave.
+  <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Galeob">
+    Your changes will take effect the next time you relaunch Galeob.
   </message>
-  <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Brave">
+  <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Galeob">
     Relaunch Now
   </message>
   <message name="IDS_SETTINGS_SELECT_VALUE_YES" desc="Select value">
@@ -47,7 +47,7 @@
 
   <!-- Settings / Appearance -->
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
-    Brave colors
+    Galeob colors
   </message>
   <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
     Light
@@ -615,91 +615,91 @@
     Shortcuts
   </message>
 
-  <!-- Settings / Brave Origin -->
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TITLE" desc="The title for the Brave Origin section in settings">
-    Brave Origin
+  <!-- Settings / Galeob -->
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TITLE" desc="The title for the Galeob section in settings">
+    Galeob
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_RESTART_NOTICE" desc="Notifies the user that a browser restart is needed for all Brave Origin changes to fully take effect">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_RESTART_NOTICE" desc="Notifies the user that a browser restart is needed for all Galeob changes to fully take effect">
     Some changes require a browser restart to fully take effect.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ADS_SECTION_TITLE" desc="The title for the 'ads' section of Brave Origin in settings">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ADS_SECTION_TITLE" desc="The title for the 'ads' section of Galeob in settings">
     Ads
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_REWARDS_TOGGLE_TITLE" desc="The title for toggling the 'Rewards' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_REWARDS_TOGGLE_TITLE" desc="The title for toggling the 'Rewards' feature on/off for Galeob">
     Rewards
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ANALYTICS_SECTION_TITLE" desc="The title for the 'analytics' section of Brave Origin in settings">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ANALYTICS_SECTION_TITLE" desc="The title for the 'analytics' section of Galeob in settings">
     Analytics
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_FEATURES_SECTION_TITLE" desc="The title for the 'features' section of Brave Origin in settings">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_FEATURES_SECTION_TITLE" desc="The title for the 'features' section of Galeob in settings">
     Features
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_LEO_AI_TOGGLE_TITLE" desc="The title for toggling the 'Leo AI' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_LEO_AI_TOGGLE_TITLE" desc="The title for toggling the 'Leo AI' feature on/off for Galeob">
     Leo AI
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_LOCAL_AI_TOGGLE_TITLE" desc="The title for toggling the 'On-Device AI' master switch (history embeddings and any future on-device AI features) on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_LOCAL_AI_TOGGLE_TITLE" desc="The title for toggling the 'On-Device AI' master switch (history embeddings and any future on-device AI features) on/off for Galeob">
     On-Device AI
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_NEWS_TOGGLE_TITLE" desc="The title for toggling the 'News' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_NEWS_TOGGLE_TITLE" desc="The title for toggling the 'News' feature on/off for Galeob">
     News
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TALK_TOGGLE_TITLE" desc="The title for toggling the 'News' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TALK_TOGGLE_TITLE" desc="The title for toggling the 'News' feature on/off for Galeob">
     Talk
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WAYBACK_MACHINE_TOGGLE_TITLE" desc="The title for toggling the 'wayback machine' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WAYBACK_MACHINE_TOGGLE_TITLE" desc="The title for toggling the 'wayback machine' feature on/off for Galeob">
     Wayback Machine
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_SPEED_READER_TOGGLE_TITLE" desc="The title for toggling the 'speedreader' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_SPEED_READER_TOGGLE_TITLE" desc="The title for toggling the 'speedreader' feature on/off for Galeob">
     Speedreader
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_PLAYLIST_TOGGLE_TITLE" desc="The title for toggling the 'playlist' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_PLAYLIST_TOGGLE_TITLE" desc="The title for toggling the 'playlist' feature on/off for Galeob">
     Playlist
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_EMAIL_ALIASES_TOGGLE_TITLE" desc="The title for toggling the 'email aliases' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_EMAIL_ALIASES_TOGGLE_TITLE" desc="The title for toggling the 'email aliases' feature on/off for Galeob">
     Email Aliases
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WEB_DISCOVERY_PROJECT_TOGGLE_TITLE" desc="The title for toggling the 'web discovery project' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WEB_DISCOVERY_PROJECT_TOGGLE_TITLE" desc="The title for toggling the 'web discovery project' feature on/off for Galeob">
     Web Discovery Project
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_P3A_TOGGLE_TITLE" desc="The title for toggling the 'privacy preserving analytics' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_P3A_TOGGLE_TITLE" desc="The title for toggling the 'privacy preserving analytics' feature on/off for Galeob">
     Privacy preserving analytics
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_STATS_REPORTING_TOGGLE_TITLE" desc="The title for toggling the 'statistics reporting' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_STATS_REPORTING_TOGGLE_TITLE" desc="The title for toggling the 'statistics reporting' feature on/off for Galeob">
     Statistics reporting
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TOR_WINDOWS_TOGGLE_TITLE" desc="The title for toggling the 'tor windows' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_TOR_WINDOWS_TOGGLE_TITLE" desc="The title for toggling the 'tor windows' feature on/off for Galeob">
     Tor windows
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_VPN_TOGGLE_TITLE" desc="The title for toggling the 'vpn' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_VPN_TOGGLE_TITLE" desc="The title for toggling the 'vpn' feature on/off for Galeob">
     VPN
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WALLET_TOGGLE_TITLE" desc="The title for toggling the 'wallet' feature on/off for Brave Origin">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_WALLET_TOGGLE_TITLE" desc="The title for toggling the 'wallet' feature on/off for Galeob">
     Wallet
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_CROSS_PROFILE_SUB_LABEL" desc="The sub-label shown under Brave Origin toggles that apply browser-wide rather than to the current profile">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_CROSS_PROFILE_SUB_LABEL" desc="The sub-label shown under Galeob toggles that apply browser-wide rather than to the current profile">
     Affects all browser profiles
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_RESET_TO_DEFAULTS_TITLE" desc="The title for resetting the toggles for Brave Origin back to their default values">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_RESET_TO_DEFAULTS_TITLE" desc="The title for resetting the toggles for Galeob back to their default values">
     Reset to defaults
   </message>
 
-  <!-- Settings / Brave Origin Onboarding -->
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_TITLE" desc="The section title for the Brave Origin onboarding in settings">
-    Brave Origin
+  <!-- Settings / Galeob Onboarding -->
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_TITLE" desc="The section title for the Galeob onboarding in settings">
+    Galeob
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_HEADING_TITLE" desc="The heading title for the Brave Origin onboarding section">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_HEADING_TITLE" desc="The heading title for the Galeob onboarding section">
     Customize your browser while still supporting Brave
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_DESCRIPTION" desc="The first paragraph describing Brave Origin in the onboarding section">
-    Brave Origin is a paid version of the browser for users who don't need all the features that support Brave as a business, but still want the privacy that only Brave offers. Origin users will continue to benefit from our industry-leading privacy, adblock, and speed (via Shields), as well as regular software updates, Chromium patches, and security and privacy improvements.
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_DESCRIPTION" desc="The first paragraph describing Galeob in the onboarding section">
+    Galeob is a paid version of the browser for users who don't need all the features that support Brave as a business, but still want the privacy that only Brave offers. Origin users will continue to benefit from our industry-leading privacy, adblock, and speed (via Shields), as well as regular software updates, Chromium patches, and security and privacy improvements.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_BUY_NOW" desc="The label for the Buy now button in Brave Origin onboarding">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_BUY_NOW" desc="The label for the Buy now button in Galeob onboarding">
     Buy now
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_RESTORE_PURCHASE" desc="The label for the button to restore a previous Brave Origin purchase">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_RESTORE_PURCHASE" desc="The label for the button to restore a previous Galeob purchase">
     Restore purchase
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_LEARN_MORE" desc="The label for the Learn more link in Brave Origin onboarding">
+  <message name="IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_LEARN_MORE" desc="The label for the Learn more link in Galeob onboarding">
     Learn more
   </message>
 
@@ -827,7 +827,7 @@
     Automatically send diagnostic reports
   </message>
   <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
-    Help improve Brave's product stability by automatically sending diagnostic reports when the Brave Browser crashes or freezes
+    Help improve Brave's product stability by automatically sending diagnostic reports when the Galeob browser crashes or freezes
   </message>
   <!-- Request OTR -->
   <if expr="enable_request_otr">
@@ -854,7 +854,7 @@
     <message name="IDS_SETTINGS_PSST_SUB_LABEL" desc="Privacy settings tuning sub-label">
       Allows Brave to automatically suggest (and adjust) site-specific privacy settings.
     </message>
-    <message name="IDS_SETTINGS_BRAVE_ORIGIN_PSST_TOGGLE_TITLE" desc="The title for toggling the 'psst' feature on/off for Brave Origin">
+    <message name="IDS_SETTINGS_BRAVE_ORIGIN_PSST_TOGGLE_TITLE" desc="The title for toggling the 'psst' feature on/off for Galeob">
       Privacy Settings Tuning Tool
     </message>
   </if>
@@ -1214,7 +1214,7 @@
     Are you sure you want to do this?
   </message>
   <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about Brave Sync is not running and browser needs to have access to secure OS passwords store">
-    Brave could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for Brave Sync to connect your browser profile between devices. This means Brave Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>Brave Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
+    Galeob could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for Brave Sync to connect your browser profile between devices. This means Brave Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>Brave Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_SS_UNLOCKED_ERROR_MESSAGE" desc="Warning">
     It looks like the sync encryption key is different from the one used when you first set up Brave Sync. The easiest fix here is to reset and re-join the sync chain using the passphrase from one of your other synced devices.
@@ -1279,8 +1279,8 @@
   <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_TITLE" desc="Name of the settings page which displays search engine preferences for private profiles.">
     Search engine for Private Windows
   </message>
-  <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in Brave settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
-    <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph> is now your default search engine for private windows
+  <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in Galeob Settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
+    <ph name="SEARCH_ENGINE_NAME">$1<ex>Galeob</ex></ph> is now your default search engine for private windows
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINE_LIST_BRAVE_SEARCH_DESCRIPTION" desc="The description shown with the Brave Search radio button in the search engines list.">
     Brave Search is recommended for the best browsing experience while using Brave browser.
@@ -1677,7 +1677,7 @@
   </message>
 
   <!-- Settings / Leo Assistant -->
-  <message name="IDS_SETTINGS_LEO_ASSISTANT" desc="Title for an item in the 'Leo Assistant' section of Brave Settings">
+  <message name="IDS_SETTINGS_LEO_ASSISTANT" desc="Title for an item in the 'Leo Assistant' section of Galeob Settings">
     Leo
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_SHOW_ICON_ON_TOOLBAR_LABEL" desc="The text for settings option">
@@ -1955,7 +1955,7 @@
   </message>
 
   <!-- Settings / Survey Panelist -->
-  <message name="IDS_SETTINGS_SURVEY_PANELIST" desc="Title for an item in the 'Survey Panelist' section of Brave Settings">
+  <message name="IDS_SETTINGS_SURVEY_PANELIST" desc="Title for an item in the 'Survey Panelist' section of Galeob Settings">
     Survey Panelist
   </message>
   <message name="IDS_SETTINGS_SURVEY_PANELIST_LABEL" desc="The text for settings option to enable survey panelist">

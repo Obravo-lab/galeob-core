@@ -60,7 +60,7 @@
   Help make Brave better.
 </message>
 
-<message name="IDS_BRAVE_WELCOME_STABILITY_DIAGNOSTICS_TITLE" desc="A title for screen that asks user to opt-in for diagnostic reports (Brave Origin)">
+<message name="IDS_BRAVE_WELCOME_STABILITY_DIAGNOSTICS_TITLE" desc="A title for screen that asks user to opt-in for diagnostic reports (Galeob)">
   Stability
 </message>
 

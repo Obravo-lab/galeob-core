@@ -8,21 +8,21 @@
 namespace chrome_launcher_support {
 namespace {
 
-// Brave Update registry settings.
+// Galeob Update registry settings.
 const wchar_t kInstallationRegKey[] =
-    L"Software\\BraveSoftware\\Update\\ClientState";
+    L"Software\\Galeob\\Update\\ClientState";
 
 // Copied from brave/chromium_src/chrome/install_static/chromium_install_modes.h
 #if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
-const wchar_t kBrowserAppGuid[] = L"{F1EF32DE-F987-4289-81D2-6C4780027F9B}";
-const wchar_t kSxSBrowserAppGuid[] = L"{50474E96-9CD2-4BC8-B0A7-0D4B6EF2E709}";
+const wchar_t kBrowserAppGuid[] = L"{88E1CF75-B65C-45BE-9725-BE6561ECDD51}";
+const wchar_t kSxSBrowserAppGuid[] = L"{0C600423-CD15-48BC-86E4-2A2E34D2C9C7}";
 #else
-const wchar_t kBrowserAppGuid[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
-const wchar_t kSxSBrowserAppGuid[] = L"{C6CB981E-DB30-4876-8639-109F8933582C}";
+const wchar_t kBrowserAppGuid[] = L"{A343DC93-4479-4D8C-A29C-3CDE262E7334}";
+const wchar_t kSxSBrowserAppGuid[] = L"{D2DDDB15-F645-4391-8D19-214230EA32D1}";
 #endif  // BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
 
 // Copied from util_constants.cc.
-const wchar_t kChromeExe[] = L"brave.exe";
+const wchar_t kChromeExe[] = L"galeob.exe";
 
 }  // namespace
 }  // namespace chrome_launcher_support
