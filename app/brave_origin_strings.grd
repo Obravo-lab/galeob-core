@@ -276,7 +276,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
 
       <!--
-        Even though Brave for Testing is a separate brand, there is
+        Even though Galeob for Testing is a separate brand, there is
         no separate file for it. Instead, we use the same file as Brave, with
         a few select overrides for the most prominent end-user strings.
 
@@ -284,36 +284,36 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       -->
       <if expr="_is_chrome_for_testing_branded">
         <then>
-          <message name="IDS_PRODUCT_NAME" desc="The Brave for Testing application name" translateable="false">
-            Brave Origin for Testing
+          <message name="IDS_PRODUCT_NAME" desc="The Galeob for Testing application name" translateable="false">
+            Galeob Browser for Testing
           </message>
-          <message name="IDS_SHORT_PRODUCT_NAME" desc="The Brave for Testing application short name." translateable="false">
-            Brave Origin for Testing
+          <message name="IDS_SHORT_PRODUCT_NAME" desc="The Galeob for Testing application short name." translateable="false">
+            Galeob Browser for Testing
           </message>
         </then>
         <else>
-          <message name="IDS_PRODUCT_NAME" desc="The Brave application name" translateable="false">
-            Brave Origin
+          <message name="IDS_PRODUCT_NAME" desc="The Galeob application name" translateable="false">
+            Galeob Browser
           </message>
-          <message name="IDS_SHORT_PRODUCT_NAME" desc="The Brave application short name." translateable="false">
-            Brave Origin
+          <message name="IDS_SHORT_PRODUCT_NAME" desc="The Galeob application short name." translateable="false">
+            Galeob Browser
           </message>
         </else>
       </if>
       <if expr="is_win">
-        <message name="IDS_SXS_SHORTCUT_NAME">Brave Origin Nightly</message>
-        <message name="IDS_SHORTCUT_NAME_BETA">Brave Origin Beta</message>
-        <message name="IDS_SHORTCUT_NAME_DEV">Brave Origin Dev</message>
+        <message name="IDS_SXS_SHORTCUT_NAME">Galeob Browser Nightly</message>
+        <message name="IDS_SHORTCUT_NAME_BETA">Galeob Browser Beta</message>
+        <message name="IDS_SHORTCUT_NAME_DEV">Galeob Browser Dev</message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          Brave Origin is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Brave Origin.
+          Galeob Browser is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Galeob Browser.
         </message>
         <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Brave is launched at the conclusion of installation.">
-          Welcome to Brave Origin; new browser window opened
+          Welcome to Galeob Browser; new browser window opened
         </message>
       </if>
       <if expr="is_macosx or is_linux">
         <message name="IDS_FIRST_RUN_DIALOG_WINDOW_TITLE" desc="Window title of First Run dialog on Mac and Linux, displayed in title bar">
-          Welcome to Brave Origin
+          Welcome to Galeob Browser
         </message>
       </if>
       <if expr="is_linux">
@@ -391,7 +391,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         All tasks
       </message>
       <message name="IDS_SESSION_CRASHED_VIEW_UMA_OPTIN" desc="Text besides the checkbox to let users optin to UMA in the restore from previous crash bubble.">
-        Help make Brave better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Brave
+        Help make Galeob better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Brave
       </message>
       <if expr="not is_android">
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TOO_MANY_BOOKMARKS_BODY" desc="Body of the signout confirmation dialog when the user has too many bookmarks.">
@@ -440,12 +440,12 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
         <if expr="_is_chrome_for_testing_branded">
           <then>
             <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-              <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin for Testing
+              <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser for Testing
             </message>
           </then>
           <else>
             <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-              <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin
+              <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser
             </message>
           </else>
         </if>
@@ -453,25 +453,25 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       <if expr="is_chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabbed browser windows">
-          Brave Origin - <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph>
+          Galeob Browser - <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph>
         </message>
       </if>
       <if expr="not is_chromeos and not is_macosx">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Network Sign-in - Brave Origin
+          <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Network Sign-in - Galeob Browser
         </message>
       </if>
       <if expr="is_chromeos">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          Brave Origin - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph>
+          Galeob Browser - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph>
         </message>
       </if>
       <if expr="is_macosx">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Network Sign-in
+          <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Network Sign-in
         </message>
       </if>
       <!-- Accessible window title format - includes the channel, and the same
@@ -479,23 +479,23 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       <if expr="_is_chrome_for_testing_branded">
         <then>
           <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-            <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin for Testing
+            <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser for Testing
           </message>
         </then>
         <else>
           <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-            <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin
+            <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser
           </message>
         </else>
       </if>
       <message name="IDS_ACCESSIBLE_BETA_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the beta channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin Beta
+        <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser Beta
       </message>
       <message name="IDS_ACCESSIBLE_DEV_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the developer (dev) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin Dev
+        <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser Dev
       </message>
       <message name="IDS_ACCESSIBLE_CANARY_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the canary (nightly build) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave Origin</ex></ph> - Brave Origin Canary
+        <ph name="PAGE_TITLE">$1<ex>Galeob Browser</ex></ph> - Galeob Browser Canary
       </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
@@ -1017,7 +1017,7 @@ Brave is unable to recover your settings.
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The label for a control that triggers an extension uninstall.">
         Remove from Brave
       </message>
-      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Brave application.">
+      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within The Galeob application.">
         In Brave
       </message>
       <message name="IDS_PENDING_CHANGE_WARNING" desc="The message shown to users when an extension setting change will ba applied after Brave restarts.">
@@ -1058,8 +1058,8 @@ Brave is unable to recover your settings.
       <if expr="use_titlecase and not is_chromeos">
         <if expr="_is_chrome_for_testing_branded">
           <then>
-            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Brave for Testing menu item">
-              About &amp;Brave for Testing
+            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Galeob for Testing menu item">
+              About &amp;Galeob for Testing
             </message>
           </then>
           <else>
@@ -1075,8 +1075,8 @@ Brave is unable to recover your settings.
       <if expr="not use_titlecase and not is_chromeos">
         <if expr="_is_chrome_for_testing_branded">
           <then>
-            <message name="IDS_ABOUT" desc="The text label of the About Brave for Testing menu item">
-              About &amp;Brave for Testing
+            <message name="IDS_ABOUT" desc="The text label of the About Galeob for Testing menu item">
+              About &amp;Galeob for Testing
             </message>
           </then>
           <else>
@@ -1100,13 +1100,13 @@ Brave is unable to recover your settings.
 
       <if expr="is_macosx">
         <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Brave, not Brave." translateable="false">
-          Brave Origin
+          Galeob Browser
         </message>
-        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Brave application name (IDS_PRODUCT_NAME). Example: Brave Helper.">
-          Brave Origin Helper
+        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Galeob application name (IDS_PRODUCT_NAME). Example: Brave Helper.">
+          Galeob Browser Helper
         </message>
         <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Brave Helper, not Brave Helper.">
-          Brave Origin Helper
+          Galeob Browser Helper
         </message>
       </if>
 
@@ -1254,8 +1254,8 @@ Brave is unable to recover your settings.
       </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
-          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Brave for Testing browser.">
-            Customize Brave for Testing
+          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Galeob for Testing browser.">
+            Customize Galeob for Testing
           </message>
         </then>
         <else>
@@ -1520,12 +1520,12 @@ Brave is unable to recover your settings.
 
       <!-- App shortcuts -->
       <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Brave Apps Start Menu folder name.">
-        Brave Origin Apps
+        Galeob Browser Apps
       </message>
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY">Brave Origin Nightly Apps</message>
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY">Galeob Browser Nightly Apps</message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Brave Origin Beta Apps</message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Brave Origin Dev Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Galeob Browser Beta Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Galeob Browser Dev Apps</message>
       </if>
 
       <!-- MediaStream capture status tray icon -->
@@ -1645,17 +1645,17 @@ Brave is unable to recover your settings.
       <!-- Windows firewall rule strings. -->
       <if expr="is_win">
         <message name="IDS_INBOUND_MDNS_RULE_NAME" desc="The name of the firewall rule allowing inbound mDNS traffic.">
-          Brave Origin (mDNS-In)
+          Galeob Browser (mDNS-In)
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Brave Origin Beta (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Brave Origin Nightly (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Brave Origin Dev (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Galeob Browser Beta (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Galeob Browser Nightly (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Galeob Browser Dev (mDNS-In)</message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION">
-          Inbound rule for Brave Origin to allow mDNS traffic.
+          Inbound rule for Galeob Browser to allow mDNS traffic.
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Brave Origin Beta to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Brave Origin Nightly to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Brave Origin Dev to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Galeob Browser Beta to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Galeob Browser Nightly to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Galeob Browser Dev to allow mDNS traffic.</message>
       </if>
 
       <if expr="not is_android">
@@ -2509,10 +2509,10 @@ Brave is unable to recover your settings.
 
       <!-- Tailored Security -->
       <message name="IDS_TAILORED_SECURITY_UNCONSENTED_PROMOTION_NOTIFICATION_TITLE" desc="Title of notification prompting the user to enable Enhanced Safe Browsing after they have enabled account-level protections.">
-        Get Brave's strongest security
+        Get Galeob's strongest security
       </message>
       <message name="IDS_TAILORED_SECURITY_UNCONSENTED_PROMOTION_MESSAGE_TITLE" desc="Title shown in the message shown when a user changes their account-level tailored security setting encouraging them to enable Enhanced Safe Browsing">
-        Get Brave's strongest security
+        Get Galeob's strongest security
       </message>
       <message name="IDS_TAILORED_SECURITY_UNCONSENTED_PROMOTION_MESSAGE_DESCRIPTION" desc="Description shown in the message shown when a user changes their account-level tailored security setting encouraging them to enable Enhanced Safe Browsing">
         Enhanced protection does more to block phishing and malware
@@ -2542,13 +2542,13 @@ Brave is unable to recover your settings.
 
       <!-- Advanced security settings -->
       <message name="IDS_SETTINGS_SECURITY_JAVASCRIPT_OPTIMIZATION_LINK_ROW_ENABLED" desc="Description for the link row of the Javascript-optimization page when javascript-optimization is enabled.">
-        Speeds up sites with Brave's V8 engine but makes Brave slightly less resistant to attacks. This setting is on.
+        Speeds up sites with Galeob's V8 engine but makes Brave slightly less resistant to attacks. This setting is on.
       </message>
       <message name="IDS_SETTINGS_SECURITY_JAVASCRIPT_OPTIMIZATION_LINK_ROW_DISABLED" desc="Description for the link row of the Javascript-optimization page when javascript-optimization is disabled.">
-        Speeds up sites with Brave's V8 engine but makes Brave slightly less resistant to attacks. This setting is off.
+        Speeds up sites with Galeob's V8 engine but makes Brave slightly less resistant to attacks. This setting is off.
       </message>
       <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_OPTIMIZER_DESCRIPTION" desc="Description of the JavaScript optimizer content setting.">
-        Speeds up sites with Brave's V8 engine but makes Brave slightly less resistant to attacks
+        Speeds up sites with Galeob's V8 engine but makes Brave slightly less resistant to attacks
       </message>
       <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_OPTIMIZER_ALLOWED_SUB_LABEL" desc="Sub-label for the enabled option of the JavaScript optimizer content setting.">
         Brave runs faster and features that use JavaScript should work as designed
@@ -3094,7 +3094,7 @@ Brave is unable to recover your settings.
           Scan the QR code with your phone to download Brave and sign in to your Brave sync chain.
         </message>
         <message name="IDS_IOS_DESKTOP_AI_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop AI promo bubble with a QR code.">
-          Use Brave's best AI tools with the Brave app on your phone
+          Use Galeob's best AI tools with the Brave app on your phone
         </message>
         <message name="IDS_IOS_DESKTOP_AI_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop AI promo bubble with a reminder.">
           Take your favorite Brave AI tools on the go with Brave on iOS.
@@ -3127,7 +3127,7 @@ Brave is unable to recover your settings.
           Scan the QR code with your phone to download Brave and sign in to your Brave sync chain.
         </message>
         <message name="IDS_IOS_DESKTOP_SAFETY_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Safety promo bubble with a QR code.">
-          Get Brave's best safety features on the go, with the Brave app on your phone
+          Get Galeob's best safety features on the go, with the Brave app on your phone
         </message>
         <message name="IDS_IOS_DESKTOP_SAFETY_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Safety promo bubble with a reminder.">
           Get Brave’s best safety features on the go with Brave.

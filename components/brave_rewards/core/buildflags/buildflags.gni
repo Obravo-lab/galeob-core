@@ -17,9 +17,9 @@ declare_args() {
   bitflyer_sandbox_fee_address = "068e675b-f137-48ed-8068-4ad34ca4f30f"
   bitflyer_sandbox_url = "https://demo24kiuw4dcyncsy3qlud8u8.azurewebsites.net"
 
-  rewards_grant_dev_endpoint = "https://grant.rewards.brave.software"
-  rewards_grant_staging_endpoint = "https://grant.rewards.bravesoftware.com"
-  rewards_grant_prod_endpoint = "https://grant.rewards.brave.com"
+  rewards_grant_dev_endpoint = "https://grant-rewards-dev.galeob.fr"
+  rewards_grant_staging_endpoint = "https://grant-rewards-staging.galeob.fr"
+  rewards_grant_prod_endpoint = "https://grant-rewards.galeob.fr"
 
   uphold_production_api_url = "https://api.uphold.com"
   uphold_production_fee_address = "b01e8c55-5004-4761-9e4b-01ec13e25c92"

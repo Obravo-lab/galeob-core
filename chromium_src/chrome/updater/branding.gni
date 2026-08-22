@@ -16,41 +16,41 @@ import("//build/config/chrome_build.gni")
 import("//build/util/branding.gni")
 
 brave_updater_branding = {
-  browser_name = "Brave"
+  browser_name = "Galeob"
   browser_product_name = chrome_product_full_name
-  crash_product_name = "BraveUpdater"
-  crash_upload_url = "https://cr.brave.com"
-  help_center_url = "https://support.brave.app/hc/sections/360003286112"
-  updater_company_full_name = "Brave Software, Inc"
-  updater_company_short_name = "BraveSoftware"
-  updater_company_short_name_uppercase = "BRAVESOFTWARE"
+  crash_product_name = "GaleobUpdater"
+  crash_upload_url = "https://cr.galeob.fr"
+  help_center_url = "https://support.galeob.fr/hc/sections/360003286112"
+  updater_company_full_name = "Galeob"
+  updater_company_short_name = "Galeob"
+  updater_company_short_name_uppercase = "GALEOB"
   updater_copyright = "Copyright 2024 The Brave Authors. All rights reserved."
-  updater_product_full_name = "BraveUpdater"
+  updater_product_full_name = "GaleobUpdater"
   mac_team_identifier = "KL8N8XSYF4"
   grdfile_name = "brave_strings"
 
-  # The updater (Omaha 4) is shared between Brave Browser and Brave Origin.
+  # The updater (Omaha 4) is shared between Galeob Browser and Galeob.
   # It manages multiple applications, so we don't need separate updater
   # installations - just different app registrations within the same updater.
   # The following vars are intentionally the same for both brands:
-  keystone_app_name = "BraveSoftwareUpdate"
-  keystone_bundle_identifier = "com.brave.Keystone"
-  mac_updater_bundle_identifier = "com.brave.BraveUpdater"
-  privileged_helper_bundle_name = "BraveUpdaterPrivilegedHelper"
+  keystone_app_name = "GaleobSoftwareUpdate"
+  keystone_bundle_identifier = "com.galeob.Keystone"
+  mac_updater_bundle_identifier = "com.galeob.GaleobUpdater"
+  privileged_helper_bundle_name = "GaleobUpdaterPrivilegedHelper"
   updater_app_icon_path = "//brave/app/theme/brave/mac/app.icns"
 
-  # Brave Origin uses a separate browser bundle identifier for side-by-side
-  # installation with Brave Browser.
+  # Galeob uses a separate browser bundle identifier for side-by-side
+  # installation with the standard build.
   if (is_brave_origin_branded) {
-    mac_browser_bundle_identifier = "com.brave.Browser.origin"
+    mac_browser_bundle_identifier = "com.galeob.Browser.origin"
   } else {
-    mac_browser_bundle_identifier = "com.brave.Browser"
+    mac_browser_bundle_identifier = "com.galeob.Browser"
   }
   privileged_helper_name =
       "${mac_browser_bundle_identifier}.UpdaterPrivilegedHelper"
 
   # The following values come from our Omaha 3 implementation:
-  legacy_service_name_prefix = "brave"
+  legacy_service_name_prefix = "galeob"
   UpdaterLegacyLibGUID = "6FF4F468-0B5A-4878-ACEB-86263DAAD877"
   GoogleUpdate3WebUserClassGUID = "2F78AECB-0A7F-4474-89D5-C325293DE960"
   GoogleUpdate3WebSystemClassGUID = "00B16F95-319A-4F01-AC81-CE69B8F4E387"
@@ -107,6 +107,6 @@ brave_updater_branding = {
   declare_args() {
     # Omaha 4 update server:
     update_check_url =
-        "https://updates.bravesoftware.com/prod/service/update2/json"
+        "https://updates.galeob.fr/prod/service/update2/json"
   }
 }

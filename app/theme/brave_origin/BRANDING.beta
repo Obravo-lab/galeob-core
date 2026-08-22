@@ -1,10 +1,10 @@
-COMPANY_FULLNAME=Brave Software, Inc.
-COMPANY_SHORTNAME=Brave Software
-PRODUCT_FULLNAME=Brave Origin Beta
-PRODUCT_SHORTNAME=Brave Origin Beta
-PRODUCT_INSTALLER_FULLNAME=Brave Origin Installer
-PRODUCT_INSTALLER_SHORTNAME=Brave Origin Installer
+COMPANY_FULLNAME=Galeob
+COMPANY_SHORTNAME=Galeob
+PRODUCT_FULLNAME=Galeob Browser Beta
+PRODUCT_SHORTNAME=Galeob Beta
+PRODUCT_INSTALLER_FULLNAME=Galeob Browser Installer
+PRODUCT_INSTALLER_SHORTNAME=Galeob Browser Installer
 COPYRIGHT=Copyright 2016 The Brave Authors. All rights reserved.
-MAC_BUNDLE_ID=com.brave.Browser.origin.beta
+MAC_BUNDLE_ID=com.galeob.Browser.beta
 MAC_CREATOR_CODE=Cr24
 MAC_TEAM_ID=KL8N8XSYF4

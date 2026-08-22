@@ -60,26 +60,26 @@ const wchar_t kUninstallRegistryValue[] = L"UninstallString";
 #if defined(OFFICIAL_BUILD)
 // The path to the key containing each app's Clients registry key. The trailing
 // slash is required.
-const wchar_t kClientsKeyBase[] = L"Software\\BraveSoftware\\Update\\Clients\\";
+const wchar_t kClientsKeyBase[] = L"Software\\Galeob\\Update\\Clients\\";
 // The path to the key containing each app's Client State registry key. The
 // trailing slash is required.
 const wchar_t kClientStateKeyBase[] =
-    L"Software\\BraveSoftware\\Update\\ClientState\\";
+    L"Software\\Galeob\\Update\\ClientState\\";
 // The path to the key in which kCleanupRegistryValue is found.
 const wchar_t kCleanupRegistryKey[] =
-    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Brave";
+    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Galeob";
 #else
 
 // The product name in the strings below must be the same as kProductPathName.
 
 // The path to the key containing each app's Clients registry key.
 // No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientsKeyBase[] = L"Software\\Brave-Browser-Development";
+const wchar_t kClientsKeyBase[] = L"Software\\Galeob-Browser-Development";
 // The path to the key containing each app's Client State registry key.
 // No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientStateKeyBase[] = L"Software\\Brave-Browser-Development";
+const wchar_t kClientStateKeyBase[] = L"Software\\Galeob-Browser-Development";
 // The path to the key in which kCleanupRegistryValue is found.
-const wchar_t kCleanupRegistryKey[] = L"Software\\Brave-Browser-Development";
+const wchar_t kCleanupRegistryKey[] = L"Software\\Galeob-Browser-Development";
 
 #endif
 
