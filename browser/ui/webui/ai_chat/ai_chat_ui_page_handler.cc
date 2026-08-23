@@ -81,7 +81,7 @@
 
 namespace {
 #if !BUILDFLAG(IS_ANDROID)
-constexpr char kURLManagePremium[] = "https://account.brave.com/";
+constexpr char kURLManagePremium[] = "https://galeob.fr/";
 #endif
 }  // namespace
 

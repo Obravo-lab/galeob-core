@@ -117,7 +117,7 @@ class UIHandler : public ai_chat::mojom::UntrustedUIHandler {
   }
 
   void OpenSearchURL(const std::string& search_query) override {
-    OpenURL(GURL("https://search.brave.com/search?q=" +
+    OpenURL(GURL("https://galeob.fr/search?q=" +
                  base::EscapeQueryParamValue(search_query, true)));
   }
 

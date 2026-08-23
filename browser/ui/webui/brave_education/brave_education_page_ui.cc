@@ -52,7 +52,7 @@ void CreateAndAddWhatsNewUIHtmlSource(content::WebUI* web_ui,
   // Allow embedding of iframe content from allowed domains.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ChildSrc,
-      "child-src chrome://webui-test https://browser-education.brave.com;");
+      "child-src chrome://webui-test https://galeob.fr;");
 }
 
 }  // namespace

@@ -85,70 +85,70 @@ namespace settings {
 namespace {
 
 constexpr char16_t kWebRTCLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/"
+    u"https://support.galeob.fr/hc/en-us/articles/"
     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
 constexpr char16_t kBraveBuildInstructionsUrl[] =
-    u"https://github.com/brave/brave-browser/wiki";
+    u"https://github.com/Obravo-lab/brave-browser/wiki";
 constexpr char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
 constexpr char16_t kBraveReleaseTagPrefix[] =
-    u"https://github.com/brave/brave-browser/releases/tag/v";
+    u"https://github.com/Obravo-lab/brave-browser/releases/tag/v";
 #if BUILDFLAG(ENABLE_CONTAINERS)
 constexpr char16_t kContainersLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/39077103885325";
+    u"https://support.galeob.fr/hc/en-us/articles/39077103885325";
 #endif
 constexpr char16_t kGoogleLoginLearnMoreURL[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/Obravo-lab/brave-browser/wiki/"
     u"Allow-Google-login---Third-Parties-and-Extensions";
 constexpr char16_t kUnstoppableDomainsLearnMoreURL[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/Obravo-lab/brave-browser/wiki/"
     u"Resolve-Methods-for-Unstoppable-Domains";
 constexpr char16_t kEnsOffchainLookupLearnMoreURL[] =
-    u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
+    u"https://github.com/Obravo-lab/brave-browser/wiki/ENS-offchain-lookup";
 constexpr char16_t kBraveSyncGuideUrl[] =
-    u"https://support.brave.app/hc/en-us/articles/360047642371-Sync-FAQ";
+    u"https://support.galeob.fr/hc/en-us/articles/360047642371-Sync-FAQ";
 constexpr char16_t kDeAmpLearnMoreUrl[] =
-    u"https://support.brave.app/hc/en-us/articles/8611298579981";
+    u"https://support.galeob.fr/hc/en-us/articles/8611298579981";
 constexpr char16_t kDebounceLearnMoreUrl[] =
-    u"https://brave.com/privacy-updates/11-debouncing/";
+    u"https://galeob.fr/privacy-updates/11-debouncing/";
 constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/Obravo-lab/brave-browser/wiki/"
     u"NFT-Discovery";
 constexpr char16_t kBlockAllCookiesLearnMoreUrl[] =
-    u"https://github.com/brave/brave-browser/wiki/"
+    u"https://github.com/Obravo-lab/brave-browser/wiki/"
     u"Block-all-cookies-global-Shields-setting";
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
 constexpr char16_t kLeoCustomModelsLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/"
+    u"https://support.galeob.fr/hc/en-us/articles/"
     u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-Brave-Leo";
 
 constexpr char16_t kTabOrganizationLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/"
+    u"https://support.galeob.fr/hc/en-us/articles/"
     u"35200007195917-How-to-use-Tab-Focus-Mode";
 
 constexpr char16_t kLeoMemoryLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/38441287509261";
+    u"https://support.galeob.fr/hc/en-us/articles/38441287509261";
 
 constexpr char16_t kLeoPrivacyPolicyURL[] =
-    u"https://brave.com/privacy/browser/#brave-leo";
+    u"https://galeob.fr/privacy/browser/#brave-leo";
 #endif
 
 constexpr char16_t kAdBlockOnlyModeLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/38076796692109";
+    u"https://support.galeob.fr/hc/en-us/articles/38076796692109";
 
 constexpr char16_t kSurveyPanelistLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/36550092449165";
+    u"https://support.galeob.fr/hc/en-us/articles/36550092449165";
 
 constexpr char16_t kExtensionsV2LearnMoreURL[] =
-    u"https://brave.com/blog/brave-shields-manifest-v3/";
+    u"https://galeob.fr/blog/brave-shields-manifest-v3/";
 
 #if BUILDFLAG(ENABLE_PSST)
 constexpr char16_t kPsstLearnMoreUrl[] =
-    u"https://support.brave.app/hc/en-us/articles/47405731650957";
+    u"https://support.galeob.fr/hc/en-us/articles/47405731650957";
 #endif
 
 constexpr char16_t kBraveAccountLearnMoreURL[] =
-    u"https://support.brave.app/hc/en-us/articles/45530506862349";
+    u"https://support.galeob.fr/hc/en-us/articles/45530506862349";
 
 void BraveAddCommonStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
@@ -1267,7 +1267,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
   html_source->AddString("psstLearnMoreURL", kPsstLearnMoreUrl);
 #endif
   // Disabled due to crash with tab group dragging.
-  // TODO(https://github.com/brave/brave-browser/issues/49752): Re-enable.
+  // TODO(https://github.com/Obravo-lab/brave-browser/issues/49752): Re-enable.
   html_source->AddBoolean("showSplitViewDragAndDropSetting", false);
 }  // NOLINT(readability/fn_size)
 

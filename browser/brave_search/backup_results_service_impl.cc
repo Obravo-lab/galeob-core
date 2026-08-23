@@ -86,7 +86,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
         cookies_allowed: YES
         setting:
           "You can enable or disable these features on brave://settings/search "
-          "and https://search.brave.com/settings"
+          "and https://galeob.fr/settings"
         policy_exception_justification:
           "Not implemented."
       }

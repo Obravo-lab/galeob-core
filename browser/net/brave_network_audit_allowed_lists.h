@@ -26,15 +26,15 @@ inline constexpr auto kAllowedUrlProtocols =
 
 // Before adding to this list, get approval from the security team.
 inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
-    // allowed because it 307's to https://componentupdater.brave.com
-    "https://componentupdater.brave.com/service/update2",
-    "https://crxdownload.brave.com/crx/blobs/",
+    // allowed because it 307's to https://componentupdater.galeob.fr
+    "https://componentupdater.galeob.fr/service/update2",
+    "https://crxdownload.galeob.fr/crx/blobs/",
 
     // Omaha/Sparkle
-    "https://updates.bravesoftware.com/",
+    "https://updates.galeob.fr/",
 
     // stats/referrals
-    "https://usage-ping.brave.com/",
+    "https://usage-ping.galeob.fr/",
 
     // needed for DoH on Mac build machines
     "https://dns.google/dns-query",
@@ -43,37 +43,37 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
     "https://chrome.cloudflare-dns.com/dns-query",
 
     // for fetching tor client updater component
-    "https://tor.bravesoftware.com/",
+    "https://tor.galeob.fr/",
 
     // brave sync v2 production
-    "https://sync-v2.brave.com/v2",
+    "https://sync-v2.galeob.fr/v2",
 
     // brave sync v2 staging
-    "https://sync-v2.bravesoftware.com/v2",
+    "https://sync-v2-staging.galeob.fr/v2",
 
     // brave sync v2 dev
-    "https://sync-v2.brave.software/v2",
+    "https://sync-v2-dev.galeob.fr/v2",
 
     // brave A/B testing
-    "https://variations.brave.com/seed",
+    "https://variations.galeob.fr/seed",
 
     // Brave News (production)
-    "https://brave-today-cdn.brave.com/",
+    "https://brave-today-cdn.galeob.fr/",
 
     // Brave's Privacy-focused CDN
-    "https://pcdn.brave.com/",
+    "https://pcdn.galeob.fr/",
 
     // p3a
-    "https://star-randsrv.bsg.brave.com/",
+    "https://star-randsrv.galeob.fr/",
 
     // Other
-    "https://brave-core-ext.s3.brave.com/",
-    "https://dict.brave.com/",
-    "https://go-updater.brave.com/",
-    "https://redirector.brave.com/",
-    "https://safebrowsing.brave.com/",
-    "https://static.brave.com/",
-    "https://static1.brave.com/",
+    "https://brave-core-ext.galeob.fr/",
+    "https://dict.galeob.fr/",
+    "https://go-updater.galeob.fr/",
+    "https://redirector.galeob.fr/",
+    "https://safebrowsing.galeob.fr/",
+    "https://static.galeob.fr/",
+    "https://static1.galeob.fr/",
 });
 
 }  // namespace brave

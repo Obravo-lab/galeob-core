@@ -60,7 +60,7 @@ namespace {
 inline constexpr char kBraveWelcomePageHost[] = "welcome-new";
 
 inline constexpr char kJapanWelcomeURL[] =
-    "https://brave.com/ja/desktop-ntp-tutorial";
+    "https://galeob.fr/ja/desktop-ntp-tutorial";
 
 void OpenJapanWelcomePage(base::WeakPtr<content::WebContents> web_contents) {
   if (!web_contents) {

@@ -91,7 +91,7 @@ WalletPanelUI::WalletPanelUI(content::WebUI* web_ui)
       base::JoinString(
           {"img-src", "'self'", "chrome://resources",
            "chrome://erc-token-images", "chrome://favicon2", "chrome://image",
-           "https://assets.cgproxy.brave.com", base::StrCat({"data:", ";"})},
+           "https://galeob.fr", base::StrCat({"data:", ";"})},
           " "));
   source->AddString("braveWalletTrezorBridgeUrl", kUntrustedTrezorURL);
   source->AddString("braveWalletNftBridgeUrl", kUntrustedNftURL);
@@ -118,7 +118,7 @@ WalletPanelUI::WalletPanelUI(content::WebUI* web_ui)
   content::URLDataSource::Add(
       profile, std::make_unique<brave_wallet::BlockchainImagesSource>(profile));
 
-  // TODO(https://github.com/brave/brave-browser/issues/55074) should be set
+  // TODO(https://github.com/Obravo-lab/brave-browser/issues/55074) should be set
   // externally. Keep the existing last-active lookup for the bubble; do not
   // CHECK — side-panel construction can run when last-active is unset (e.g.
   // browser tests). CreatePanelHandler already no-ops if this is null. Proper
