@@ -35,11 +35,11 @@ export function TalkWidget() {
         <div className='actions'>
           <Button
             size='small'
-            onClick={() => openLink('https://talk.brave.com/widget')}
+            onClick={() => openLink('https://talk.galeob.fr/widget')}
           >
             {getString(S.NEW_TAB_TALK_START_CALL_LABEL)}
           </Button>
-          <Link url='https://brave.com/privacy/browser/#brave-talk-learn'>
+          <Link url='https://galeob.fr/privacy/browser/#brave-talk-learn'>
             {getString(S.NEW_TAB_TALK_ABOUT_DATA_LINK)}
           </Link>
         </div>

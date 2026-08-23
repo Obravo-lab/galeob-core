@@ -29,7 +29,7 @@ const buildBraveVersionLink = (braveVersion: string, build: string) => {
   wrapper.setAttribute('id', 'release-notes')
   wrapper.setAttribute('target', '_blank')
   wrapper.setAttribute('rel', 'noopener noreferrer')
-  wrapper.setAttribute('href', 'https://brave.com/latest/')
+  wrapper.setAttribute('href', 'https://galeob.fr/latest/')
   wrapper.textContent = `Brave ${braveVersion} ${build}`
 
   return wrapper
@@ -59,7 +59,7 @@ const modifyAboutPage = (root: ShadowRoot) => {
     wrapper.setAttribute('id', 'release-notes')
     wrapper.setAttribute('target', '_blank')
     wrapper.setAttribute('rel', 'noopener noreferrer')
-    wrapper.setAttribute('href', 'https://brave.com/latest/')
+    wrapper.setAttribute('href', 'https://galeob.fr/latest/')
 
     const parent = version.parentNode
     parent?.replaceChild(wrapper, version)
@@ -79,12 +79,12 @@ const modifyAboutPage = (root: ShadowRoot) => {
   if (updateStatusMessageLink) {
     // <if expr="is_win">
     updateStatusMessageLink.href =
-      'https://support.brave.app/hc/en-us/articles/360042816611-Why-isn-t-Brave-updating-automatically-on-Windows-'
+      'https://support.galeob.fr/hc/en-us/articles/360042816611-Why-isn-t-Brave-updating-automatically-on-Windows-'
     // </if>
 
     // <if expr="not is_win">
       updateStatusMessageLink.href =
-        'https://community.brave.app?p=update_error'
+        'https://community.galeob.fr?p=update_error'
     // </if>
   }
 }

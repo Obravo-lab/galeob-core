@@ -68,7 +68,7 @@ export function MetricsStep(props: StepComponentProps) {
               ),
               $2: (content) => (
                 <a
-                  href='https://brave.com/privacy/browser/'
+                  href='https://galeob.fr/privacy/browser/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -84,7 +84,7 @@ export function MetricsStep(props: StepComponentProps) {
               image={p3aImage}
               title={getString('WELCOME_PAGE_PRODUCT_P3A_TITLE')}
               description={getString('WELCOME_PAGE_PRODUCT_P3A_DESCRIPTION')}
-              learnMoreUrl='https://support.brave.app/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-'
+              learnMoreUrl='https://support.galeob.fr/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-'
               checked={p3aEnabled}
               onChange={setP3AEnabled}
             />
@@ -96,7 +96,7 @@ export function MetricsStep(props: StepComponentProps) {
               description={getString(
                 'WELCOME_PAGE_PRODUCT_CRASH_REPORTS_DESCRIPTION',
               )}
-              learnMoreUrl='https://support.brave.app/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting'
+              learnMoreUrl='https://support.galeob.fr/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting'
               checked={crashReportingEnabled}
               onChange={setCrashReportingEnabled}
             />
@@ -106,7 +106,7 @@ export function MetricsStep(props: StepComponentProps) {
               image={wdpImage}
               title={getString('WELCOME_PAGE_PRODUCT_WDP_TITLE')}
               description={getString('WELCOME_PAGE_PRODUCT_WDP_DESCRIPTION')}
-              learnMoreUrl='https://support.brave.app/hc/articles/4409406835469-What-is-the-Web-Discovery-Project'
+              learnMoreUrl='https://support.galeob.fr/hc/articles/4409406835469-What-is-the-Web-Discovery-Project'
               checked={webDiscoveryEnabled}
               onChange={setWebDiscoveryEnabled}
             />

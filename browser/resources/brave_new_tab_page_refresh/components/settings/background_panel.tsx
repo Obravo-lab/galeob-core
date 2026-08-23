@@ -32,7 +32,7 @@ import {
 import { style } from './background_panel.style'
 
 const sponsoredImageLearnMoreURL =
-  'https://support.brave.app/hc/en-us/articles/35182999599501'
+  'https://support.galeob.fr/hc/en-us/articles/35182999599501'
 
 export function BackgroundPanel() {
   const actions = useBackgroundActions()

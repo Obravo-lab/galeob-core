@@ -46,7 +46,7 @@ export function App() {
         <div className={styles.header}>
           <a
             className={styles.agentModeLink}
-            href='https://support.brave.app/hc/en-us/articles/41240379376909'
+            href='https://support.galeob.fr/hc/en-us/articles/41240379376909'
             target='_blank'
             rel='noopener noreferrer'
           >

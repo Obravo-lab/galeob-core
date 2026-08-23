@@ -13,7 +13,7 @@ import {
 export { SponsoredSite, TopSite, TopSitesListKind }
 
 export const sponsoredSiteLearnMoreURL =
-  'https://support.brave.app/hc/en-us/articles/47175807694989'
+  'https://support.galeob.fr/hc/en-us/articles/47175807694989'
 
 export interface TopSitesState {
   initialized: boolean

@@ -49,7 +49,7 @@ export class SettingsBraveOriginOnboardingElement extends
 
   private onLearnMoreClick_() {
     window.open(
-        'https://support.brave.app/hc/en-us/articles/38561489788173',
+        'https://support.galeob.fr/hc/en-us/articles/38561489788173',
         '_blank',
         'noopener');
   }

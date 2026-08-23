@@ -13,13 +13,13 @@ import override_utils
 @override_utils.override_function(globals())
 def normalize_channel(original_function, channel):
     if channel == "stable":
-        return "stable", "https://brave.com/latest/"
+        return "stable", "https://galeob.fr/latest/"
     if channel in ["beta", "testing"]:
-        return "beta", "https://brave.com/latest/"
+        return "beta", "https://galeob.fr/latest/"
     if channel in ["dev", "unstable", "alpha"]:
-        return "dev", "https://brave.com/latest/"
+        return "dev", "https://galeob.fr/latest/"
     if channel == "nightly":
-        return "nightly", "https://brave.com/latest/"
+        return "nightly", "https://galeob.fr/latest/"
     return original_function(channel)
 
 

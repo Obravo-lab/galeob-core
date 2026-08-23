@@ -14,7 +14,7 @@ import { formatString } from '$web-common/formatString'
 import { style } from './ad_block_only_prompt.style'
 
 const learnMoreURL =
-  'https://support.brave.app/hc/en-us/articles/38076796692109'
+  'https://support.galeob.fr/hc/en-us/articles/38076796692109'
 
 export function MaybeAdBlockOnlyPrompt() {
   const api = useShieldsApi()
