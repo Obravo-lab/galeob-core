@@ -53,14 +53,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-core.git"
+    "url": "git+https://github.com/Obravo-lab/brave-core.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "Galeob <contact@quickvpn.fr>"
   },
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/Obravo-lab/brave-browser/issues"
   },
   "devEngines": {
     "runtime": {
