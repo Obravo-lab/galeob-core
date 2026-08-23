@@ -92,7 +92,7 @@ net::NetworkTrafficAnnotationTag AnonymousStatsAnnotation() {
   return net::DefineNetworkTrafficAnnotation("brave_stats_updater", R"(
     semantics {
       sender:
-        "Brave Stats Updater"
+        "Galeob Stats Updater"
       description:
         "This service sends anonymous usage statistics to Brave."
       trigger:
@@ -277,7 +277,7 @@ void BraveStatsUpdater::OnSimpleLoaderComplete(
     g_testing_stats_updated_callback->Run(final_url);
 
   // Log the full URL of the stats ping.
-  VLOG(1) << "Brave stats ping, url: " << final_url.spec();
+  VLOG(1) << "Galeob stats ping, url: " << final_url.spec();
 }
 
 void BraveStatsUpdater::OnServerPingTimerFired() {

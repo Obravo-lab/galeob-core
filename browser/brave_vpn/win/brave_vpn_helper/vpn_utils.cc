@@ -33,15 +33,15 @@ namespace {
 std::wstring GetBraveVpnServiceFilterName() {
   switch (chrome::GetChannel()) {
     case version_info::Channel::CANARY:
-      return L"Brave VPN Nightly Service DNS Filter";
+      return L"Galeob VPN Nightly Service DNS Filter";
     case version_info::Channel::DEV:
-      return L"Brave VPN Dev Service DNS Filter";
+      return L"Galeob VPN Dev Service DNS Filter";
     case version_info::Channel::BETA:
-      return L"Brave VPN Beta Service DNS Filter";
+      return L"Galeob VPN Beta Service DNS Filter";
     case version_info::Channel::STABLE:
-      return L"Brave VPN Service DNS Filter";
+      return L"Galeob VPN Service DNS Filter";
     case version_info::Channel::UNKNOWN:
-      return L"Brave VPN Development Service DNS Filter";
+      return L"Galeob VPN Development Service DNS Filter";
   }
 
   NOTREACHED();

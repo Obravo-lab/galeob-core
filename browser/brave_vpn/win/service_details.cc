@@ -24,7 +24,7 @@ namespace {
 
 // The service installed to %(VersionDir)s\BraveVpnWireguardService
 constexpr wchar_t kBraveVpnWireguardServiceSubFolder[] =
-    L"BraveVpnWireguardService";
+    L"GaleobVpnWireguardService";
 
 // 6D319801-690B-441E-8C94-5C18D8E7E9D7
 constexpr IID kBraveWireguardServiceIID = {
@@ -34,7 +34,7 @@ constexpr IID kBraveWireguardServiceIID = {
     {0x8c, 0x94, 0x5c, 0x18, 0xd8, 0xe7, 0xe9, 0xd7}};
 
 constexpr wchar_t kBraveNightlyWireguardTunnelServiceName[] =
-    L"BraveVpnNightlyWireguardTunnelService";
+    L"GaleobVpnNightlyWireguardTunnelService";
 // A8D57D90-7A29-4405-91D7-A712F347E426
 constexpr CLSID kBraveNightlyWireguardServiceCLSID = {
     0xa8d57d90,
@@ -43,7 +43,7 @@ constexpr CLSID kBraveNightlyWireguardServiceCLSID = {
     {0x91, 0xd7, 0xa7, 0x12, 0xf3, 0x47, 0xe4, 0x26}};
 
 constexpr wchar_t kBraveBetaWireguardTunnelServiceName[] =
-    L"BraveVpnBetaWireguardTunnelService";
+    L"GaleobVpnBetaWireguardTunnelService";
 // 93175676-5FAC-4D73-B1E1-5485003C9427
 constexpr CLSID kBraveBetaWireguardServiceCLSID = {
     0x93175676,
@@ -52,7 +52,7 @@ constexpr CLSID kBraveBetaWireguardServiceCLSID = {
     {0xb1, 0xe1, 0x54, 0x85, 0x00, 0x3c, 0x94, 0x27}};
 
 constexpr wchar_t kBraveDevWireguardTunnelServiceName[] =
-    L"BraveVpnDevWireguardTunnelService";
+    L"GaleobVpnDevWireguardTunnelService";
 // 52C95DE1-D7D9-4C03-A275-8A4517AFAE08
 constexpr CLSID kBraveDevWireguardServiceCLSID = {
     0x52c95de1,
@@ -61,7 +61,7 @@ constexpr CLSID kBraveDevWireguardServiceCLSID = {
     {0xa2, 0x75, 0x8a, 0x45, 0x17, 0xaf, 0xae, 0x08}};
 
 constexpr wchar_t kBraveDevelopmentWireguardTunnelServiceName[] =
-    L"BraveVpnDevelopmentWireguardTunnelService";
+    L"GaleobVpnDevelopmentWireguardTunnelService";
 // 57B73EDD-CBE4-46CA-8ACB-11D90840AF6E
 constexpr CLSID kBraveDevelopmentWireguardServiceCLSID = {
     0x57b73edd,

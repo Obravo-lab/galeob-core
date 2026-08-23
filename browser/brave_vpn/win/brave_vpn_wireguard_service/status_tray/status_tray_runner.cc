@@ -361,7 +361,7 @@ HRESULT StatusTrayRunner::Run() {
 
   base::SingleThreadTaskExecutor task_executor(base::MessagePumpType::UI);
   base::ThreadPoolInstance::CreateAndStartWithDefaultParams(
-      "Brave VPN Wireguard status tray process");
+      "Galeob VPN Wireguard status tray process");
 
   SetupStatusIcon();
   SubscribeForStorageUpdates();

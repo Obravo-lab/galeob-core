@@ -72,7 +72,7 @@ namespace {
 constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
     net::DefineNetworkTrafficAnnotation("brave_search_backup", R"(
       semantics {
-        sender: "Brave Search Backup Results Service"
+        sender: "Galeob Search Backup Results Service"
         description:
           "Requests results from a backup search "
           "provider for users that have opted into this feature."
