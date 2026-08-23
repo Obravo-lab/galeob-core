@@ -93,7 +93,7 @@ WelcomeDOMHandler::WelcomeDOMHandler(Profile* profile)
 #endif  // BUILDFLAG(ENABLE_BRAVE_EDUCATION)
 {
   base::MakeRefCounted<shell_integration::DefaultSchemeClientWorker>(
-      GURL("https://browser-education.brave.com"))
+      GURL("https://galeob.fr"))
       ->StartCheckIsDefaultAndGetDefaultClientName(
           base::BindOnce(&WelcomeDOMHandler::OnGetDefaultBrowser,
                          weak_ptr_factory_.GetWeakPtr()));

@@ -149,14 +149,14 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
       return manage_url.ReplaceComponents(replacements);
     }
     case mojom::ManageURLType::PRIVACY:
-      return GURL("https://brave.com/privacy/browser/#vpn");
+      return GURL("https://galeob.fr/privacy/browser/#vpn");
     case mojom::ManageURLType::ABOUT:
       return GURL(brave_vpn::kAboutUrl);
     case mojom::ManageURLType::MANAGE:
       return manage_url;
     case mojom::ManageURLType::ABOUT_SMART_PROXY:
       return GURL(
-          "https://support.brave.app/hc/en-us/articles/"
+          "https://support.galeob.fr/hc/en-us/articles/"
           "32105253704333-What-is-Smart-Proxy-Routing");
     default:
       break;
@@ -261,7 +261,7 @@ std::string GetManageUrl(const std::string& env) {
 }
 
 // On desktop, the environment is tied to SKUs because you would purchase it
-// from `account.brave.com` (or similar, based on env). The credentials for VPN
+// from `galeob.fr` (or similar, based on env). The credentials for VPN
 // will always be in the same environment as the SKU environment.
 //
 // When the vendor receives a credential from us during auth, it also includes

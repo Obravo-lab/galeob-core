@@ -31,7 +31,7 @@ bool NavigateToUrlWithHttps(const std::wstring& url);
 // - `kBraveUninstallSurveyUrl` used instead of `kUninstallSurveyUrl`
 
 constexpr std::wstring_view kBraveUninstallSurveyUrl(
-    L"https://brave.com/uninstall-survey/?p=brave_uninstall_survey");
+    L"https://galeob.fr/uninstall-survey/?p=brave_uninstall_survey");
 
 }  // namespace
 
@@ -44,7 +44,7 @@ constexpr std::wstring_view kBraveUninstallSurveyUrl(
 // unconditionally removed from the "ap" value.
 // This function used to be upstream and had to be restored in Brave to support
 // delta updates on Windows until we are on Omaha 4. See:
-// github.com/brave/brave-core/pull/31937
+// github.com/Obravo-lab/brave-core/pull/31937
 void UpdateInstallStatus(installer::ArchiveType archive_type,
                          installer::InstallStatus install_status) {
   GoogleUpdateSettings::UpdateInstallStatus(

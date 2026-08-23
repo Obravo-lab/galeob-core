@@ -12,26 +12,26 @@ inline constexpr char kMagnetScheme[] = "magnet";
 inline constexpr char kWidevineTOS[] = "https://policies.google.com/terms";
 inline constexpr char kRewardsUpholdSupport[] =
     "https://uphold.com/en/brave/support";
-inline constexpr char kP3ALearnMoreURL[] = "https://brave.com/P3A";
+inline constexpr char kP3ALearnMoreURL[] = "https://galeob.fr/P3A";
 inline constexpr char kP3ASettingsLink[] = "chrome://settings/privacy";
 inline constexpr char kImportDataHelpURL[] =
-    "https://support.brave.app/hc/en-us/articles/360019782291#safari";
+    "https://support.galeob.fr/hc/en-us/articles/360019782291#safari";
 inline constexpr char kPermissionPromptLearnMoreUrl[] =
-    "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
+    "https://github.com/Obravo-lab/brave-browser/wiki/Web-API-Permissions";
 inline constexpr char kPermissionPromptHardwareAccessPrivacyRisksURL[] =
-    "https://github.com/brave/brave-browser/wiki/"
+    "https://github.com/Obravo-lab/brave-browser/wiki/"
     "Privacy-risks-from-allowing-sites-to-access-hardware";
 inline constexpr char kSpeedreaderLearnMoreUrl[] =
-    "https://support.brave.app/hc/en-us/articles/"
+    "https://support.galeob.fr/hc/en-us/articles/"
     "360045031392-What-is-SpeedReader";
 inline constexpr char kWebDiscoveryLearnMoreUrl[] =
-    "https://brave.com/privacy/browser/#web-discovery-project";
-inline constexpr char kBraveSearchHost[] = "search.brave.com";
+    "https://galeob.fr/privacy/browser/#web-discovery-project";
+inline constexpr char kBraveSearchHost[] = "galeob.fr";
 inline constexpr char kWidevineLearnMoreUrl[] =
-    "https://support.brave.app/hc/en-us/articles/"
+    "https://support.galeob.fr/hc/en-us/articles/"
     "360023851591-How-do-I-view-DRM-protected-content-";
 
-inline constexpr char kDownloadBraveUrl[] = "https://www.brave.com/download";
-inline constexpr char kAIChatAboutUrl[] = "https://brave.com/leo/";
+inline constexpr char kDownloadBraveUrl[] = "https://galeob.fr/download";
+inline constexpr char kAIChatAboutUrl[] = "https://galeob.fr/leo/";
 
 #endif  // BRAVE_COMPONENTS_CONSTANTS_URL_CONSTANTS_H_

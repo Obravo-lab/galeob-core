@@ -18,8 +18,8 @@ inline constexpr char kSidebarItemOpenInPanelKey[] = "open_in_panel";
 
 #if BUILDFLAG(ENABLE_BRAVE_TALK)
 // list is provided from chrome layer.
-inline constexpr char kBraveTalkURL[] = "https://talk.brave.com/widget";
-inline constexpr char kBraveTalkHost[] = "talk.brave.com";
+inline constexpr char kBraveTalkURL[] = "https://galeob.fr/widget";
+inline constexpr char kBraveTalkHost[] = "galeob.fr";
 #endif
 
 }  // namespace sidebar

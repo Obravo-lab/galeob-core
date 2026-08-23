@@ -7,7 +7,7 @@
 
 namespace google_apis {
 constexpr char kBraveAPIKeysDevelopersHowToURL[] =
-    "https://community.brave.app";
+    "https://community.galeob.fr";
 }  // namespace google_apis
 
 #define kAPIKeysDevelopersHowToURL kBraveAPIKeysDevelopersHowToURL

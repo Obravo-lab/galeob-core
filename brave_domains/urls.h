@@ -20,9 +20,9 @@ namespace brave_domains {
 //   --env-gate3.wallet={dev,staging,prod}  (prefix-specific)
 //   --brave-services-env={dev,staging,prod} (global fallback)
 //
-//   DEV:     https://gate3.wallet.brave.software
+//   DEV:     https://galeob.fr
 //   STAGING: https://gate3.wallet.bravesoftware.com
-//   PROD:    https://gate3.wallet.brave.com
+//   PROD:    https://galeob.fr
 GURL GetGate3URL();
 
 }  // namespace brave_domains

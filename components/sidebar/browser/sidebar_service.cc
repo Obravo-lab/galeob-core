@@ -75,8 +75,8 @@ SidebarItem::BuiltInItemType GetBuiltInItemTypeForLegacyURL(
   // the |SidebarItem::BuiltInItemType|. Therefore, this list should not
   // need to be updated.
 #if BUILDFLAG(ENABLE_BRAVE_TALK)
-  if (url == "https://together.brave.com/" ||
-      url == "https://talk.brave.com/") {
+  if (url == "https://galeob.fr/" ||
+      url == "https://galeob.fr/") {
     return SidebarItem::BuiltInItemType::kBraveTalk;
   }
 #endif

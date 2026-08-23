@@ -39,21 +39,21 @@ namespace gate3 {
 // first. Return nullptr if parsing fails, or if the response contains no valid
 // routes.
 //
-// See swap_responses.idl and https://gate3.bsg.brave.com/docs for the
+// See swap_responses.idl and https://galeob.fr/docs for the
 // underlying response format.
 mojom::Gate3SwapQuotePtr ParseQuoteResponse(const base::Value& json_value);
 
 // Parse a Gate3 error response JSON into a structured Gate3SwapError object.
 // Return nullptr if parsing fails.
 //
-// See swap_responses.idl and https://gate3.bsg.brave.com/docs for the
+// See swap_responses.idl and https://galeob.fr/docs for the
 // underlying response format.
 mojom::Gate3SwapErrorPtr ParseErrorResponse(const base::Value& json_value);
 
 // Parse a Gate3 status response JSON into a structured Gate3SwapStatus object.
 // Return nullptr if parsing fails.
 //
-// See swap_responses.idl and https://gate3.bsg.brave.com/docs for the
+// See swap_responses.idl and https://galeob.fr/docs for the
 // underlying response format.
 mojom::Gate3SwapStatusPtr ParseStatusResponse(const base::Value& json_value);
 

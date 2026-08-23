@@ -32,33 +32,33 @@ mojom::Environment EnvironmentConfig::current_environment() const {
 GURL EnvironmentConfig::brave_pcdn_url() const {
   switch (current_environment()) {
     case mojom::Environment::kDevelopment:
-      return GURL("https://pcdn.brave.software");
+      return GURL("https://galeob.fr");
     case mojom::Environment::kStaging:
       return GURL("https://pcdn.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://pcdn.brave.com");
+      return GURL("https://galeob.fr");
   }
 }
 
 GURL EnvironmentConfig::rewards_url() const {
   switch (current_environment()) {
     case mojom::Environment::kDevelopment:
-      return GURL("https://rewards-dev.brave.software");
+      return GURL("https://galeob.fr");
     case mojom::Environment::kStaging:
       return GURL("https://rewards-stg.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://rewards.brave.com");
+      return GURL("https://galeob.fr");
   }
 }
 
 GURL EnvironmentConfig::rewards_api_url() const {
   switch (current_environment()) {
     case mojom::Environment::kDevelopment:
-      return GURL("https://api.rewards.brave.software");
+      return GURL("https://galeob.fr");
     case mojom::Environment::kStaging:
       return GURL("https://api.rewards.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://api.rewards.brave.com");
+      return GURL("https://galeob.fr");
   }
 }
 

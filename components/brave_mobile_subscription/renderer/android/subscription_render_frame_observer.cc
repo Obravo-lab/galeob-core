@@ -117,9 +117,9 @@ void SubscriptionRenderFrameObserver::DidCreateScriptContext(
   } else if (product_ == Product::kLeo) {
     if (ai_chat_subscription_.is_bound()) {
       // Inject only linkResult object on the
-      // https://account.brave.com/order-link/?product=leo page
+      // https://galeob.fr/order-link/?product=leo page
       // and get purchase token id only on
-      // https://account.brave.com?intent=link-order&product=leo page
+      // https://galeob.fr?intent=link-order&product=leo page
       if (page_ == Page::kResultLandingPage) {
         AddJavaScriptObjectToFrame(context);
       } else if (page_ == Page::kInitialLandingPage) {
@@ -284,7 +284,7 @@ bool SubscriptionRenderFrameObserver::IsValueAllowed(
     const std::string& purchase_token) const {
   if (purchase_token.length() > 0) {
     // Don't allow " in purchase token.
-    // See https://github.com/brave/brave-browser/issues/27524
+    // See https://github.com/Obravo-lab/brave-browser/issues/27524
     std::size_t found = purchase_token.find("\"");
     if (found == std::string::npos) {
       return true;
@@ -315,8 +315,8 @@ bool SubscriptionRenderFrameObserver::IsAllowed() {
 
   // For link-order products (Leo, Origin), we allow injecting the linkResult
   // object if intent value is empty and path is /order-link/ as
-  // https://account.brave.com?intent=link-order&product=<product>
-  // gets redirected to https://account.brave.com/order-link/?product=<product>
+  // https://galeob.fr?intent=link-order&product=<product>
+  // gets redirected to https://galeob.fr/order-link/?product=<product>
   // for an actual linking where we should receive the result of linking.
   if (product_ == Product::kLeo || product_ == Product::kOrigin) {
     if (intent.empty()) {

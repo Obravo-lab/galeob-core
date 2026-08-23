@@ -31,25 +31,25 @@ inline constexpr auto kCapabilityStringMap =
          {mojom::ConversationCapability::DEEP_RESEARCH, "deep_research"}});
 
 inline constexpr char kLeoModelSupportUrl[] =
-    "https://support.brave.app/hc/en-us/articles/26727364100493-"
+    "https://support.galeob.fr/hc/en-us/articles/26727364100493-"
     "What-are-the-differences-between-Leo-s-AI-Models";
 
 inline constexpr char kLeoGoPremiumUrl[] =
-    "https://account.brave.com/account/?intent=checkout&product=leo";
+    "https://galeob.fr/account/?intent=checkout&product=leo";
 
 inline constexpr char kTabOrganizationLearnMoreUrl[] =
-    "https://support.brave.app/hc/en-us/articles/"
+    "https://support.galeob.fr/hc/en-us/articles/"
     "35200007195917-How-to-use-Tab-Focus-Mode";
 
 inline constexpr char kLeoRefreshPremiumSessionUrl[] =
-    "https://account.brave.com/?intent=recover&product=leo";
+    "https://galeob.fr/?intent=recover&product=leo";
 
 inline constexpr char kLeoStorageSupportUrl[] =
-    "https://support.brave.app/hc/en-us/articles/"
+    "https://support.galeob.fr/hc/en-us/articles/"
     "32663367857549-How-do-I-use-Chat-History-in-Brave-Leo";
 
 inline constexpr char kLeoBraveSearchSupportUrl[] =
-    "https://support.brave.app/hc/en-us/articles/"
+    "https://support.galeob.fr/hc/en-us/articles/"
     "27586048343309-How-does-Leo-get-current-information";
 
 inline constexpr char kBraveAIChatCustomizationSubPage[] =

@@ -22,7 +22,7 @@ namespace {
 constexpr std::string_view kReminderNotificationAdPlacementId =
     "e64373ac-2ca5-4f6b-b497-1f1d7ccd40c8";
 constexpr std::string_view kReminderNotificationAdTargetUrl =
-    "https://support.brave.app/hc/en-us/articles/14648356808845";
+    "https://support.galeob.fr/hc/en-us/articles/14648356808845";
 
 mojom::NotificationAdInfoPtr BuildClickedSameAdMultipleTimesReminder() {
   auto notification_ad = mojom::NotificationAdInfo::New();

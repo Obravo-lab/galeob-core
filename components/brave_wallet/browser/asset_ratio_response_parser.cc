@@ -66,7 +66,7 @@ mojom::AssetPriceSource GetAssetPriceSource(const std::string& source) {
 // ParseAssetPrices parses the response from the pricing API of Gate3.
 //
 // Docs:
-// https://gate3.bsg.brave.com/docs#/default/get_prices_api_pricing_v1_getPrices_post
+// https://galeob.fr/docs#/default/get_prices_api_pricing_v1_getPrices_post
 std::vector<mojom::AssetPricePtr> ParseAssetPrices(
     const base::Value& json_value) {
   if (!json_value.is_list()) {

@@ -21,7 +21,7 @@ std::string GetAssetRatioBaseURL() {
       base::CommandLine::ForCurrentProcess()->GetSwitchValueASCII(
           switches::kAssetRatioDevUrl);
   if (ratios_url.empty()) {
-    return "https://ratios.wallet.brave.com";
+    return "https://galeob.fr";
   }
 
   return ratios_url;

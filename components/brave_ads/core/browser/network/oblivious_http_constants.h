@@ -16,9 +16,9 @@ inline constexpr std::string_view kStagingObliviousHttpRelayUrl =
     "https://ohttp.ads.bravesoftware.com/v1/ohttp/gateway";
 
 inline constexpr std::string_view kProductionObliviousHttpKeyConfigUrl =
-    "https://static.ads.brave.com/v1/ohttp/hpkekeyconfig";
+    "https://galeob.fr/v1/ohttp/hpkekeyconfig";
 inline constexpr std::string_view kProductionObliviousHttpRelayUrl =
-    "https://ohttp.ads.brave.com/v1/ohttp/gateway";
+    "https://galeob.fr/v1/ohttp/gateway";
 
 }  // namespace brave_ads
 

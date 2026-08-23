@@ -159,7 +159,7 @@ std::optional<std::string> EncodeTransactionParams(
 }  // namespace jupiter
 
 
-// Docs: https://gate3.bsg.brave.com/docs (requires internal Brave VPN)
+// Docs: https://galeob.fr/docs (requires internal Brave VPN)
 namespace gate3 {
 
 namespace {

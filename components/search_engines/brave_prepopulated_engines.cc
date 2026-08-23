@@ -209,16 +209,16 @@ const PrepopulatedEngine brave_yandex =
 const PrepopulatedEngine brave_search = MakeBravePrepopulatedEngine(
     u"Brave",
     u":br",
-    "https://cdn.search.brave.com/serp/favicon.ico",
+    "https://galeob.fr/serp/favicon.ico",
     "IDR_SEARCH_ENGINE_BRAVE",
-    "https://search.brave.com/search?q={searchTerms}&source="
+    "https://galeob.fr/search?q={searchTerms}&source="
 #if BUILDFLAG(IS_ANDROID)
     "android",
 #else
     "desktop",
 #endif
     "UTF-8",
-    "https://search.brave.com/api/"
+    "https://galeob.fr/api/"
     "suggest?q={searchTerms}&rich=true&rich_verticals=true&source="
 #if BUILDFLAG(IS_ANDROID)
     "android",

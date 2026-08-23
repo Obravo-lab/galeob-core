@@ -79,7 +79,7 @@ BASE_FEATURE(kAIChatUserChoiceTool, base::FEATURE_DISABLED_BY_DEFAULT);
 
 // Enables experimental "workspace" local coding-agent tools that let Leo view,
 // search, and edit files within a user-selected local folder.
-// See https://github.com/brave/brave-browser/issues/57388.
+// See https://github.com/Obravo-lab/brave-browser/issues/57388.
 BASE_FEATURE(kAIChatWorkspaceTools, base::FEATURE_DISABLED_BY_DEFAULT);
 
 BASE_FEATURE(kAIChatAgentProfile, base::FEATURE_DISABLED_BY_DEFAULT);
@@ -180,7 +180,7 @@ BASE_FEATURE(kRichSearchWidgets, base::FEATURE_ENABLED_BY_DEFAULT);
 
 const base::FeatureParam<std::string> kRichSearchWidgetsOrigin{
     &kRichSearchWidgets, "rich_search_widgets_origin",
-    "https://prod.browser-ai-includes.s.brave.app"};
+    "https://galeob.fr"};
 
 BASE_FEATURE(kCodeExecutionTool,
              "AIChatCodeExecutionTool",
@@ -247,7 +247,7 @@ BASE_FEATURE(kAIChatConversationShare, base::FEATURE_ENABLED_BY_DEFAULT);
 
 const base::FeatureParam<std::string> kAIChatConversationShareBaseUrl{
     &kAIChatConversationShare, "viewer_base_url",
-    "https://leo-ai.brave.app/shared/"};
+    "https://galeob.fr/shared/"};
 
 const base::FeatureParam<int> kAIChatConversationShareExpiryDays{
     &kAIChatConversationShare, "expiry_days", 7};

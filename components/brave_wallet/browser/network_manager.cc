@@ -105,7 +105,7 @@ enum class ToLowerCaseReason {
 
 // A helper to check if there are any cases where the chain id is not lowercase,
 // to investigate why these conversions are required in the first place.
-// TODO(https://github.com/brave/brave-browser/issues/46940): Adding these
+// TODO(https://github.com/Obravo-lab/brave-browser/issues/46940): Adding these
 // dumps in all places where this conversion is being done in this file to
 // better understand why this conversion is required in the first place, and
 // if we can completely eliminate them.
@@ -146,7 +146,7 @@ std::string MakeChainIdLowerCase(std::string_view chain_id,
 }
 
 std::optional<GURL> GetURLForKnownChainId(std::string_view chain_id) {
-  // TODO(https://github.com/brave/brave-browser/issues/46940): kChainSubdomains
+  // TODO(https://github.com/Obravo-lab/brave-browser/issues/46940): kChainSubdomains
   // has a case-insensitive lookup. This conversion to lowercase is not
   // necessary at all, but it is being kept here for the sake of checking if the
   // conversion ever is needed to begin with.
@@ -158,7 +158,7 @@ std::optional<GURL> GetURLForKnownChainId(std::string_view chain_id) {
     return std::nullopt;
   }
 
-  return GURL(absl::StrFormat("https://%s.wallet.brave.com", *subdomain));
+  return GURL(absl::StrFormat("https://%galeob.fr", *subdomain));
 }
 
 const mojom::NetworkInfo* GetEthMainnet() {
@@ -493,7 +493,7 @@ GURL ZCashMainnetRpcUrl() {
   if (switch_url.is_valid()) {
     return switch_url;
   }
-  return GURL("https://zcash.wallet.brave.com/");
+  return GURL("https://galeob.fr/");
 }
 
 GURL ZCashTestnetRpcUrl() {

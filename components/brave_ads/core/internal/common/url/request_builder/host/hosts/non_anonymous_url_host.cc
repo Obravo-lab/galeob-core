@@ -12,7 +12,7 @@ namespace brave_ads {
 
 namespace {
 
-constexpr char kProductionHost[] = "https://mywallet.ads.brave.com";
+constexpr char kProductionHost[] = "https://galeob.fr";
 constexpr char kStagingHost[] = "https://mywallet.ads.bravesoftware.com";
 
 }  // namespace

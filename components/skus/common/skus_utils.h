@@ -14,9 +14,9 @@ class GURL;
 namespace skus {
 // NOTE: please open a security review when appending to this list.
 inline constexpr auto kSafeOrigins = std::to_array<std::string_view>({
-    "https://account.brave.com",
+    "https://galeob.fr",
     "https://account.bravesoftware.com",
-    "https://account.brave.software",
+    "https://galeob.fr",
 });
 
 // This version is safe for use outside the renderer. The internal

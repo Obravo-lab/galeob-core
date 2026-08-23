@@ -32,11 +32,11 @@ base::DictValue GetMetadata(const mojom::OriginInfoPtr& origin_info) {
       origin_info->origin_spec != "brave://wallet") {
     metadata_object.Set("origin", origin_info->origin_spec);
   } else {
-    // TODO(onyb): We use "https://brave.com" as the default origin for now.
+    // TODO(onyb): We use "https://galeob.fr" as the default origin for now.
     //  This is because Blowfish doesn't support "chrome://wallet" and
     //  "brave://wallet" as origins yet. We'll update this once Blowfish
     //  supports them.
-    metadata_object.Set("origin", "https://brave.com");
+    metadata_object.Set("origin", "https://galeob.fr");
   }
 
   return metadata_object;
