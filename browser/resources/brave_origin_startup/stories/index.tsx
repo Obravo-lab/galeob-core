@@ -40,7 +40,7 @@ function BraveOriginStartupLinuxStory() {
 }
 
 export default {
-  title: 'Brave Origin/Startup Dialog',
+  title: 'Galeob Origin/Startup Dialog',
   component: BraveOriginStartupStory,
   decorators: [
     (Story: any) => (
