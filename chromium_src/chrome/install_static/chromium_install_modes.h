@@ -270,15 +270,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"",  // Empty install_suffix for the primary install mode.
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
         .app_guid = L"{A343DC93-4479-4D8C-A29C-3CDE262E7334}",
-        .base_app_name = L"Brave",               // A distinct base_app_name.
-        .base_app_id = L"Brave",                 // A distinct base_app_id.
-        .browser_prog_id_prefix = L"BraveHTML",  // Browser ProgID prefix.
+        .base_app_name = L"Galeob",              // A distinct base_app_name.
+        .base_app_id = L"Galeob",                // A distinct base_app_id.
+        .browser_prog_id_prefix = L"GaleobHTML",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Brave HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "brave-browser",
-        .pdf_prog_id_prefix = L"BravePDF",  // PDF ProgID prefix.
+            L"Galeob HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "galeob-browser",
+        .pdf_prog_id_prefix = L"GaleobPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Brave PDF Document",  // PDF ProgID description.
+            L"Galeob PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{A343DC93-4479-4D8C-A29C-3CDE262E7334}",  // Active Setup GUID.
         .toast_activator_clsid = {0x6c9646d,
@@ -316,15 +316,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"Beta",           // Logo suffix.
         .app_guid =
             L"{ECA07209-8DF4-4A40-A3DE-2357ECD88256}",  // A distinct app GUID.
-        .base_app_name = L"Brave Beta",           // A distinct base_app_name.
-        .base_app_id = L"BraveBeta",              // A distinct base_app_id.
-        .browser_prog_id_prefix = L"BraveBHTML",  // Browser ProgID prefix.
+        .base_app_name = L"Galeob Beta",           // A distinct base_app_name.
+        .base_app_id = L"GaleobBeta",              // A distinct base_app_id.
+        .browser_prog_id_prefix = L"GaleobBHTML",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Brave Beta HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "brave-browser-beta",
-        .pdf_prog_id_prefix = L"BraveBPDF",  // PDF ProgID prefix.
+            L"Galeob Beta HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "galeob-browser-beta",
+        .pdf_prog_id_prefix = L"GaleobBPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Brave Beta PDF Document",  // PDF ProgID description.
+            L"Galeob Beta PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{ECA07209-8DF4-4A40-A3DE-2357ECD88256}",  // Active Setup GUID.
         .toast_activator_clsid = {0x9560028d,
@@ -362,15 +362,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"Dev",           // Logo suffix.
         .app_guid =
             L"{DE14EB69-13A1-4AB8-8EB7-647505B61958}",  // A distinct app GUID.
-        .base_app_name = L"Brave Dev",            // A distinct base_app_name.
-        .base_app_id = L"BraveDev",               // A distinct base_app_id.
-        .browser_prog_id_prefix = L"BraveDHTML",  // Browser ProgID prefix.
+        .base_app_name = L"Galeob Dev",            // A distinct base_app_name.
+        .base_app_id = L"GaleobDev",               // A distinct base_app_id.
+        .browser_prog_id_prefix = L"GaleobDHTML",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Brave Dev HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "brave-browser-dev",
-        .pdf_prog_id_prefix = L"BraveDPDF",  // PDF ProgID prefix.
+            L"Galeob Dev HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "galeob-browser-dev",
+        .pdf_prog_id_prefix = L"GaleobDPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Brave Dev PDF Document",  // PDF ProgID description.
+            L"Galeob Dev PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{DE14EB69-13A1-4AB8-8EB7-647505B61958}",  // Active Setup GUID.
         .toast_activator_clsid = {0x20b22981,
@@ -409,15 +409,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"Canary",        // Logo suffix.
         .app_guid =
             L"{D2DDDB15-F645-4391-8D19-214230EA32D1}",  // A distinct app GUID.
-        .base_app_name = L"Brave Nightly",        // A distinct base_app_name.
-        .base_app_id = L"BraveNightly",           // A distinct base_app_id.
-        .browser_prog_id_prefix = L"BraveSSHTM",  // Browser ProgID prefix.
+        .base_app_name = L"Galeob Nightly",        // A distinct base_app_name.
+        .base_app_id = L"GaleobNightly",           // A distinct base_app_id.
+        .browser_prog_id_prefix = L"GaleobSSHTM",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Brave Nightly HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "brave-browser-nightly",
-        .pdf_prog_id_prefix = L"BraveSSPDF",  // PDF ProgID prefix.
+            L"Galeob Nightly HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "galeob-browser-nightly",
+        .pdf_prog_id_prefix = L"GaleobSSPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Brave Nightly PDF Document",  // PDF ProgID description.
+            L"Galeob Nightly PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{D2DDDB15-F645-4391-8D19-214230EA32D1}",  // Active Setup GUID.
         .toast_activator_clsid = {0xf2edbc59,
@@ -465,15 +465,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
         .app_guid =
             L"",  // Empty app_guid since no integraion with Brave Update.
-        .base_app_name = L"Brave Development",     // A distinct base_app_name.
-        .base_app_id = L"BraveDevelopment",        // A distinct base_app_id.
-        .browser_prog_id_prefix = L"BraveDevHTM",  // Browser ProgID prefix.
+        .base_app_name = L"Galeob Development",     // A distinct base_app_name.
+        .base_app_id = L"GaleobDevelopment",        // A distinct base_app_id.
+        .browser_prog_id_prefix = L"GaleobDevHTM",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Brave Development HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "brave-browser-development",
-        .pdf_prog_id_prefix = L"BraveDevPDF",  // PDF ProgID prefix.
+            L"Galeob Development HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "galeob-browser-development",
+        .pdf_prog_id_prefix = L"GaleobDevPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Brave Development PDF Document",  // PDF ProgID description.
+            L"Galeob Development PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{D6527C63-5CDD-4EF3-9299-1504E17CBD18}",  // Active Setup GUID.
         .toast_activator_clsid = {0xeb41c6e8,
