@@ -30,7 +30,7 @@ const buildBraveVersionLink = (braveVersion: string, build: string) => {
   wrapper.setAttribute('target', '_blank')
   wrapper.setAttribute('rel', 'noopener noreferrer')
   wrapper.setAttribute('href', 'https://galeob.fr/latest/')
-  wrapper.textContent = `Brave ${braveVersion} ${build}`
+  wrapper.textContent = `Galeob ${braveVersion} ${build}`
 
   return wrapper
 }

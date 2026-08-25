@@ -5,7 +5,7 @@
 </message>
 
 <message name="IDS_BRAVE_WELCOME_DESC" desc="A subtitle for screen on the first step of welcome page">
-  Get Galeob protection on every link you click. Just set Brave as default and browse. Privately.
+  Get Galeob protection on every link you click. Just set Galeob as default and browse. Privately.
 </message>
 
 <message name="IDS_BRAVE_WELCOME_IMPORT_SETTINGS_TITLE" desc="A title for screen to select browser">
@@ -113,7 +113,7 @@
 </message>
 
 <message name="IDS_BRAVE_WELCOME_HELP_WDP_DESCRIPTION" desc="A description in 'help wdp' page">
-  Help us fix the web by participating in Galeob’s Web Discovery Project. By sharing completely anonymous search signals, you can help Brave grow the search index.
+  Help us fix the web by participating in Galeob’s Web Discovery Project. By sharing completely anonymous search signals, you can help Galeob grow the search index.
 </message>
 
 <message name="IDS_BRAVE_WELCOME_HELP_WDP_LEARN_MORE" desc="Text for 'Learn More' link in 'help wdp' page">
