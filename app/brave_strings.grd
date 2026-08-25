@@ -301,9 +301,9 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </else>
       </if>
       <if expr="is_win">
-        <message name="IDS_SXS_SHORTCUT_NAME">Brave Nightly</message>
-        <message name="IDS_SHORTCUT_NAME_BETA">Brave Beta</message>
-        <message name="IDS_SHORTCUT_NAME_DEV">Brave Dev</message>
+        <message name="IDS_SXS_SHORTCUT_NAME">Galeob Nightly</message>
+        <message name="IDS_SHORTCUT_NAME_BETA">Galeob Beta</message>
+        <message name="IDS_SHORTCUT_NAME_DEV">Galeob Dev</message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
           Galeob is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Galeob.
         </message>
@@ -1522,10 +1522,10 @@ Galeob is unable to recover your settings.
       <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Brave Apps Start Menu folder name.">
         Galeob Apps
       </message>
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY">Brave Nightly Apps</message>
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY">Galeob Nightly Apps</message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Brave Beta Apps</message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Brave Dev Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Galeob Beta Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Galeob Dev Apps</message>
       </if>
 
       <!-- MediaStream capture status tray icon -->
@@ -1647,15 +1647,15 @@ Galeob is unable to recover your settings.
         <message name="IDS_INBOUND_MDNS_RULE_NAME" desc="The name of the firewall rule allowing inbound mDNS traffic.">
           Galeob (mDNS-In)
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Brave Beta (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Brave Nightly (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Brave Dev (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Galeob Beta (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Galeob Nightly (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Galeob Dev (mDNS-In)</message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION">
           Inbound rule for Galeob to allow mDNS traffic.
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Brave Beta to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Brave Nightly to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Brave Dev to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Galeob Beta to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Galeob Nightly to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Galeob Dev to allow mDNS traffic.</message>
       </if>
 
       <if expr="not is_android">
