@@ -38,12 +38,8 @@ void CreateAndAddDataSource(content::WebUI* web_ui, Profile* profile) {
 
   source->AddLocalizedStrings(webui::kBraveOriginStartupStrings);
 
-  // Linux free tier: allow proceeding without a purchase on Linux.
-#if BUILDFLAG(IS_LINUX)
-  source->AddBoolean("isLinuxFreeEligible", true);
-#else
-  source->AddBoolean("isLinuxFreeEligible", false);
-#endif
+  // Free tier: allow proceeding without a purchase.
+  source->AddBoolean("isFreeTierEligible", true);
 }
 
 }  // namespace

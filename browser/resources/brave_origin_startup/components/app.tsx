@@ -1,4 +1,4 @@
-// Copyright (c) 2026 The Brave Authors. All rights reserved.
+﻿// Copyright (c) 2026 The Brave Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
@@ -21,11 +21,11 @@ export interface BraveOriginHandler {
 
 interface AppProps {
   handler: BraveOriginHandler
-  isLinuxFreeEligible?: boolean
+  isFreeTierEligible?: boolean
 }
 
-function renderLinuxDescription2(onBuyClick: () => void) {
-  const raw = getLocale(S.BRAVE_ORIGIN_STARTUP_LINUX_DESCRIPTION2)
+function renderFreeDescription2(onBuyClick: () => void) {
+  const raw = getLocale(S.BRAVE_ORIGIN_STARTUP_FREE_DESCRIPTION2)
   const parts = raw.split(/\$[12]/)
   if (parts.length !== 3) {
     return <p>{raw}</p>
@@ -48,7 +48,7 @@ function renderLinuxDescription2(onBuyClick: () => void) {
   )
 }
 
-export function App({ handler, isLinuxFreeEligible }: AppProps) {
+export function App({ handler, isFreeTierEligible }: AppProps) {
   const [currentView, setCurrentView] = React.useState<'main' | 'restore'>(
     'main',
   )
@@ -114,7 +114,7 @@ export function App({ handler, isLinuxFreeEligible }: AppProps) {
       >
         <div className='container'>
           <img
-            src='/assets/Lion.svg'
+            src='/assets/galeob_logo.svg'
             className='logo'
             alt=''
           />
@@ -171,37 +171,37 @@ export function App({ handler, isLinuxFreeEligible }: AppProps) {
     )
   }
 
-  if (isLinuxFreeEligible) {
-    const onLinuxBuyClick = () => {
+  if (isFreeTierEligible) {
+    const onFreeBuyClick = () => {
       handler.openBuyWindow()
     }
     return (
       <div className='brave-origin-startup'>
         <div className='container'>
           <img
-            src='/assets/Lion.svg'
+            src='/assets/galeob_logo.svg'
             className='logo'
             alt=''
           />
           <h1>{getLocale(S.BRAVE_ORIGIN_STARTUP_TITLE)}</h1>
           <div className='description'>
-            <p>{getLocale(S.BRAVE_ORIGIN_STARTUP_LINUX_DESCRIPTION)}</p>
-            {renderLinuxDescription2(onLinuxBuyClick)}
+            <p>{getLocale(S.BRAVE_ORIGIN_STARTUP_FREE_DESCRIPTION)}</p>
+            {renderFreeDescription2(onFreeBuyClick)}
           </div>
           <div className='buttons'>
             <Button
               kind='outline'
               size='small'
-              onClick={onLinuxBuyClick}
+              onClick={onFreeBuyClick}
             >
-              {getLocale(S.BRAVE_ORIGIN_STARTUP_LINUX_BUY_BUTTON)}
+              {getLocale(S.BRAVE_ORIGIN_STARTUP_FREE_BUY_BUTTON)}
             </Button>
             <Button
               kind='plain-faint'
               size='small'
               onClick={() => handler.proceedFree()}
             >
-              {getLocale(S.BRAVE_ORIGIN_STARTUP_LINUX_FREE_BUTTON)}
+              {getLocale(S.BRAVE_ORIGIN_STARTUP_FREE_BUTTON)}
             </Button>
           </div>
         </div>
@@ -213,7 +213,7 @@ export function App({ handler, isLinuxFreeEligible }: AppProps) {
     <div className='brave-origin-startup'>
       <div className='container'>
         <img
-          src='/assets/Lion.svg'
+          src='/assets/galeob_logo.svg'
           className='logo'
           alt=''
         />

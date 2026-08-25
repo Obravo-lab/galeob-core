@@ -71,13 +71,11 @@ BraveOriginService::BraveOriginService(
   CHECK(profile_prefs_);
   CHECK(!profile_id_.empty());
 
-#if BUILDFLAG(IS_LINUX)
-  // On Linux, treat free tier acceptance as a valid purchase so policies
+  // Treat free tier acceptance as a valid purchase so policies
   // are applied immediately at startup without waiting for the SKU check.
   if (local_state_->GetBoolean(kOriginFreeTierAccepted)) {
     BraveOriginPolicyManager::GetInstance()->SetPurchased(true);
   }
-#endif
 
   // Eagerly check purchase state on startup so the cached value is available.
   CheckPurchaseState(base::DoNothing());
@@ -254,14 +252,12 @@ void BraveOriginService::OnCredentialSummary(
       local_state_ && local_state_->GetBoolean(kOriginPurchaseValidated);
 #endif
 
-#if BUILDFLAG(IS_LINUX)
-  // On Linux, free tier acceptance overrides the SKU result so that
+  // Free tier acceptance overrides the SKU result so that
   // policies remain active even when there is no purchase credential.
   if (!purchased && local_state_ &&
       local_state_->GetBoolean(kOriginFreeTierAccepted)) {
     purchased = true;
   }
-#endif
 
   BraveOriginPolicyManager::GetInstance()->SetPurchased(purchased);
 
@@ -315,7 +311,6 @@ bool BraveOriginService::EnsureSkusConnected() {
   return !!skus_service_;
 }
 
-#if BUILDFLAG(IS_LINUX)
 void BraveOriginService::AcceptFreeTier() {
   if (local_state_) {
     local_state_->SetBoolean(kOriginFreeTierAccepted, true);
@@ -326,6 +321,5 @@ void BraveOriginService::AcceptFreeTier() {
 bool BraveOriginService::IsFreeTierAccepted() const {
   return local_state_ && local_state_->GetBoolean(kOriginFreeTierAccepted);
 }
-#endif
 
 }  // namespace brave_origin

@@ -30,11 +30,11 @@ function BraveOriginStartupStory() {
   return <App handler={mockHandler} />
 }
 
-function BraveOriginStartupLinuxStory() {
+function BraveOriginStartupFreeTierStory() {
   return (
     <App
       handler={mockHandler}
-      isLinuxFreeEligible={true}
+      isFreeTierEligible={true}
     />
   )
 }
@@ -53,6 +53,6 @@ export default {
 
 export const MainView: StoryObj<typeof BraveOriginStartupStory> = {}
 
-export const LinuxView: StoryObj<typeof BraveOriginStartupLinuxStory> = {
-  render: () => <BraveOriginStartupLinuxStory />,
+export const FreeTierView: StoryObj<typeof BraveOriginStartupFreeTierStory> = {
+  render: () => <BraveOriginStartupFreeTierStory />,
 }

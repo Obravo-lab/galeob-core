@@ -18,10 +18,8 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(kOriginPurchaseValidated, false);
   // Whether Origin policies were enforced in the previous session.
   registry->RegisterBooleanPref(kOriginPoliciesWereEnforced, false);
-#if BUILDFLAG(IS_LINUX)
-  // Whether the user accepted the Linux free tier without purchasing.
+  // Whether the user accepted the free tier without purchasing.
   registry->RegisterBooleanPref(kOriginFreeTierAccepted, false);
-#endif
 }
 
 }  // namespace brave_origin

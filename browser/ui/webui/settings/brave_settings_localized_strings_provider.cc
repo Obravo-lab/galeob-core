@@ -247,10 +247,8 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
        IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_RESTORE_PURCHASE},
       {"braveOriginOnboardingLearnMore",
        IDS_SETTINGS_BRAVE_ORIGIN_ONBOARDING_LEARN_MORE},
-#if BUILDFLAG(IS_LINUX)
       {"braveOriginOnboardingProceedFree",
-       IDS_BRAVE_ORIGIN_STARTUP_LINUX_FREE_BUTTON},
-#endif
+       IDS_BRAVE_ORIGIN_STARTUP_FREE_BUTTON},
       {"siteSettingsShields", IDS_SETTINGS_SITE_SETTINGS_SHIELDS},
       {"siteSettingsShieldsStatus", IDS_SETTINGS_SITE_SETTINGS_SHIELDS_STATUS},
       {"siteSettingsShieldsUp", IDS_SETTINGS_SITE_SETTINGS_SHIELDS_UP},

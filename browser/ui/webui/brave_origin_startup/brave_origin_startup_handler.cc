@@ -131,14 +131,12 @@ void BraveOriginStartupHandler::CloseDialog() {
 }
 
 void BraveOriginStartupHandler::ProceedFree() {
-#if BUILDFLAG(IS_LINUX)
   if (local_state_) {
     local_state_->SetBoolean(brave_origin::kOriginFreeTierAccepted, true);
   }
   if (close_dialog_callback_) {
     std::move(close_dialog_callback_).Run();
   }
-#endif
 }
 
 bool BraveOriginStartupHandler::EnsureSkusConnected() {

@@ -12,13 +12,13 @@ import { loadTimeData } from '$web-common/loadTimeData'
 import './strings'
 
 const handler = BraveOriginMojom.BraveOriginStartupHandler.getRemote()
-const isLinuxFreeEligible = loadTimeData.getBoolean('isLinuxFreeEligible')
+const isFreeTierEligible = loadTimeData.getBoolean('isFreeTierEligible')
 
 createRoot(document.getElementById('root')!).render(
   <StyledComponentsProvider>
     <App
       handler={handler}
-      isLinuxFreeEligible={isLinuxFreeEligible}
+      isFreeTierEligible={isFreeTierEligible}
     />
   </StyledComponentsProvider>,
 )

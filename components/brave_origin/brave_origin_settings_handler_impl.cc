@@ -93,12 +93,8 @@ void BraveOriginSettingsHandlerImpl::GetNeedsRestart(
 }
 
 void BraveOriginSettingsHandlerImpl::ProceedFree(ProceedFreeCallback callback) {
-#if BUILDFLAG(IS_LINUX)
   brave_origin_service_->AcceptFreeTier();
   std::move(callback).Run(true);
-#else
-  std::move(callback).Run(false);
-#endif
 }
 
 }  // namespace brave_origin

@@ -81,14 +81,12 @@ class BraveOriginService : public KeyedService {
   // is needed for the changes to fully take effect.
   bool NeedsRestart() const;
 
-#if BUILDFLAG(IS_LINUX)
-  // Accept the Linux free tier: sets the kOriginFreeTierAccepted pref and
+  // Accept the free tier: sets the kOriginFreeTierAccepted pref and
   // marks the policy manager as purchased so policies take effect.
   void AcceptFreeTier();
 
-  // Returns true if the user has accepted the Linux free tier.
+  // Returns true if the user has accepted the free tier.
   bool IsFreeTierAccepted() const;
-#endif
 
  protected:
   // Local state and profile preferences this state is associated with

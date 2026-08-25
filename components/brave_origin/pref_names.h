@@ -27,13 +27,11 @@ inline constexpr char kOriginPurchaseValidated[] =
 inline constexpr char kOriginPoliciesWereEnforced[] =
     "brave.origin.policies_were_enforced";
 
-#if BUILDFLAG(IS_LINUX)
-// Whether the user accepted the Linux free tier without purchasing.
+// Whether the user accepted the free tier without purchasing.
 // Stored in local state so the startup dialog doesn't re-show, but
 // distinct from kOriginPurchaseValidated so we know they haven't paid.
 inline constexpr char kOriginFreeTierAccepted[] =
     "brave.origin.free_tier_accepted";
-#endif
 
 namespace prefs {
 
