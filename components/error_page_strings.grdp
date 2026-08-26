@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 
@@ -28,7 +28,7 @@
       Load page later
     </message>
     <message name="IDS_ERRORPAGES_CANCEL_SAVE_PAGE_BUTTON" desc="Label for the button that will cancel the request to save the page for later. 'Cancel' is colored blue with the 'a' tag.">
-      Brave will let you know when this page is ready. &lt;a&gt;Cancel&lt;/a&gt;
+      Galeob will let you know when this page is ready. &lt;a&gt;Cancel&lt;/a&gt;
     </message>
   </if>
 

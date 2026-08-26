@@ -353,7 +353,7 @@
   </message>
 
   <message name="IDS_BRAVE_SHIELDS_ONBOARDING_CLICK_TO_VIEW_LABEL" desc="Label for the onboarding bubble to guide the user to the Shield icon">
-    Click the Galeob icon to view Brave Shields.
+    Click the Galeob icon to view Galeob Shields.
   </message>
 
   <message name="IDS_BRAVE_SHIELDS_PAGE_INFO_SITE_INFO_LINK" desc="Link text for Site Info tab on Page Info bubble">

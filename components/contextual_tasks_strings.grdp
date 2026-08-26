@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- Contextual Tasks -->
@@ -6,7 +6,7 @@
     Browse with AI
   </message>
   <message name="IDS_CONTEXTUAL_TASKS_CUSTOMIZE_CHROME_LABEL" desc="The label shown in the Customize Brave settings menu to pin Contextual Tasks to the toolbar.">
-    Brave Search AI Mode
+    Galeob Search AI Mode
   </message>
   <message name="IDS_CONTEXTUAL_TASKS_ENTRY_POINT_TOOLTIP" desc="The tooltip text used for contextual task entry points.">
     Browse with AI
@@ -33,7 +33,7 @@
     Ask questions about this tab
   </message>
   <message name="IDS_CONTEXTUAL_TASKS_FIRST_RUN_EXPERIENCE_DESCRIPTION" desc="Description of the tool tip shown on the first run experience of the contextual task page.">
-    When tabs are shared, their contents and URLs are sent to Brave.
+    When tabs are shared, their contents and URLs are sent to Galeob.
   </message>
   <message name="IDS_CONTEXTUAL_TASKS_FIRST_RUN_EXPERIENCE_LEARN_MORE" desc="Learn more clickable span shown on the first run experience of the contextual task page.">
     Learn more about AI and privacy

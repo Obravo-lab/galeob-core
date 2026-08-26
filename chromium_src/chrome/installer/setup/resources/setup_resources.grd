@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <grit base_dir="." latest_public_release="0" current_release="1"
       source_lang_id="en" enc_check="möl">
   <!-- This grd and accompanying xtb files are not processed by grit. They are
@@ -94,7 +94,7 @@
       <!-- Windows Installer -->
       <if expr="is_win">
         <message name="IDS_SETUP_PATCH_FAILED" desc="Error message when setup.exe fails to patch itself.">
-          Installation failed due to unspecified error. Please download Brave again.
+          Installation failed due to unspecified error. Please download Galeob again.
         </message>
       </if>
     </messages>

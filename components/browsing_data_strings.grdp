@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <!-- Clear Browsing Data counters-->
@@ -170,8 +170,8 @@
   <message name="IDS_DEL_COOKIES_COUNTER_ADVANCED_WITH_SIGNED_IN_EXCEPTION" desc="A counter showing the number of sites that use cookies, followed by an exception message that the user will stay signed in to their Brave account.">
     {COUNT, plural,
       =0 {None}
-      =1 {From 1 site (you'll stay signed in to your Brave sync chain)}
-      other {From # sites (you'll stay signed in to your Brave sync chain)}}
+      =1 {From 1 site (you'll stay signed in to your Galeob sync chain)}
+      other {From # sites (you'll stay signed in to your Galeob sync chain)}}
   </message>
   <message name="IDS_ANDROID_DEL_COOKIES_COUNTER_ADVANCED" desc="A counter showing the number of sites that use cookies on the Clear browsing data screen on Android. It also explains that deleting these cookies will sign you out of most sites.">
     {COUNT, plural,
@@ -217,19 +217,19 @@
     <ph name="TAB_COUNT">$1<ex>5 tabs</ex></ph> from <ph name="WINDOW_COUNT">$2<ex>2 windows</ex></ph> on this device
   </message>
   <message name="IDS_DEL_GOOGLE_COOKIES_SIGNOUT_LINK" desc="A message that will be appended to IDS_DEL_COOKIES_COUNTER_ADVANCED if the user is signed in. It informs the user that their Brave cookies will only be deleted if they signed out of Brave. This string includes a link that, when clicked on, will sign the user out of Brave.">
-    To delete Brave cookies from this device, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank" id="signOutLink"&gt;</ph>sign out of Brave<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To delete Galeob cookies from this device, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank" id="signOutLink"&gt;</ph>sign out of Galeob<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_MANAGE_IN_GOOGLE_PASSWORD_MANAGER" desc="Description for the 'Passwords and Passkeys' linkout in the 'Other Brave Data' subpage inside the 'Delete browsing data' dialog. This lets users know that passwords and passkeys can be managed and deleted in Brave password manager.">
-    Manage in Brave Password Manager
+    Manage in Galeob Password Manager
   </message>
   <message name="IDS_SETTINGS_MANAGE_IN_YOUR_GOOGLE_ACCOUNT" desc="Description for the MyActivity and Search History linkouts in the 'Other Brave Data' subpage inside the 'Delete browsing data' dialog. This lets users know that this data can be managed and deleted in their Brave account.">
-    Manage in your Brave sync chain
+    Manage in your Galeob sync chain
   </message>
   <message name="IDS_SETTINGS_MANAGE_OTHER_DATA_LABEL" desc="Label for the 'Manage other data' subpage entry-point in the 'Delete Browsing Data' dialog where the user can find link-outs to manage their data outside of Brave. This is the label shown when the user does not have Brave as their default search engine.">
     Manage other data
   </message>
   <message name="IDS_SETTINGS_MANAGE_OTHER_GOOGLE_DATA_LABEL" desc="Label for the 'Manage other Brave data' subpage entry-point in the 'Delete Browsing Data' dialog where the user can find link-outs to manage their data outside of Brave. This is the label shown when the user has Brave as their default search engine.">
-    Manage other Brave data
+    Manage other Galeob data
   </message>
   <message name="IDS_SETTINGS_MY_ACTIVITY" desc="Label for the 'My Activity' linkout in the 'Other Brave Data' subpage inside the 'Delete browsing data' dialog, where the user can see and manage data that is stored outside of Brave. This linkout is specifically for activity data stored in the user's Brave account.">
     My Activity
@@ -238,7 +238,7 @@
     Other data
   </message>
   <message name="IDS_SETTINGS_OTHER_GOOGLE_DATA_TITLE" desc="Title for the 'Other Brave Data' subpage inside the 'Delete browsing data' dialog, where the user can see and manage data that is stored outside of Brave. This is the title shown when the user set Brave as their default search engine, indicating that all data linked in this subpage is stored within Brave.">
-    Other Brave data
+    Other Galeob data
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_AND_PASSKEYS" desc="Label for the 'Passwords and Passkeys' linkout in the 'Other Brave Data' subpage inside the 'Delete browsing data' dialog, where the user can see and manage data that is stored outside of Brave. This linkout is specifically for passwords and passkeys stored in Brave password manager.">
     Passwords and passkeys

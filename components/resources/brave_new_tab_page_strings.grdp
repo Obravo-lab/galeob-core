@@ -290,7 +290,7 @@
   </message>
 
   <message name="IDS_NEW_TAB_SPONSORED_SITES_DESCRIPTION" desc="Description shown below the toggle that controls sponsored site visibility in top sites, explaining what sponsored sites are." formatter_data="webui=BraveNewTabPage">
-    Sponsored sites help keep Galeob free. If you use them, you're supporting Brave's mission. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>.
+    Sponsored sites help keep Galeob free. If you use them, you're supporting Galeob's mission. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>.
   </message>
 
   <message name="IDS_NEW_TAB_STATS_ADS_BLOCKED_TEXT" desc="Text for trackers and ads blocked stat" formatter_data="webui=BraveNewTabPage">

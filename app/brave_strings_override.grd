@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!-- This file contains definitions of strings that are distribution specific.
 If you update this file, be sure also to update google_chrome_strings.grd. -->
 <grit base_dir="." latest_public_release="0" current_release="1" source_lang_id="en" enc_check="möl">
@@ -203,7 +203,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <if expr="enable_pdf">
         </if>
       <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_UNKNOWN_SOURCE" desc="Summary of dangerous warning for a file (like an extension) from an unknown source.">
-        Extensions, apps, and themes from unknown sources can harm your device. Brave recommends only installing them from the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph>
+        Extensions, apps, and themes from unknown sources can harm your device. Galeob recommends only installing them from the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph>
       </message>
       <if expr="not is_macosx">
         </if>
@@ -225,15 +225,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <message name="IDS_SAFETY_CHECK_EXTENSIONS_POLICY_VIOLATION" desc="The text explaining the reason for disabling extension. The extension in question violates Web Store policy.">
         This extension violates the Web Store policy, and might be unsafe. Remove it from Galeob so it can no longer see and change your data on sites you visit, including your personal info.
       </message>
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Brave cannot prevent extensions from recording history in Private mode. Displayed in extensions management UI after an extension is selected to be run in Private mode.">
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Galeob cannot prevent extensions from recording history in Private mode. Displayed in extensions management UI after an extension is selected to be run in Private mode.">
         Warning: Galeob cannot prevent extensions from recording your browsing history. To disable this extension in Private mode, unselect this option.
       </message>
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_MULTIPLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when multiple unsupported extensions have been disabled.">
-          To make Brave safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Galeob safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
         <message name="IDS_EXTENSIONS_SINGLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when a single unsupported extension has been disabled.">
-          To make Brave safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Galeob safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
       </if>
 
@@ -386,7 +386,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </if>
 
       <if expr="is_macosx">
-        <message name="IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC" desc="Text shown in the macOS permission dialog, describing why Brave needs the permission to access local network.">
+        <message name="IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC" desc="Text shown in the macOS permission dialog, describing why Galeob needs the permission to access local network.">
           This will allow you to share content from Galeob to your local devices, such as a TV or speaker.
         </message>
       </if>

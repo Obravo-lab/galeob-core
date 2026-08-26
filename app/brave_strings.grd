@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!-- This file contains definitions of strings that are distribution specific.
 If you update this file, be sure also to update google_chrome_strings.grd. -->
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
@@ -307,7 +307,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
           Galeob is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Galeob.
         </message>
-        <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Brave is launched at the conclusion of installation.">
+        <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Galeob is launched at the conclusion of installation.">
           Welcome to Galeob; new browser window opened
         </message>
       </if>
@@ -579,7 +579,7 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       </if>
       <!-- General app failure messages -->
       <if expr="not is_chromeos and not is_android">
-        <message name="IDS_COULDNT_STARTUP_PROFILE_ERROR" desc="Error displayed when Brave cannot start because profiles were not opened correctly.">
+        <message name="IDS_COULDNT_STARTUP_PROFILE_ERROR" desc="Error displayed when Galeob cannot start because profiles were not opened correctly.">
           Cannot start Galeob because something went wrong when opening your profile. Try to restart Galeob.
         </message>
       </if>
@@ -603,7 +603,7 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       <message name="IDS_FR_CUSTOMIZE_DEFAULT_BROWSER" desc="Default browser checkbox label">
         Make Galeob the default browser
       </message>
-      <message name="IDS_DEFAULT_BROWSER_CHANGED_MESSAGE" desc="Body of the notification shown when Brave is no longer the default browser.">
+      <message name="IDS_DEFAULT_BROWSER_CHANGED_MESSAGE" desc="Body of the notification shown when Galeob is no longer the default browser.">
         Galeob is no longer your default browser. Make Galeob the default browser?
       </message>
       <if expr="is_win">
@@ -670,7 +670,7 @@ Galeob is unable to recover your settings.
       </message>
 
       <if expr="is_linux">
-        <message name="IDS_DESKTOP_SHORTCUT_COMMENT" desc="Description of the desktop shortcut file which will open a Brave tab at a given url.">
+        <message name="IDS_DESKTOP_SHORTCUT_COMMENT" desc="Description of the desktop shortcut file which will open a Galeob tab at a given url.">
           Open <ph name="URL">$1<ex>https://www.example-url.com/</ex></ph> in a new tab in Galeob.
         </message>
       </if>
@@ -709,7 +709,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
           Galeob wants to export your passwords. Type your Windows password to allow this.
         </message>
-        <message name="IDS_PASSWORDS_PAGE_DELETE_ALL_DATA_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before deleting all data from Brave Password Manager.">
+        <message name="IDS_PASSWORDS_PAGE_DELETE_ALL_DATA_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before deleting all data from Galeob Password Manager.">
           Galeob wants to delete your Password Manager data. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_IMPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before overriding passwords during Import.">
@@ -721,7 +721,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_INSTALL_FAILED" desc="Error displayed if installation fails due to some unknown error.">
           Installation failed due to unspecified error. If Galeob is currently running, please close it and try again.
         </message>
-        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Brave running.">
+        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Galeob running.">
           Can not install the same Galeob version that is currently running. Please close Galeob and try again.
         </message>
         <message name="IDS_INSTALL_OS_NOT_SUPPORTED" desc="Error displayed if OS is not supported">
@@ -745,7 +745,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_INSTALL_INSUFFICIENT_RIGHTS" desc="Error displayed when a non admin user tries to attempt system level install/uninstall.">
           You do not have appropriate rights for system-level install. Try running the installer again as Administrator.
         </message>
-        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Brave in their user profile directory when their computer already has Brave installed for all users. In this case, the installer silently launches the existing version of Brave for all users rather than installing a second version of Brave.">
+        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Galeob in their user profile directory when their computer already has Galeob installed for all users. In this case, the installer silently launches the existing version of Galeob for all users rather than installing a second version of Galeob.">
           Galeob is already installed for all users on your computer.
         </message>
         <message name="IDS_ELEVATION_SERVICE_DESCRIPTION" desc="The description of the Windows elevation service. Displayed in the Windows Services management console.">
@@ -774,25 +774,25 @@ Galeob is unable to recover your settings.
         <message name="IDS_UNINSTALL_BUTTON_TEXT" desc="Label for uninstall button on Uninstall confirmation dialog.">
           Uninstall
         </message>
-        <message name="IDS_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not pinned to the taskbar.">
+        <message name="IDS_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Galeob is not pinned to the taskbar.">
           Pin Galeob to your taskbar to get to it quickly anytime
         </message>
-        <message name="IDS_PIN_INFOBAR_BUTTON" desc="Label for the button on an infobar offering to pin Brave to the taskbar. Pins Brave when clicked.">
+        <message name="IDS_PIN_INFOBAR_BUTTON" desc="Label for the button on an infobar offering to pin Galeob to the taskbar. Pins Galeob when clicked.">
           Pin Galeob
         </message>
       </if>
       <if expr="is_macosx">
-        <message name="IDS_PIN_INFOBAR_DOCK_TEXT" desc="Text to show in an infobar when Brave is not in the Dock.">
+        <message name="IDS_PIN_INFOBAR_DOCK_TEXT" desc="Text to show in an infobar when Galeob is not in the Dock.">
           Keep Galeob in your Dock to get to it quickly anytime
         </message>
-        <message name="IDS_PIN_INFOBAR_DOCK_BUTTON" desc="Label for the button on an infobar offering to keep Brave in the Dock.">
+        <message name="IDS_PIN_INFOBAR_DOCK_BUTTON" desc="Label for the button on an infobar offering to keep Galeob in the Dock.">
           Keep in Dock
         </message>
       </if>
-      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the current default browser.">
+      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Galeob is not the current default browser.">
         Galeob isn't your default browser
       </message>
-      <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the current default browser and can be pinned to the taskbar.">
+      <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Galeob is not the current default browser and can be pinned to the taskbar.">
         Set Galeob as your default browser and pin it to your taskbar
       </message>
       <if expr="not is_android and not is_chromeos">
@@ -802,7 +802,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal with settings illustration.">
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Galeob.
         </message>
-        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION_UNPINNED" desc="Body text of the default browser modal with settings illustration when Brave is not pinned to the taskbar.">
+        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION_UNPINNED" desc="Body text of the default browser modal with settings illustration when Galeob is not pinned to the taskbar.">
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Galeob. Galeob will be pinned to your taskbar for quick access.
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITHOUT_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal without settings illustration.">
@@ -811,16 +811,16 @@ Galeob is unable to recover your settings.
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal without settings illustration.">
           Get easy access to the features you know, love, and trust by setting Galeob as your default browser.
         </message>
-        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION_UNPINNED" desc="Body text of the default browser modal without settings illustration when Brave is not pinned to the taskbar.">
+        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION_UNPINNED" desc="Body text of the default browser modal without settings illustration when Galeob is not pinned to the taskbar.">
           Get easy access to the features you know, love, and trust by setting Galeob as your default browser. Galeob will be pinned to your taskbar for quick access.
         </message>
-        <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_TITLE" desc="Title of the dialog prompting the user to set Brave as the default browser.">
+        <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_TITLE" desc="Title of the dialog prompting the user to set Galeob as the default browser.">
           Set Galeob as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_BODY" desc="Main explanatory text in the default browser dialog.">
           Get easy access to the features you know, love, and trust by setting Galeob as your default browser.
         </message>
-        <message name="IDS_DEFAULT_BROWSER_SUCCESS_TOAST_BODY" desc="Body text of the toast shown when Brave is successfully set as the default browser.">
+        <message name="IDS_DEFAULT_BROWSER_SUCCESS_TOAST_BODY" desc="Body text of the toast shown when Galeob is successfully set as the default browser.">
           Galeob is now your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_STEPS_PINNED_COMBINED" desc="Numbered instructions. $1, $2 and $3 are the bold button names.">
@@ -830,7 +830,7 @@ Galeob is unable to recover your settings.
         </message>
       </if>
       <if expr="is_win or is_macosx">
-        <message name="IDS_PDF_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the default PDF viewer.">
+        <message name="IDS_PDF_INFOBAR_TEXT" desc="Text to show in an infobar when Galeob is not the default PDF viewer.">
           Set Galeob as your default PDF viewer
         </message>
       </if>
@@ -847,9 +847,9 @@ Galeob is unable to recover your settings.
       </if>
       <!-- Download Bubble Items -->
       <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_UNKNOWN_SOURCE" desc="Summary of dangerous warning for a file (like an extension) from an unknown source.">
-        Extensions, apps, and themes from unknown sources can harm your device. Brave recommends only installing them from the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph>
+        Extensions, apps, and themes from unknown sources can harm your device. Galeob recommends only installing them from the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph>
       </message>
-      <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_BLOCKED_LEARN_MORE_LINK" desc="Text for the link to the help page about why Brave blocks some downloaded files.">
+      <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_BLOCKED_LEARN_MORE_LINK" desc="Text for the link to the help page about why Galeob blocks some downloaded files.">
         Learn why Galeob blocks some downloads
       </message>
       <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_DEEP_SCANNING_PROMPT_LOCAL_DECRYPTION" desc="Subpage summary of warning for a file where we recommend providing the password for on-device decryption">
@@ -923,13 +923,13 @@ Galeob is unable to recover your settings.
 
       <!-- Quit all apps confirmation dialog -->
       <if expr="is_macosx">
-        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Brave is running in the background.">
+        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Galeob is running in the background.">
           Galeob is in background mode.
         </message>
       </if>
 
-      <!-- Brave API keys info bar -->
-      <message name="IDS_MISSING_GOOGLE_API_KEYS" desc="Message shown when Brave API keys are missing. This message is followed by a 'Learn more' link.">
+      <!-- Galeob API keys info bar -->
+      <message name="IDS_MISSING_GOOGLE_API_KEYS" desc="Message shown when Galeob API keys are missing. This message is followed by a 'Learn more' link.">
         Galeob API keys are missing. Some functionality of Galeob will be disabled.
       </message>
 
@@ -1011,7 +1011,7 @@ Galeob is unable to recover your settings.
       <message name="IDS_EXTENSIONS_ITEM_SHOW_ACCESS_REQUESTS_IN_TOOLBAR" desc="The label on the toggle to allow the extension to show site access requests in the toolbar.">
         Allow extension to show access requests in the Galeob toolbar
       </message>
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Brave cannot prevent extensions from recording history in Private mode. Displayed in extensions management UI after an extension is selected to be run in Private mode.">
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Galeob cannot prevent extensions from recording history in Private mode. Displayed in extensions management UI after an extension is selected to be run in Private mode.">
         Warning: Galeob cannot prevent extensions from recording your browsing history. To disable this extension in Private mode, unselect this option.
       </message>
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The label for a control that triggers an extension uninstall.">
@@ -1020,16 +1020,16 @@ Galeob is unable to recover your settings.
       <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Brave application.">
         In Galeob
       </message>
-      <message name="IDS_PENDING_CHANGE_WARNING" desc="The message shown to users when an extension setting change will ba applied after Brave restarts.">
+      <message name="IDS_PENDING_CHANGE_WARNING" desc="The message shown to users when an extension setting change will ba applied after Galeob restarts.">
         Changes to this setting will be applied once Galeob restarts.
       </message>
 
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_MULTIPLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when multiple unsupported extensions have been disabled.">
-          To make Brave safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Galeob safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
         <message name="IDS_EXTENSIONS_SINGLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when a single unsupported extension has been disabled.">
-          To make Brave safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Galeob safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
       </if>
 
@@ -1038,7 +1038,7 @@ Galeob is unable to recover your settings.
         More options
       </message>
 
-      <!-- Main Brave menu -->
+      <!-- Main Galeob menu -->
       <message name="IDS_APPMENU_TOOLTIP" desc="The tooltip to show for the browser menu">
         Customize and control Galeob
       </message>
@@ -1051,46 +1051,46 @@ Galeob is unable to recover your settings.
         Customize and control Galeob. Something needs your attention - click for details.
       </message>
 
-      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Brave menu item for the Hosted App app menu">
+      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Galeob menu item for the Hosted App app menu">
         &amp;Open in Galeob
       </message>
 
       <if expr="use_titlecase and not is_chromeos">
         <if expr="_is_chrome_for_testing_branded">
           <then>
-            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Brave for Testing menu item">
+            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Galeob for Testing menu item">
               About &amp;Galeob for Testing
             </message>
           </then>
           <else>
-            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Brave menu item">
+            <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Galeob menu item">
               About &amp;Galeob
             </message>
           </else>
         </if>
-        <message name="IDS_RELAUNCH_TO_UPDATE" desc="In Title Case: The text label of the relaunch to update Brave menu item">
+        <message name="IDS_RELAUNCH_TO_UPDATE" desc="In Title Case: The text label of the relaunch to update Galeob menu item">
           Relaunch to Update &amp;Galeob
         </message>
       </if>
       <if expr="not use_titlecase and not is_chromeos">
         <if expr="_is_chrome_for_testing_branded">
           <then>
-            <message name="IDS_ABOUT" desc="The text label of the About Brave for Testing menu item">
+            <message name="IDS_ABOUT" desc="The text label of the About Galeob for Testing menu item">
               About &amp;Galeob for Testing
             </message>
           </then>
           <else>
-            <message name="IDS_ABOUT" desc="The text label of the About Brave menu item">
+            <message name="IDS_ABOUT" desc="The text label of the About Galeob menu item">
               About &amp;Galeob
             </message>
           </else>
         </if>
-        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the relaunch to update Brave menu item">
+        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the relaunch to update Galeob menu item">
           Relaunch to update &amp;Galeob
         </message>
       </if>
       <if expr="is_chromeos">
-        <message name="IDS_ABOUT" desc="The text label of the About Brave menu item">
+        <message name="IDS_ABOUT" desc="The text label of the About Galeob menu item">
           About &amp;Galeob
         </message>
         <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the relaunch to update ChromeOS menu item">
@@ -1099,13 +1099,13 @@ Galeob is unable to recover your settings.
       </if>
 
       <if expr="is_macosx">
-        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Brave, not Brave." translateable="false">
+        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Galeob, not Galeob." translateable="false">
           Galeob
         </message>
-        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Brave application name (IDS_PRODUCT_NAME). Example: Brave Helper.">
+        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Brave application name (IDS_PRODUCT_NAME). Example: Galeob Helper.">
           Galeob Helper
         </message>
-        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Brave Helper, not Brave Helper.">
+        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Galeob Helper, not Galeob Helper.">
           Galeob Helper
         </message>
       </if>
@@ -1114,10 +1114,10 @@ Galeob is unable to recover your settings.
       <if expr="not is_android">
         <if expr="use_titlecase">
           <then>
-            <message name="IDS_CUSTOMIZE_CHROME" desc="In Title Case: The text label of the Customize Brave menu item">
+            <message name="IDS_CUSTOMIZE_CHROME" desc="In Title Case: The text label of the Customize Galeob menu item">
               C&amp;ustomize Your Galeob
             </message>
-            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="In Title Case: The title of the Other Brave profiles section">
+            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="In Title Case: The title of the Other Galeob profiles section">
               Other Galeob Profiles
             </message>
             <message name="IDS_MANAGE_CHROME_PROFILES" desc="In Title Case: The text label of the manage chrome profile item">
@@ -1125,10 +1125,10 @@ Galeob is unable to recover your settings.
             </message>
           </then>
           <else>
-            <message name="IDS_CUSTOMIZE_CHROME" desc="The text label of the Customize Brave menu item">
+            <message name="IDS_CUSTOMIZE_CHROME" desc="The text label of the Customize Galeob menu item">
               C&amp;ustomize your Galeob
             </message>
-            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="The title of the Other Brave profiles section">
+            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="The title of the Other Galeob profiles section">
               Other Galeob profiles
             </message>
             <message name="IDS_MANAGE_CHROME_PROFILES" desc="The text label of the manage chrome profile item">
@@ -1142,7 +1142,7 @@ Galeob is unable to recover your settings.
         P&amp;assword Manager
       </message>
 
-      <!-- Brave sign-in page -->
+      <!-- Galeob sign-in page -->
       <message name="IDS_CHROME_SIGNIN_TITLE" desc="Title on the about:chrome-signin page" translateable="false">
         Galeob
       </message>
@@ -1179,7 +1179,7 @@ Galeob is unable to recover your settings.
         Settings, opens in new tab.
       </message>
       <!-- Enterprise sign-in dialog -->
-      <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account when it is mandatory to sign in to Brave with the enterprise account.">
+      <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Galeob with their enterprise account when it is mandatory to sign in to Galeob with the enterprise account.">
         Your organization requires you to sign into Galeob
       </message>
 
@@ -1195,16 +1195,16 @@ Galeob is unable to recover your settings.
         <message name="IDS_ENTERPRISE_SIGNIN_TITLE" desc="The title of the dialog to confirm linking the browser profile with the signed-in enterprise account">
           Link your Galeob data to this account?
         </message>
-        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. This message is followed by a 'Learn more' link.">
+        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Galeob account. This message is followed by a 'Learn more' link.">
           You are signing in with a managed account and giving its administrator control over your Galeob profile. Your Galeob data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Galeob sync chains Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
+        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Galeob account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
           You are signing in with a managed account and giving its administrator control over your Galeob profile. Your Galeob data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Galeob sync chains Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Galeob data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_KNOWN_DOMAIN_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account when it is mandatory to sign in to Brave with the enterprise account.">
+        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_KNOWN_DOMAIN_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Galeob with their enterprise account when it is mandatory to sign in to Galeob with the enterprise account.">
           Your organization, <ph name="MANAGER">$1<ex>manager.com</ex></ph>, requires you to sign into Galeob
         </message>
-        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account.">
+        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Galeob with their enterprise account.">
           Sign in to Galeob?
         </message>
       </if>
@@ -1221,19 +1221,19 @@ Galeob is unable to recover your settings.
       </message>
 
       <!-- Managed profile required interstitial -->
-      <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_PRIMARY_PARAGRAPH" desc="The main text of the interstitial that tells the user that their organization requires them to sign in to Brave with their managed account in order to access it.">
+      <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_PRIMARY_PARAGRAPH" desc="The main text of the interstitial that tells the user that their organization requires them to sign in to Galeob with their managed account in order to access it.">
        To continue, sign in to Galeob as <ph name="EMAIL">$1<ex>user@example.com</ex></ph>. This makes sure that you've got your organization's policies.
       </message>
 
-      <!-- Extension requests sign in to Brave through chrome.identity API -->
+      <!-- Extension requests sign in to Galeob through chrome.identity API -->
       <if expr="enable_extensions">
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain.">
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Galeob to be able to use their Galeob sync chain.">
           The extension "<ph name="EXTENSION_NAME">$1<ex>Screencast</ex></ph>" wants you to sign in to Galeob
         </message>
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_1" desc="This string is the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain.">
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_1" desc="This string is the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Galeob to be able to use their Galeob sync chain.">
          To use this extension as <ph name="USER_EMAIL_ADDRESS">$1<ex>elisa.g.beckett@gmail.com</ex></ph>, sign in to Galeob.
         </message>
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE_FALLBACK" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain. Used when the extension name couldn't be retrieved.">
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE_FALLBACK" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Galeob to be able to use their Galeob sync chain. Used when the extension name couldn't be retrieved.">
           An extension wants you to sign in to Galeob
         </message>
       </if>
@@ -1249,17 +1249,17 @@ Galeob is unable to recover your settings.
       </if>
 
       <!-- NTP strings -->
-      <message name="IDS_NTP_CUSTOMIZE_TOOLBAR_CATEGORY_YOUR_CHROME" desc="The label for the category of actions that involve your Brave data, such as opening the password manager or clearing browsing data.">
+      <message name="IDS_NTP_CUSTOMIZE_TOOLBAR_CATEGORY_YOUR_CHROME" desc="The label for the category of actions that involve your Galeob data, such as opening the password manager or clearing browsing data.">
         Your Galeob
       </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
-          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Brave for Testing browser.">
+          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Galeob for Testing browser.">
             Customize Galeob for Testing
           </message>
         </then>
         <else>
-          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Brave browser.">
+          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Galeob browser.">
             Customize Galeob
           </message>
         </else>
@@ -1284,11 +1284,11 @@ Galeob is unable to recover your settings.
         </message>
       </if>
 
-      <!-- Customize Brave Auto Promo Strings -->
-      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_BODY" desc="The description of the IPH to auto open Customize Brave">
+      <!-- Customize Galeob Auto Promo Strings -->
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_BODY" desc="The description of the IPH to auto open Customize Galeob">
         Customize Galeob to give it a new look
       </message>
-      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_SCREENREADER" desc="The screenreader of the IPH to auto open Customize Brave" is_accessibility_with_no_ui="true">
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_SCREENREADER" desc="The screenreader of the IPH to auto open Customize Galeob" is_accessibility_with_no_ui="true">
         Click the Customize Galeob button on the New Tab Page to give Galeob a new look
       </message>
 
@@ -1309,7 +1309,7 @@ Galeob is unable to recover your settings.
 
       <!-- Dice Web Signin Interception Bubble-->
       <if expr="not use_titlecase">
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Brave while the Brave Signin Bubble intercept is shown.">
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Galeob while the Brave Signin Bubble intercept is shown.">
           Sign in to Galeob?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE" desc="Title of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
@@ -1320,7 +1320,7 @@ Galeob is unable to recover your settings.
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Brave while the Brave Signin Bubble intercept is shown.">
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Galeob while the Brave Signin Bubble intercept is shown.">
           Sign In to Galeob?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE" desc="Title of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
@@ -1338,10 +1338,10 @@ Galeob is unable to recover your settings.
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_TITLE" desc="Title for the profile switch interception bubble">
           Switch to existing Galeob profile?
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2" desc="This string is the body text for a dialog that appears when the user is already signed in to Brave, but they just tried to sign in to a Brave service (like Gmail) with a different Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2" desc="This string is the body text for a dialog that appears when the user is already signed in to Galeob, but they just tried to sign in to a Galeob service (like Gmail) with a different Galeob sync chain that already has its own Galeob profile on this device. The body text is after the 'Switch to existing Galeob profile?' string. The tone should be inviting and helpful.">
           You're already signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> in another Galeob profile
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2_SUPERVISED" desc="This string is the body text for a dialog that appears when the user is already signed in to Brave, but they just tried to sign in to a Brave service (like Gmail) with a different supervised Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2_SUPERVISED" desc="This string is the body text for a dialog that appears when the user is already signed in to Galeob, but they just tried to sign in to a Galeob service (like Gmail) with a different supervised Galeob sync chain that already has its own Galeob profile on this device. The body text is after the 'Switch to existing Galeob profile?' string. The tone should be inviting and helpful.">
           To stay safer online with your parent’s choices, switch to your Galeob profile where you’re already signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CONSUMER_BUBBLE_DESC" desc="Body of the web signin interception bubble">
@@ -1356,55 +1356,55 @@ Galeob is unable to recover your settings.
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_WITH_BOOKMARKS" desc="Subtitle of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
           To get your passwords, bookmarks, and more on all your devices, sign in to Galeob
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_SUPERVISED" desc="This string is the body of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_SUPERVISED" desc="This string is the body of a promotion about signing in to Galeob with the user's Galeob sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Galeob sync chain.">
           To stay safer online with your parent’s choices, sign in to Galeob
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER" desc="This string is the body text of a reminder message, which is intended to help users understand that they have been signed in to Brave. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Brave as well, the user selected yes. After a period of time, this reminder message appears at the top right of Brave (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This body text string comes after the 'Welcome back, USER_NAME' string. We are focusing on the benefit that user enjoys, now that they're signed in to Brave. The tone should be welcoming.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER" desc="This string is the body text of a reminder message, which is intended to help users understand that they have been signed in to Galeob. The user previously signed in to a Galeob service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Galeob as well, the user selected yes. After a period of time, this reminder message appears at the top right of Galeob (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This body text string comes after the 'Welcome back, USER_NAME' string. We are focusing on the benefit that user enjoys, now that they're signed in to Galeob. The tone should be welcoming.">
           While you're signed in, you can use your passwords and more from your Galeob sync chain in Galeob. To change this, go to “Your account in Galeob”.
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to Brave.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to Galeob.">
           While you're signed in, you can use your passwords and more from your Galeob sync chain in Galeob. <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can change your Galeob services settings.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This title is before the 'Your passwords and other Brave data are saved to your Brave sync chain, and will be removed from this device. To use them in the future, sign back in to Brave.' string. The tone should be straightforward.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Galeob. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. This title is before the 'Your passwords and other Galeob data are saved to your Galeob sync chain, and will be removed from this device. To use them in the future, sign back in to Galeob.' string. The tone should be straightforward.">
           Sign out of Galeob?
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This subtitle is after the 'Sign out of Brave?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Galeob. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. This subtitle is after the 'Sign out of Galeob?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
           Your passwords, payment methods, and addresses that you saved in your Galeob sync chain will be removed from this device. To use them again in Galeob, sign back in.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_DATA_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This subtitle is after the 'Sign out of Brave?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_DATA_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Galeob. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. This subtitle is after the 'Sign out of Galeob?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
           Your passwords and other Galeob data that you saved in your Galeob sync chain will be removed from this device. To use them again in Galeob, sign back in.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. The error message appears when the user has saved some data (like a password or payment method) to Galeob, but Galeob wasn't able to save the data to the user's Galeob sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Galeob.">
           Galeob needs to verify it’s you before some data can be saved in your Galeob sync chain and used on all your devices. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. The error message appears when the user has saved some data (like a password or payment method) to Galeob, but Galeob wasn't able to save the data to the user's Galeob sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Galeob.">
           {count, plural,
               =1 {Galeob needs to verify it’s you before some data can be saved in your Galeob sync chain and used on all your devices. If you sign out now, this data (1 item) will be deleted.}
               other {Galeob needs to verify it’s you before some data can be saved in your Galeob sync chain and used on all your devices. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Brave and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Galeob and Galeob hasn't had time to save that data to the user's Galeob sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Galeob sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
           Some of your Galeob data hasn't been saved in your Galeob sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Brave and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Galeob'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Galeob and Galeob hasn't had time to save that data to the user's Galeob sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Galeob sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
           {count, plural,
               =1 {Some of your Galeob data hasn't been saved in your Galeob sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data (1 item) will be deleted.}
               other {Some of your Galeob data hasn't been saved in your Galeob sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
-        <message name="IDS_CLOSE_WARNING_FOR_CLEAR_COOKIES_ON_EXIT_TEXT" desc="Body of a notice displayed when closing the last Brave window, to inform the user about a change in the way the 'Clear cookie on exit' setting works.">
+        <message name="IDS_CLOSE_WARNING_FOR_CLEAR_COOKIES_ON_EXIT_TEXT" desc="Body of a notice displayed when closing the last Galeob window, to inform the user about a change in the way the 'Clear cookie on exit' setting works.">
           You’ll be signed out of most sites when you close all Galeob windows, except your Galeob sync chain if you’re signed in to Galeob. To let sites remember you, <ph name="SETTINGS_LINK">$1<ex>go to settings</ex></ph>.
         </message>
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when the Brave Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Brave?' with a bubble shown under it.">
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when the Brave Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Galeob?' with a bubble shown under it.">
           Click to close the Galeob sign-in dialog
         </message>
-        <message name="IDS_AVATAR_BUTTON_SIGNIN_PENDING_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when Brave is in 'Sign-in pending' state. This state means that the account associated with Brave does not have valid credentials anymore and needs to be re-authenticated.">
+        <message name="IDS_AVATAR_BUTTON_SIGNIN_PENDING_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when Galeob is in 'Sign-in pending' state. This state means that the account associated with Galeob does not have valid credentials anymore and needs to be re-authenticated.">
           Galeob account requires re-authentication
         </message>
 
         <!-- Autofill Sign In Promo Bubble -->
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Brave and is after the 'Password saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Brave' button at the bottom of this message. The tone should be motivating.">
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Galeob sync chain). It appears when the user is not signed in to Galeob and is after the 'Password saved to this device' string. If the user wants to save this data to their Galeob sync chain, they can click the 'Sign in to Galeob' button at the bottom of this message. The tone should be motivating.">
           To get your passwords and more on all your devices, sign in to Galeob. This password will be saved in your Galeob sync chain after you sign in.
         </message>
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Brave and is after the 'Address saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Brave' button at the bottom of this message. The tone should be motivating.">
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Galeob sync chain). It appears when the user is not signed in to Galeob and is after the 'Address saved to this device' string. If the user wants to save this data to their Galeob sync chain, they can click the 'Sign in to Galeob' button at the bottom of this message. The tone should be motivating.">
           To get your addresses and more on all your devices, sign in to Galeob. This address will be saved in your Galeob sync chain after you sign in.
         </message>
       </if>
@@ -1468,16 +1468,16 @@ Galeob is unable to recover your settings.
         Your Galeob
       </message>
       <if expr="not use_titlecase">
-        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Brave button in the Profile Menu when the user is in sign in pending state.">
+        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Galeob button in the Profile Menu when the user is in sign in pending state.">
           Remove account from Galeob
         </message>
-        <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Brave profiles'.">
+        <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Galeob profiles'.">
           Other Galeob profiles
         </message>
-        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Brave Profiles item in the Profile Menu.">
+        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Galeob Profiles item in the Profile Menu.">
           Manage Galeob profiles
         </message>
-        <message name="IDS_PROFILE_MENU_SIGN_OUT" desc="The text label of the Sign out of Brave button in the Profile Menu.">
+        <message name="IDS_PROFILE_MENU_SIGN_OUT" desc="The text label of the Sign out of Galeob button in the Profile Menu.">
           Sign out of Galeob
         </message>
         <message name="IDS_PROFILE_MENU_ADD_PROFILE" desc="The text label of the add new profile item in the profile menu.">
@@ -1485,16 +1485,16 @@ Galeob is unable to recover your settings.
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Brave button in the Profile Menu when the user is in sign in pending state.">
+        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Galeob button in the Profile Menu when the user is in sign in pending state.">
           Remove Account from Galeob
         </message>
-        <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Brave profiles'.">
+        <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Galeob profiles'.">
           Other Galeob Profiles
         </message>
-        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Brave Profiles item in the Profile Menu.">
+        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Galeob Profiles item in the Profile Menu.">
           Manage Galeob Profiles
         </message>
-        <message name="IDS_PROFILE_MENU_SIGN_OUT" desc="The text label of the Sign out of Brave button in the Profile Menu.">
+        <message name="IDS_PROFILE_MENU_SIGN_OUT" desc="The text label of the Sign out of Galeob button in the Profile Menu.">
           Sign Out of Galeob
         </message>
         <message name="IDS_PROFILE_MENU_ADD_PROFILE" desc="The text label of the add new profile item in the profile menu.">
@@ -1622,7 +1622,7 @@ Galeob is unable to recover your settings.
       </if>
 
       <!-- Settings API bubble -->
-      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Brave is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
+      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Galeob is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
         ''' It also controls what page is shown when you start Galeob. '''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_AND_SEARCH" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was both the start page and the search engine. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES for reason for triple quotes.">
@@ -1659,13 +1659,13 @@ Galeob is unable to recover your settings.
       </if>
 
       <if expr="not is_android">
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave.">
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Galeob to Galeob.">
           If an image doesn’t have a useful description, Galeob will try to provide one for you. To create descriptions, images are sent to Galeob. You can turn this off in settings at any time.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave just once.">
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Galeob to Galeob just once.">
           If an image doesn’t have a useful description, Galeob will try to provide one for you. To create descriptions, images are sent to Galeob.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Brave to Brave.">
+        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Galeob to Galeob.">
           This uses the same spell checker that's used in Galeob search. Text you type in the browser is sent to Galeob. You can always change this behavior in settings.
         </message>
         <if expr="not use_titlecase">
@@ -1720,7 +1720,7 @@ Galeob is unable to recover your settings.
           =1 {A new update for Galeob is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
           other {A new update for Galeob is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
         </message>
-        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Brave.">
+        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Galeob.">
           Relaunch
         </message>
       </if>
@@ -1767,7 +1767,7 @@ Galeob is unable to recover your settings.
       </message>
 
       <!-- User menu errors -->
-      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Brave to fix the out-of-date Brave client error.">
+      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Galeob to fix the out-of-date Galeob client error.">
         Update Galeob
       </message>
       <message name="IDS_SYNC_ERROR_PASSPHRASE_USER_MENU_ERROR_DESCRIPTION" desc="Error description of the sync/signin error header of desktop user menu.">
@@ -1810,13 +1810,13 @@ Galeob is unable to recover your settings.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. It counts down a timer and then Brave automatically restarts.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Galeob must restart to install it. It counts down a timer and then Galeob automatically restarts.">
         Galeob will restart in <ph name="REMAINING_TIME">$1<ex>1 minute, 7 seconds</ex></ph>
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Galeob must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
         Please restart Galeob now
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Brave must restart to install it.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Galeob must restart to install it.">
         A special security update for Galeob was just applied. Restart now and we'll restore your tabs.
       </message>
 
@@ -1836,7 +1836,7 @@ Galeob is unable to recover your settings.
       <message name="IDS_DESKTOP_MEDIA_PICKER_WINDOW_PERMISSION_TEXT_PERIOD_MAC" desc="Instructive text for how to enable screen recording on Mac when trying to share a window, ending with period to allow a supplementary text to follow.">
         To share your window, allow screen recording for Galeob in System Settings.
       </message>
-      <message name="IDS_DESKTOP_MEDIA_PICKER_PERMISSION_RESTART_TEXT_MAC" desc="Supplementary text about the need to restart Brave, displayed below the message about enabling screen-recording permissions on Mac when those permissions are missing.">
+      <message name="IDS_DESKTOP_MEDIA_PICKER_PERMISSION_RESTART_TEXT_MAC" desc="Supplementary text about the need to restart Galeob, displayed below the message about enabling screen-recording permissions on Mac when those permissions are missing.">
         You'll then need to restart Galeob.
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_SYSTEM_AUDIO_PERMISSION_TEXT_MAC" desc="Instructive text for how to enable system audio capture on Mac.">
@@ -1846,50 +1846,50 @@ Galeob is unable to recover your settings.
       <!-- Runtime permission strings -->
       <if expr="is_android">
 
-        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Brave is missing the Android storage permission, which is required to download files.">
+        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Galeob is missing the Android storage permission, which is required to download files.">
           Galeob needs storage access to download files
         </message>
 
-        <message name="IDS_MESSAGE_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to augmented reality capabilities, but Brave is missing the Android camera permission.">
+        <message name="IDS_MESSAGE_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to augmented reality capabilities, but Galeob is missing the Android camera permission.">
           Galeob needs camera permission to create a 3D map of your surroundings
         </message>
-        <message name="IDS_MESSAGE_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the camera capabilities, but Brave is missing the Android camera permission.">
+        <message name="IDS_MESSAGE_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the camera capabilities, but Galeob is missing the Android camera permission.">
           Galeob needs camera permission for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_HAND_TRACKING_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to mixed reality capabilities, but Brave is missing the Android hand tracking permission.">
+        <message name="IDS_MESSAGE_MISSING_HAND_TRACKING_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to mixed reality capabilities, but Galeob is missing the Android hand tracking permission.">
           Galeob needs permission to track your hands
         </message>
-        <message name="IDS_MESSAGE_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone capabilities, but Brave is missing the Android microphone permission.">
+        <message name="IDS_MESSAGE_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone capabilities, but Galeob is missing the Android microphone permission.">
           Galeob needs microphone permission for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone and camera capabilities, but Brave is missing the Android microphone and camera permissions.">
+        <message name="IDS_MESSAGE_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone and camera capabilities, but Galeob is missing the Android microphone and camera permissions.">
           Galeob needs camera and microphone permissions for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the location capabilities, but Brave is missing the Android location permission.">
+        <message name="IDS_MESSAGE_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the location capabilities, but Galeob is missing the Android location permission.">
           Galeob needs location permission for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_LOCAL_NETWORK_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the local network capabilities, but Brave is missing the Android local network permission.">
+        <message name="IDS_MESSAGE_MISSING_LOCAL_NETWORK_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the local network capabilities, but Galeob is missing the Android local network permission.">
           Galeob needs local network permission for this site
         </message>
-        <message name="IDS_MESSAGE_STORAGE_ACCESS_PERMISSION_TEXT" desc="Text shown educating the user that Brave is missing the Android storage permission, which is required to download files.">
+        <message name="IDS_MESSAGE_STORAGE_ACCESS_PERMISSION_TEXT" desc="Text shown educating the user that Galeob is missing the Android storage permission, which is required to download files.">
           Galeob needs storage access permission to download files
         </message>
-        <message name="IDS_MESSAGE_MISSING_XR_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to mixed reality capabilities, but Brave is missing the Android scene understanding and hand tracking permission.">
+        <message name="IDS_MESSAGE_MISSING_XR_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to mixed reality capabilities, but Galeob is missing the Android scene understanding and hand tracking permission.">
           Galeob needs permission to map your surroundings and track your hands
         </message>
       </if>
 
       <if expr="is_macosx">
-        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Brave needs to access a protected resource (e.g., camera, microphone).">
+        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Galeob needs to access a protected resource (e.g., camera, microphone).">
           Once Galeob has access, websites will be able to ask you for access.
         </message>
-        <message name="IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC" desc="Text shown in the macOS permission dialog, describing why Brave needs the permission to access local network.">
+        <message name="IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC" desc="Text shown in the macOS permission dialog, describing why Galeob needs the permission to access local network.">
           This will allow you to share content from Galeob to your local devices, such as a TV or speaker.
         </message>
       </if>
 
       <!-- Side panel strings -->
-      <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize Brave feature in the side panel combo box.">
+      <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize Galeob feature in the side panel combo box.">
         Customize Galeob
       </message>
 
@@ -2133,16 +2133,16 @@ Galeob is unable to recover your settings.
         </message>
 
         <!-- Lens Permission Bubble Dialog-->
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CANCEL_BUTTON" desc="Text on the cancel button in the dialog for choosing not to allow the sending of the Lens screenshot to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CANCEL_BUTTON" desc="Text on the cancel button in the dialog for choosing not to allow the sending of the Lens screenshot to Galeob.">
           Cancel
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CONTINUE_BUTTON" desc="Text on the continue button in the dialog for choosing to allow the sending of the Lens screenshot to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CONTINUE_BUTTON" desc="Text on the continue button in the dialog for choosing to allow the sending of the Lens screenshot to Galeob.">
           OK
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CSB_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing uawea what information will be sent to the server. Includes placeholder for learn more link.">
           When you use Image Search, the page title, URL, and content, including PDFs, are sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_NON_BLOCKING_DESCRIPTION" desc="Text that is shown in the Lens non-blocking privacy notice, giving examples of what Lens can do and informing users what information will be sent to Brave. Includes placeholder for learn more link.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_NON_BLOCKING_DESCRIPTION" desc="Text that is shown in the Lens non-blocking privacy notice, giving examples of what Lens can do and informing users what information will be sent to Galeob. Includes placeholder for learn more link.">
           When you open Image Search, the page title, URL, and content, including PDFs, will automatically be sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing users that their screenshot will be sent to the server. Includes placeholder for learn more link.">
@@ -2160,7 +2160,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_TAB_TO_CONTINUE" desc="Instructs the user to press Tab to begin using the feature.">
           Tab to continue
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_GOT_IT" desc="Text on button in privacy notice, indicating that user understands that information will be sent to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_GOT_IT" desc="Text on button in privacy notice, indicating that user understands that information will be sent to Galeob.">
           Got it
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_REMIND_ME_LATER" desc="Text on button to dismiss privacy notice, indicating that the privacy notice will be shown again later.">
@@ -2230,7 +2230,7 @@ Galeob is unable to recover your settings.
 
       <!-- Native notifications for Windows 10 -->
       <if expr="is_win">
-        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Brave notification settings.">
+        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Galeob notification settings.">
           Go to Galeob notification settings
         </message>
       </if>
@@ -2284,15 +2284,15 @@ Galeob is unable to recover your settings.
           </message>
         </if>
       </if>
-      <!-- Brave launch blocking dialog. -->
+      <!-- Galeob launch blocking dialog. -->
       <if expr="not is_android and not is_chromeos">
-         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Brave launch blocking dialog for machine level user cloud policy enrollment.">
+         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Galeob launch blocking dialog for machine level user cloud policy enrollment.">
           Launching Galeob...
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Brave launch blocking dialog when machine level user cloud policy enrollment failed.">
+        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Galeob launch blocking dialog when machine level user cloud policy enrollment failed.">
           Couldn't launch Galeob. Try again.
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Brave launch blocking dialog.">
+        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Galeob launch blocking dialog.">
           Relaunch Galeob
         </message>
       </if>
@@ -2301,16 +2301,16 @@ Galeob is unable to recover your settings.
       </message>
       <!-- Idle timeout bubble. -->
       <if expr="toolkit_views">
-        <message name="IDS_IDLE_BUBBLE_TITLE_CLOSE" desc="Title of a bubble that informs the user that Brave closed automatically, because they were away from the computer for X minutes.">
+        <message name="IDS_IDLE_BUBBLE_TITLE_CLOSE" desc="Title of a bubble that informs the user that Galeob closed automatically, because they were away from the computer for X minutes.">
           Galeob was automatically closed
         </message>
-        <message name="IDS_IDLE_BUBBLE_BODY_CLOSE_AND_CLEAR" desc="Body of a bubble that informs the user that Brave closed + cleared data automatically, because they were away from the computer for X minutes.">
+        <message name="IDS_IDLE_BUBBLE_BODY_CLOSE_AND_CLEAR" desc="Body of a bubble that informs the user that Galeob closed + cleared data automatically, because they were away from the computer for X minutes.">
           Your organization closes Galeob when it isn't used for <ph name="TIMEOUT_DURATION">$1<ex>30 minutes</ex></ph>. Browsing data was deleted. This could include history, autofill, and downloads.
         </message>
-        <message name="IDS_IDLE_BUBBLE_BODY_CLEAR" desc="Body of a bubble that informs the user that Brave cleared data automatically, because they were away from the computer for X minutes.">
+        <message name="IDS_IDLE_BUBBLE_BODY_CLEAR" desc="Body of a bubble that informs the user that Galeob cleared data automatically, because they were away from the computer for X minutes.">
           Your organization deletes Galeob data when it isn't used for <ph name="TIMEOUT_DURATION">$1<ex>30 minutes</ex></ph>. This could include history, autofill, and downloads.
         </message>
-        <message name="IDS_IDLE_BUBBLE_BODY_CLOSE" desc="Body of a bubble that informs the user that Brave closed automatically, because they were away from the computer for X minutes.">
+        <message name="IDS_IDLE_BUBBLE_BODY_CLOSE" desc="Body of a bubble that informs the user that Galeob closed automatically, because they were away from the computer for X minutes.">
           Your organization closes Galeob when it isn't used for <ph name="TIMEOUT_DURATION">$1<ex>30 minutes</ex></ph>.
         </message>
       </if>
@@ -2325,17 +2325,17 @@ Galeob is unable to recover your settings.
         <message name="IDS_IDLE_TIMEOUT_CLOSE_AND_CLEAR_TITLE" desc="Title of the Idle Timeout dialog, warning the user that their windows are about to close and their browsing data will be lost.">
           Galeob will soon close and delete data
         </message>
-        <message name="IDS_IDLE_TIMEOUT_CLOSE_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Brave is going to close automatically.">
+        <message name="IDS_IDLE_TIMEOUT_CLOSE_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Galeob is going to close automatically.">
           {COUNT, plural,
           =1 {Your organization automatically closes Galeob when it isn't used for 1 minute.}
           other {Your organization automatically closes Galeob when it isn't used for # minutes.}}
         </message>
-        <message name="IDS_IDLE_TIMEOUT_CLEAR_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Brave is going to clear data automatically.">
+        <message name="IDS_IDLE_TIMEOUT_CLEAR_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Galeob is going to clear data automatically.">
           {COUNT, plural,
           =1 {Your organization automatically deletes browsing data when Galeob isn't used for 1 minute. This could include history, autofill, and downloads. Your tabs will stay open.}
           other {Your organization automatically deletes browsing data when Galeob isn't used for # minutes. This could include history, autofill, and downloads. Your tabs will stay open.}}
         </message>
-        <message name="IDS_IDLE_TIMEOUT_CLOSE_AND_CLEAR_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Brave is going to close and clear data automatically.">
+        <message name="IDS_IDLE_TIMEOUT_CLOSE_AND_CLEAR_BODY" desc="First sentence in the Idle Timeout dialog, warning the user that Galeob is going to close and clear data automatically.">
           {COUNT, plural,
           =1 {Your organization automatically closes Galeob when it isn't used for 1 minute. Browsing data is deleted. This could include history, autofill, and downloads.}
           other {Your organization automatically closes Galeob when it isn't used for # minutes. Browsing data is deleted. This could include history, autofill, and downloads.}}
@@ -2358,7 +2358,7 @@ Galeob is unable to recover your settings.
         </message>
       </if>
 
-      <!-- Brave parent extension/app install blocking dialog. -->
+      <!-- Galeob parent extension/app install blocking dialog. -->
       <if expr="enable_extensions_core">
         <message name="IDS_EXTENSION_PERMISSIONS_BLOCKED_BY_PARENT_PROMPT_MESSAGE" desc="Text for the dialog indicating that a parent has blocked extensions and apps.">
          Your parent has turned off "Permissions for sites, apps and extensions" for Galeob
@@ -2374,7 +2374,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE" desc="Profile picker main view title">
           Welcome to Galeob profiles
         </message>
-        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Brave profile would you like to use?' may be used instead">
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Galeob profile would you like to use?' may be used instead">
           Who's using Galeob?
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE" desc="Profile picker main view subtitle">
@@ -2400,27 +2400,27 @@ Galeob is unable to recover your settings.
         </message>
 
         <!-- First Run Experience -->
-        <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title" desc="This string appears as a heading on a full-page screen that asks the user to sign in to Brave with their Brave sync chain. It appears when the user launches Brave for the first time. When they sign in, they can personalize and customize Brave and remember their settings in their Brave sync chain. The tone should be inviting and alluring.">
+        <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title" desc="This string appears as a heading on a full-page screen that asks the user to sign in to Galeob with their Galeob sync chain. It appears when the user launches Galeob for the first time. When they sign in, they can personalize and customize Galeob and remember their settings in their Galeob sync chain. The tone should be inviting and alluring.">
           Sign in to Galeob
         </message>
-        <message name="IDS_FRE_GET_YOUR_BROWSER_READY_TITLE" meaning="Title" desc="It appears when the user launches Brave for the first time on the page that is displayed before the sign in page. When they sign in, they can personalize and customize Brave and remember their settings in their Brave sync chain. The tone should be inviting and alluring.">
+        <message name="IDS_FRE_GET_YOUR_BROWSER_READY_TITLE" meaning="Title" desc="It appears when the user launches Galeob for the first time on the page that is displayed before the sign in page. When they sign in, they can personalize and customize Galeob and remember their settings in their Galeob sync chain. The tone should be inviting and alluring.">
           Let's get your Galeob ready
         </message>
 
         <!-- Default Browser Promo -->
-        <message name="IDS_FRE_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Brave as their default browser in the first run experience.">
+        <message name="IDS_FRE_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Galeob as their default browser in the first run experience.">
           Set Galeob as your default browser
         </message>
-        <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_TITLE" desc="Title for the page that prompts user to set Brave as their default browser and pin to taskbar in the first run experience.">
+        <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_TITLE" desc="Title for the page that prompts user to set Galeob as their default browser and pin to taskbar in the first run experience.">
           Use Galeob by default and get it pinned
         </message>
-        <message name="IDS_FRE_DEFAULT_BROWSER_SUBTITLE_NEW" desc="Subtitle for the page that prompts user to set Brave as their default browser in the first run experience.">
+        <message name="IDS_FRE_DEFAULT_BROWSER_SUBTITLE_NEW" desc="Subtitle for the page that prompts user to set Galeob as their default browser in the first run experience.">
           Use Galeob anytime you click links in messages, documents, and other apps
         </message>
-        <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_SUBTITLE" desc="Subtitle for the page that prompts user to set Brave as their default browser and pin to taskbar in the first run experience.">
+        <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_SUBTITLE" desc="Subtitle for the page that prompts user to set Galeob as their default browser and pin to taskbar in the first run experience.">
           Open links in Galeob from any app. Plus for easy access, it gets pinned to your taskbar.
         </message>
-        <message name="IDS_FRE_DEFAULT_BROWSER_ILLUSTRATION_ALT_TEXT" desc="Alt text for the illustration in the page that prompts user to set Brave as their default browser.">
+        <message name="IDS_FRE_DEFAULT_BROWSER_ILLUSTRATION_ALT_TEXT" desc="Alt text for the illustration in the page that prompts user to set Galeob as their default browser.">
           Galeob logo inside a computer screen.
         </message>
         <message name="IDS_APP_MENU_TOOLTIP_DEFAULT_PROMPT" desc="The tooltip to show for the browser menu when the default browser prompt is displayed">
@@ -2429,15 +2429,15 @@ Galeob is unable to recover your settings.
         <message name="IDS_APP_MENU_BUTTON_DEFAULT_PROMPT" desc="Text in the browser menu chip indicating that the user can change their default browser">
           Set Galeob as your default
         </message>
-        <message name="IDS_SET_BROWSER_AS_DEFAULT_MENU_ITEM" desc="Menu item that prompts user to set Brave as their default browser.">
+        <message name="IDS_SET_BROWSER_AS_DEFAULT_MENU_ITEM" desc="Menu item that prompts user to set Galeob as their default browser.">
           Set Galeob as your default browser
         </message>
 
         <!-- Default Browser Promo Refresh -->
-        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Brave as their default browser in the refreshed first run experience.">
+        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Galeob as their default browser in the refreshed first run experience.">
           Set Galeob as default and pin it to taskbar
         </message>
-        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set Brave as their default browser in the refreshed first run experience.">
+        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set Galeob as their default browser in the refreshed first run experience.">
           Open links in Galeob from any app and keep the browser accessible on your taskbar
         </message>
 
@@ -2453,10 +2453,10 @@ Galeob is unable to recover your settings.
         </message>
 
         <!-- Web Signout Intercept IPH -->
-        <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT" desc="This confirmation message is intended to help users to understand that signing out of a Brave service (like Gmail) will not sign them out of Brave. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Brave service (like Gmail). The user can open the Profile Menu and sign out of Brave, if they wish to do so.">
+        <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT" desc="This confirmation message is intended to help users to understand that signing out of a Galeob service (like Gmail) will not sign them out of Galeob. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Galeob service (like Gmail). The user can open the Profile Menu and sign out of Galeob, if they wish to do so.">
           To remove your Galeob sync chain from Galeob, sign out
         </message>
-        <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT_SCREENREADER" desc="Text announced by screenreaders related to the confirmation message is intended to help users to understand that signing out of a Brave service (like Gmail) will not sign them out of Brave. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Brave service (like Gmail). The user can open the Profile Menu and sign out of Brave, if they wish to do so.">
+        <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT_SCREENREADER" desc="Text announced by screenreaders related to the confirmation message is intended to help users to understand that signing out of a Galeob service (like Gmail) will not sign them out of Galeob. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Galeob service (like Gmail). The user can open the Profile Menu and sign out of Galeob, if they wish to do so.">
           To remove your Galeob sync chain from Galeob, sign out of Galeob in the Settings page
         </message>
 
@@ -2496,7 +2496,7 @@ Galeob is unable to recover your settings.
         You usually block notifications. To let this site notify you, click the notification icon on the right corner of your location bar.
       </message>
 
-      <!-- BraveLabs bubble -->
+      <!-- GaleobLabs bubble -->
       <message name="IDS_CHROMELABS_RELAUNCH_FOOTER_MESSAGE" desc="Text that shows in the footer of the Brave Labs bubble when relaunch is needed for changes to take effect.">
         Your changes will take effect the next time you relaunch Galeob.
       </message>
@@ -2526,16 +2526,16 @@ Galeob is unable to recover your settings.
 
       <!--Launch On Startup-->
       <if expr="is_win">
-        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_LABEL" desc="Label for settings toggle button that enables or disables opening Brave on system startup">
+        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_LABEL" desc="Label for settings toggle button that enables or disables opening Galeob on system startup">
           Launch Galeob when Windows starts
         </message>
-        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_SUB_LABEL" desc="Sub label for settings toggle button that enables or disables opening Brave on system startup">
+        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_SUB_LABEL" desc="Sub label for settings toggle button that enables or disables opening Galeob on system startup">
           Launch Galeob automatically to begin browsing instantly.
         </message>
-        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_IN_TITLE" desc="Title of the infobar shown to ask the user if they want to allow Brave to launch when windows starts.">
+        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_IN_TITLE" desc="Title of the infobar shown to ask the user if they want to allow Galeob to launch when windows starts.">
           Begin browsing instantly: Galeob can now launch when Windows starts.
         </message>
-        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_OUT_TITLE" desc="Title of the infobar shown to inform the user that Brave now starts automatically when Windows starts.">
+        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_OUT_TITLE" desc="Title of the infobar shown to inform the user that Galeob now starts automatically when Windows starts.">
           Galeob now launches when Windows starts so you can begin browsing instantly. You can turn this off in settings.
         </message>
       </if>
@@ -2556,7 +2556,7 @@ Galeob is unable to recover your settings.
       <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_OPTIMIZER_BLOCKED_SUB_LABEL" desc="Sub-label for the disabled option of the JavaScript optimizer content setting.">
         Reduces performance but makes Galeob more resistant to attacks
       </message>
-      <!-- BraveUpdater Strings -->
+      <!-- GaleobUpdater Strings -->
       <if expr="is_win">
         <message name="IDS_FRIENDLY_COMPANY_NAME" desc="Company name" translateable="false">
           Galeob
@@ -2822,7 +2822,7 @@ Galeob is unable to recover your settings.
 
       <!-- New Create Shortcut View Strings -->
       <if expr="not is_android and not is_chromeos">
-        <message name="IDS_CREATE_SHORTCUT_NOT_APPS_DIALOG_SUBTITLE" desc="Subtitle of the updated Create Shortcut dialog about how the site opens for Brave">
+        <message name="IDS_CREATE_SHORTCUT_NOT_APPS_DIALOG_SUBTITLE" desc="Subtitle of the updated Create Shortcut dialog about how the site opens for Galeob">
           Shortcuts open in Galeob
         </message>
       </if>
@@ -2942,7 +2942,7 @@ Galeob is unable to recover your settings.
       <message name="IDS_SETTINGS_GLIC_KEYBOARD_SHORTCUT_SUBLABEL" desc="Sublabel describing the keyboard shortcut that's used to globally invoke Gemini." formatter_data="android_java">
         Open Gemini in Galeob with a keyboard shortcut.
       </message>
-      <message name="IDS_SETTINGS_GLIC_NAVIGATION_SHORTCUT_SUBLABEL" desc="Sublabel describing the keyboard shortcut navigate between Brave and Gemini." formatter_data="android_java">
+      <message name="IDS_SETTINGS_GLIC_NAVIGATION_SHORTCUT_SUBLABEL" desc="Sublabel describing the keyboard shortcut navigate between Galeob and Gemini." formatter_data="android_java">
         To leave or return to Gemini in Galeob, use keyboard shortcut.
       </message>
       <message name="IDS_SETTINGS_GLIC_KEEP_SIDEPANEL_OPEN_ON_NEW_TABS_SUBLABEL" desc="Sublabel describing the setting to keep side panel open when new tabs are opened.">
@@ -2951,7 +2951,7 @@ Galeob is unable to recover your settings.
       <message name="IDS_SETTINGS_GLIC_SELECTION_SHORTCUT_SUBLABEL" desc="Sublabel describing the selection shortcut triggering in Gemini.">
         To select part of the screen in Gemini in Galeob, use keyboard shortcut.
       </message>
-      <message name="IDS_SETTINGS_GLIC_HOTKEY_SCOPE_CHROME" desc="Label for the 'In Brave' option in the shortcut invocation scope dropdown.">
+      <message name="IDS_SETTINGS_GLIC_HOTKEY_SCOPE_CHROME" desc="Label for the 'In Galeob' option in the shortcut invocation scope dropdown.">
         In Galeob
       </message>
 
@@ -2996,19 +2996,19 @@ Galeob is unable to recover your settings.
       <message name="IDS_DICE_MIGRATION_CONFIRMATION_TOAST_MESSAGE" desc="The confirmation message shown in a toast after the user clicks on the accept button on the Dice Migration dialog.">
         You now have more features available in Galeob
       </message>
-      <message name="IDS_DICE_MIGRATION_CONFIRMATION_TOAST_BUTTON" desc="The text on the button of the confirmation toast shown after the user clicks the accept button on the Dice Migration dialog, that allows the users to control the sync settings or sign out of Brave.">
+      <message name="IDS_DICE_MIGRATION_CONFIRMATION_TOAST_BUTTON" desc="The text on the button of the confirmation toast shown after the user clicks the accept button on the Dice Migration dialog, that allows the users to control the sync settings or sign out of Galeob.">
         Manage
       </message>
 
       <!-- Profile menu strings -->
       <if expr="not is_android">
         <if expr="use_titlecase">
-          <message name="IDS_PROFILE_MENU_ACCOUNT_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Brave account settings.">
+          <message name="IDS_PROFILE_MENU_ACCOUNT_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Galeob account settings.">
             Your Account in Galeob
           </message>
         </if>
         <if expr="not use_titlecase">
-          <message name="IDS_PROFILE_MENU_ACCOUNT_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Brave account settings.">
+          <message name="IDS_PROFILE_MENU_ACCOUNT_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Galeob account settings.">
             Your account in Galeob
           </message>
         </if>
@@ -3072,7 +3072,7 @@ Galeob is unable to recover your settings.
         <message name="IDS_IOS_DESKTOP_LENS_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Lens promo bubble with a QR code.">
           Try Google Lens with Galeob on your phone
         </message>
-        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_DESCRIPTION_QR" desc="The description for the iOS desktop password promo bubble footer which lets the user know how to use their saved passwords on their phone: follow the QR code, download Brave for iOS and sign in to their account.">
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_DESCRIPTION_QR" desc="The description for the iOS desktop password promo bubble footer which lets the user know how to use their saved passwords on their phone: follow the QR code, download Galeob for iOS and sign in to their account.">
           To use your saved passwords, follow the QR code, download Galeob for iOS and sign in to your Galeob sync chain
         </message>
         <message name="IDS_IOS_DESKTOP_PRICE_TRACKING_DESCRIPTION_QR" desc="The description for the iOS desktop price tracking promo bubble with a QR code.">
@@ -3105,22 +3105,22 @@ Galeob is unable to recover your settings.
         <message name="IDS_IOS_DESKTOP_AI_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop AI promo notification.">
           Use the Galeob app to take the best AI tools on the go
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Best of Brave promo bubble with a QR code.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Best of Galeob promo bubble with a QR code.">
           Scan the QR code with your phone to download Galeob and sign in to your Galeob sync chain.
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Best of Brave promo bubble with a QR code.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Best of Galeob promo bubble with a QR code.">
           Get the best of Galeob with the Galeob app on your phone
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Best of Brave promo bubble with a reminder.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Best of Galeob promo bubble with a reminder.">
           Seamlessly work with your favorite apps like Google Drive and YouTube on the go with Galeob.
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_TITLE_REMINDER" desc="The title for the iOS desktop Best of Brave promo bubble with a reminder.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_BUBBLE_TITLE_REMINDER" desc="The title for the iOS desktop Best of Galeob promo bubble with a reminder.">
           Get the best of Galeob with the Galeob app on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop Best of Brave promo notification.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop Best of Galeob promo notification.">
           Access all of your Galeob favorites with Galeob on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>
         </message>
-        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_NOTIFICATION_TITLE" desc="The title for the iOS desktop Best of Brave promo notification.">
+        <message name="IDS_IOS_DESKTOP_BEST_OF_GOOGLE_PROMO_NOTIFICATION_TITLE" desc="The title for the iOS desktop Best of Galeob promo notification.">
           Reminder: The best of Galeob in your pocket
         </message>
         <message name="IDS_IOS_DESKTOP_SAFETY_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Safety promo bubble with a QR code.">
@@ -3156,28 +3156,28 @@ Galeob is unable to recover your settings.
         <message name="IDS_IOS_DESKTOP_SHOPPING_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop Shopping promo notification.">
           Use the Galeob app to take the best shopping tools on the go
         </message>
-        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Your Brave promo bubble with a QR code.">
+        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Your Galeob promo bubble with a QR code.">
           Scan the QR code with your phone to download Galeob and sign in to your Galeob sync chain.
         </message>
-        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Your Brave promo bubble with a QR code.">
+        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Your Galeob promo bubble with a QR code.">
           Take your passwords, tabs and more on the go with the Galeob app on your phone
         </message>
-        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Your Brave promo bubble with a reminder.">
+        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Your Galeob promo bubble with a reminder.">
           Pick up right where you left off with Galeob on iOS.
         </message>
-        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_TITLE_REMINDER" desc="The title for the iOS desktop Your Brave promo bubble with a reminder.">
+        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_BUBBLE_TITLE_REMINDER" desc="The title for the iOS desktop Your Galeob promo bubble with a reminder.">
           Take your passwords, tabs and more on the go with the Galeob app on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>
         </message>
-        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop Your Brave promo notification.">
+        <message name="IDS_IOS_DESKTOP_YOUR_CHROME_PROMO_NOTIFICATION_BODY" desc="The body for the iOS desktop Your Galeob promo notification.">
           Use the Galeob app to keep browsing on the go
         </message>
       </if>
 
       <!--Default Search Engine Reset Notification-->
-      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_TITLE" desc="Title of the notification shown when Brave resets the default search engine (DSE) due to preference tampering.">
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_TITLE" desc="Title of the notification shown when Galeob resets the default search engine (DSE) due to preference tampering.">
         Your settings were changed by an unknown app
       </message>
-      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_BODY" desc="Body text of the notification shown when Brave resets the default search engine, explaining that a change from outside Brave was detected.">
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_BODY" desc="Body text of the notification shown when Galeob resets the default search engine, explaining that a change from outside Galeob was detected.">
         Your search engine was changed from outside of Galeob. To protect you, Galeob reset it to its original default. <ph name="LEARN_MORE_LINK">$1<ex>Learn more</ex></ph>
       </message>
       <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_GOT_IT_BUTTON" desc="Label for the 'Got it' button in the default search engine reset notification, which dismisses the UI.">
@@ -3191,10 +3191,10 @@ Galeob is unable to recover your settings.
       </message>
 
       <!--Report-unsafe-site Dialog (accessed from Help menu)-->
-      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_TITLE" desc="Title of the dialog for reporting an unsafe site to Brave">
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_TITLE" desc="Title of the dialog for reporting an unsafe site to Galeob">
         Report this site
       </message>
-      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_DESCRIPTION" desc="Explanatory text in dialog for reporting an unsafe site to Brave">
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_DESCRIPTION" desc="Explanatory text in dialog for reporting an unsafe site to Galeob">
         Improve online safety for everyone when you report a site you think is harmful.
       </message>
       <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_FOOTER" desc="Explanatory text in dialog footer describing what other information is sent as part of the unsafe-site-report.">
@@ -3216,10 +3216,10 @@ If this page isn’t working as expected, try allowing optimization.
       </message>
 
       <!-- Enterprise device signals disclaimer -->
-      <message name="IDS_ENTERPRISE_DEVICE_SIGNALS_DISCLAIMER_TITLE" desc="Title of an enterprise device signals collection disclaimer modal dialog. The dialog is shown on Brave startup to managed Brave users who have not previously acknowledged device signals collection.">
+      <message name="IDS_ENTERPRISE_DEVICE_SIGNALS_DISCLAIMER_TITLE" desc="Title of an enterprise device signals collection disclaimer modal dialog. The dialog is shown on Galeob startup to managed Galeob users who have not previously acknowledged device signals collection.">
         Your work secured on Galeob
       </message>
-      <message name="IDS_ENTERPRISE_DEVICE_SIGNALS_DISCLAIMER_SUBTITLE" desc="Subtitle of an enterprise device signals collection disclaimer modal dialog. The dialog is shown on Brave startup to managed Brave users who have not previously acknowledged device signals collection.">
+      <message name="IDS_ENTERPRISE_DEVICE_SIGNALS_DISCLAIMER_SUBTITLE" desc="Subtitle of an enterprise device signals collection disclaimer modal dialog. The dialog is shown on Galeob startup to managed Galeob users who have not previously acknowledged device signals collection.">
         To secure your work on Galeob, your organization will be able to view or manage certain information when you’re signed-in to Galeob.
       </message>
     <message name="IDS_CHROME_SHORTCUT_NAME_BETA" desc="The Chrome shortcut name for beta channel">

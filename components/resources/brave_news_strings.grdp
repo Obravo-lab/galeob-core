@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
   <message name="IDS_BRAVE_NEWS_INTRO_TITLE" desc="Title for introduction to Brave News news feed section" formatter_data="webui=BraveNews">
-    Turn on Brave News, and never miss a story
+    Turn on Galeob News, and never miss a story
   </message>
   <message name="IDS_BRAVE_NEWS_INTRO_DESCRIPTION" desc="Description for introduction to Brave News news feed section. Do not translate the title Brave News." formatter_data="webui=BraveNews">
-    Follow your favorite sources, in a single feed. Just open a tab in Brave, scroll down, and… voila!
+    Follow your favorite sources, in a single feed. Just open a tab in Galeob, scroll down, and… voila!
   </message>
   <message name="IDS_BRAVE_NEWS_OPT_IN_ACTION_LABEL" desc="Button text for opting in to Brave News" formatter_data="webui=BraveNews">
-    Turn on Brave News
+    Turn on Galeob News
   </message>
   <message name="IDS_BRAVE_NEWS_OPT_OUT_ACTION_LABEL" desc="Button text for opting out of Brave News" formatter_data="webui=BraveNews">
     No thanks
   </message>
   <message name="IDS_BRAVE_NEWS_SETTINGS_TITLE" desc="Title for the News settings dialog" formatter_data="webui=BraveNews">
-    Brave News
+    Galeob News
   </message>
   <message name="IDS_BRAVE_NEWS_SETTINGS_SECTION_TITLE" desc="Title for the settings section within the News customize dialog" formatter_data="webui=BraveNews">
     Settings
   </message>
   <message name="IDS_BRAVE_NEWS_ENABLE_LABEL" desc="Label for the toggle that enables Brave News" formatter_data="webui=BraveNews">
-    Enable Brave News
+    Enable Galeob News
   </message>
   <message name="IDS_BRAVE_NEWS_BACK_BUTTON" desc="Label for the back button" formatter_data="webui=BraveNews">
     Back
@@ -85,7 +85,7 @@
     Oops…
   </message>
   <message name="IDS_BRAVE_NEWS_ERROR_MESSAGE" desc="Message body for when there is a Brave News error" formatter_data="webui=BraveNews">
-    Brave News was unable to fetch content.
+    Galeob News was unable to fetch content.
   </message>
   <message name="IDS_BRAVE_NEWS_ERROR_ACTION_LABEL" desc="Message action label for when there is a Brave News error" formatter_data="webui=BraveNews">
     Try again
@@ -101,7 +101,7 @@
   </message>
 
   <message name="IDS_BRAVE_NEWS_CHANNEL_BRAVE" desc="Translation of the 'Brave' channel" formatter_data="webui=BraveNews">
-    Brave
+    Galeob
   </message>
   <message name="IDS_BRAVE_NEWS_CHANNEL_BUSINESS" desc="Translation of the 'Business' channel" formatter_data="webui=BraveNews">
     Business

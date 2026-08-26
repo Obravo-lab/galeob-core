@@ -12,10 +12,10 @@
     Reset Galeob Rewards
   </message>
   <message name="IDS_BRAVE_UI_REWARDS_RESET_TEXT" desc="">
-    By resetting, your current Galeob Rewards profile will be deleted, and Brave Rewards will no longer be enabled. If you enable Brave Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph> for more details.
+    By resetting, your current Galeob Rewards profile will be deleted, and Galeob Rewards will no longer be enabled. If you enable Galeob Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph> for more details.
   </message>
   <message name="IDS_BRAVE_UI_REWARDS_RESET_CONSENT" desc="">
-    I understand that my current Galeob Rewards profile and Brave Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph>.
+    I understand that my current Galeob Rewards profile and Galeob Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_RESET_REWARDS_BUTTON_LABEL" desc="">
     Disable and reset Rewards
@@ -129,7 +129,7 @@
   <message name="IDS_REWARDS_PUBLISHER_COUNT_TEXT" desc="">
     {PUBLISHER_COUNT, plural,
       =1 {This month, you've visited # creator supported by Galeob Rewards}
-      other {This month, you've visited # creators supported by Brave Rewards}
+      other {This month, you've visited # creators supported by Galeob Rewards}
     }
   </message>
   <message name="IDS_REWARDS_CONNECT_ACCOUNT_TEXT_2" desc="">
@@ -306,7 +306,7 @@
     Solved!
   </message>
   <message name="IDS_REWARDS_CAPTCHA_SOLVED_TEXT" desc="">
-    Galeob Ads will resume. Thanks for helping us protect Brave Rewards.
+    Galeob Ads will resume. Thanks for helping us protect Galeob Rewards.
   </message>
   <message name="IDS_REWARDS_CAPTCHA_CONTACT_SUPPORT" desc="">
     Contact support
@@ -463,7 +463,7 @@
     Updated Terms of Service
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="">
-    We’ve updated the Terms of Service for Galeob Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use Brave Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">/$1</ph> Galeob Rewards, which will disable the feature.
+    We’ve updated the Terms of Service for Galeob Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use Galeob Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">/$1</ph> Galeob Rewards, which will disable the feature.
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_NTP_TEXT" desc="" formatter_data="webui=BraveRewards">
     We've updated our Terms of Service. To keep using Galeob Rewards, please review and agree to the updated terms.
@@ -504,7 +504,7 @@
     Verified Creator
   </message>
   <message name="IDS_REWARDS_TIP_VERIFIED_TOOLTIP_TEXT" desc="">
-    This creator has registered with Galeob and can receive contributions from Brave Rewards users.
+    This creator has registered with Galeob and can receive contributions from Galeob Rewards users.
   </message>
   <message name="IDS_REWARDS_TIP_MONTHLY_TOOLTIP_TEXT" desc="">
     Make this a monthly recurring contribution. You can cancel it at any time.
@@ -661,7 +661,7 @@
     Limit reached on payout account
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_1" desc="">
-    Unfortunately, your Galeob Rewards profile was flagged because our automated checks found some unexpected Brave Ads activity.
+    Unfortunately, your Galeob Rewards profile was flagged because our automated checks found some unexpected Galeob Ads activity.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_2" desc="">
     While your profile is flagged, you may continue to see ads, but won't be eligible to receive payouts. You also won't be able to connect a custodial account to Galeob Rewards.

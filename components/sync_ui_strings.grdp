@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <if expr="not is_android">
     <message name="IDS_SYNC_BASIC_ENCRYPTION_DATA" desc="Text of the radio that when selected enables basic encryption.">
-      Encrypt synced passwords with your Brave sync chain
+      Encrypt synced passwords with your Galeob sync chain
     </message>
     <message name="IDS_SYNC_DATATYPE_AUTOFILL" desc="Form Autofill items, one of the data types that we allow syncing.">
       Addresses and More
@@ -64,24 +64,24 @@
     }
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_COMPUTER_FORMAT" desc="Format for device name when it is a computer, combining manufacturer and 'Computer' (e.g. 'Brave Computer').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Computer
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Computer
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_PHONE_FORMAT" desc="Format for device name when it is a phone, combining manufacturer and 'Phone' (e.g. 'Brave Phone').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Phone
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Phone
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_TABLET_FORMAT" desc="Format for device name when it is a tablet, combining manufacturer and 'Tablet' (e.g. 'Brave Tablet').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Tablet
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Tablet
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_DEVICE_FORMAT" desc="Format for device name when it is an unknown device, combining manufacturer and 'Device' (e.g. 'Brave Device').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Device
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Device
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_DESKTOP_FORMAT" desc="Format for device name when it is a desktop computer, combining manufacturer and 'Desktop' (e.g. 'Brave Desktop').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Desktop
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Desktop
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_LAPTOP_FORMAT" desc="Format for device name when it is a laptop computer, combining manufacturer and 'Laptop' (e.g. 'Brave Laptop').">
-      <ph name="MANUFACTURER">$1<ex>Brave</ex></ph> Laptop
+      <ph name="MANUFACTURER">$1<ex>Galeob</ex></ph> Laptop
     </message>
     <message name="IDS_SYNC_DEVICE_NAME_WITH_MODEL_FORMAT" desc="Format for device name with model, combining the preferred device name and the model (e.g. 'Brave Phone Pixel 2').">
-      <ph name="DEVICE_NAME">$1<ex>Brave Phone</ex></ph> <ph name="MODEL">$2<ex>Pixel 2</ex></ph>
+      <ph name="DEVICE_NAME">$1<ex>Galeob Phone</ex></ph> <ph name="MODEL">$2<ex>Pixel 2</ex></ph>
     </message>
 </grit-part>

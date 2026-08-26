@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <grit base_dir="." latest_public_release="0" current_release="1"
       source_lang_id="en" enc_check="möl">
   <outputs>
@@ -174,10 +174,10 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <!-- Brave Settings WebUI strings -->
+      <!-- Galeob Settings WebUI strings -->
       <part file="brave_settings_strings.grdp" />
 
-      <!-- Brave App Management strings -->
+      <!-- Galeob App Management strings -->
       <part file="brave_app_management.grdp" />
 
       <!--Add new items to the appropriate sections below -->
@@ -244,7 +244,7 @@
       <message name="IDS_SHOW_BRAVE_WALLET" desc="The show Galeob Wallet menu item (app menu)">
         Wallet
       </message>
-      <message name="IDS_TOGGLE_AI_CHAT" desc="The show Brave Leo AI Chat menu item (app menu)">
+      <message name="IDS_TOGGLE_AI_CHAT" desc="The show Galeob Leo AI Chat menu item (app menu)">
         Leo AI
       </message>
       <message name="IDS_OPEN_MORE_OTHER_DEVICES_SESSIONS" desc="The history sub-menu item to show sessions from other devices">
@@ -417,7 +417,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
       </message>
 
       <!-- Extensions -->
-      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Brave. Asks the user if they want to install a particular extension or app.">
+      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Galeob. Asks the user if they want to install a particular extension or app.">
         Galeob does not review extensions for security and safety. Install "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" only if you trust the developer.
       </message>
 
@@ -675,7 +675,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         </message>
       </if>
 
-      <!-- Brave crash report permission ask dialog -->
+      <!-- Galeob crash report permission ask dialog -->
       <if expr="not is_android">
         <message name="IDS_CRASH_REPORT_PERMISSION_ASK_DIALOG_OK_BUTTON_LABEL" desc="The text for ok button">
           Allow
@@ -832,7 +832,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         </message>
       </if>
 
-      <!-- Brave Ads -->
+      <!-- Galeob Ads -->
       <message name="IDS_BRAVE_ADS_NOTIFICATION_AD_CLOSE_BUTTON" desc="Text to be spoken for the notification ad close button">
         Close
       </message>
@@ -860,7 +860,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         Contribute some anonymous search &amp; browsing data to refine Galeob Search.
       </message>
 
-      <!-- Brave Tooltips -->
+      <!-- Galeob Tooltips -->
       <message name="IDS_BRAVE_TOOLTIPS_BRAVE_TOOLTIP_ACCESSIBLE_NAME" desc="Text to be spoken when a tooltip is shown">
         Galeob Tooltip
       </message>
@@ -1026,7 +1026,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
       <message name="IDS_BRAVE_WEB3_DOMAINS_SETTINGS_SECTION" desc="Open Web3 Domains settings section">
         Web3 Domains
       </message>
-      <!-- Brave Wayback Machine -->
+      <!-- Galeob Wayback Machine -->
       <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_SORRY_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
         Sorry, that page is missing.
       </message>
@@ -1046,7 +1046,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         Dismiss
       </message>
 
-      <!-- Brave's copyright statement -->
+      <!-- Galeob's copyright statement -->
       <message name="IDS_BRAVE_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
         Galeob is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
         You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instructions on how to download and build for yourself<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
@@ -1599,7 +1599,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
       </message>
 
       <!--PSST -->
-      <message name="IDS_BRAVE_PSST_INFOBAR_MESSAGE" desc="Infobar message body informing the user that Brave's Privacy Settings Suggestion Tool (PSST) can optimize their privacy settings on this site.">
+      <message name="IDS_BRAVE_PSST_INFOBAR_MESSAGE" desc="Infobar message body informing the user that Galeob's Privacy Settings Suggestion Tool (PSST) can optimize their privacy settings on this site.">
         Galeob can help you optimize this site's privacy settings. Would you like to review Galeob's suggestions?
       </message>
       <message name="IDS_BRAVE_PSST_INFO_BAR_REVIEW_SUGGESTIONS" desc="Button label for the infobar action that starts the review of Privacy Settings Suggestion Tool (PSST) recommendations.">
@@ -1615,7 +1615,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
           Disable Privacy settings tuning
       </message>
 
-      <!-- Brave policy -->
+      <!-- Galeob policy -->
       <message name="IDS_BRAVE_CONTROLLED_SETTING_POLICY" desc="Text displayed in the controlled settings bubble when a setting's value is managed by policy.">
         This setting is managed by your administrator or by another Galeob policy.
       </message>

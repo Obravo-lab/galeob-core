@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!-- Bookmarks specific strings (included from generated_resources.grd). -->
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
@@ -271,13 +271,13 @@
   <message name="IDS_BOOKMARK_DICE_PROMO_SYNC_MESSAGE" desc="Text of the sync promo displayed at the bottom of the bookmark bubble asking the user to enable sync.">
     To get your bookmarks on all your devices, turn on sync.
   </message>
-  <message name="IDS_BOOKMARK_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the bookmark is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Brave sync chain. It appears when the user was signed in to Brave with account storage for bookmarks enabled but their sign-in credentials have expired; now, they need to sign back in to Brave. The string is after the 'Bookmark added' string. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
+  <message name="IDS_BOOKMARK_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the bookmark is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Galeob sync chain. It appears when the user was signed in to Galeob with account storage for bookmarks enabled but their sign-in credentials have expired; now, they need to sign back in to Galeob. The string is after the 'Bookmark added' string. If the user wants to save this data to their Galeob sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
     To get this bookmark on all your devices, verify it's you
   </message>
   <!-- End of Bookmarks Promo strings for Desktop Identity Consistency. -->
 
   <!-- UNO Promo strings for bookmarks -->
-  <message name="IDS_BOOKMARK_PROMO_TITLE" desc="This is the body text of a confirmation message and means that the bookmark was either saved locally, or to the user's pending account storage if their sign-in credentials have expired. It appears after a bookmark save if the user is not signed in to Brave or their sign-in credentials have expired. If the user wants to save this data to their Brave sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
+  <message name="IDS_BOOKMARK_PROMO_TITLE" desc="This is the body text of a confirmation message and means that the bookmark was either saved locally, or to the user's pending account storage if their sign-in credentials have expired. It appears after a bookmark save if the user is not signed in to Galeob or their sign-in credentials have expired. If the user wants to save this data to their Galeob sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
     Use bookmarks across devices
   </message>
   <!-- End of UNO Promo strings for bookmarks -->

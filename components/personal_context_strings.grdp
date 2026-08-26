@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!-- TODO(b/507316824,b/514254246): Fill final strings, and prepare to be translateable. -->
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
@@ -49,13 +49,13 @@
       You’re helping improve enhanced autofill
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_HELPING_IMPROVE_NOTICE_ANDROID_SUMMARY" desc="Description text explaining what data is shared when the user interacts with the enhanced autofill feature." formatter_data="android_java">
-      When you make a request for enhanced autofill, your usage data, requests, and page details are shared with Brave to improve the autofill experience
+      When you make a request for enhanced autofill, your usage data, requests, and page details are shared with Galeob to improve the autofill experience
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_WHEN_USED_TITLE_ANDROID" desc="Subheading in the settings page describing the data logging behavior when the enhanced autofill feature is triggered by the user." formatter_data="android_java">
       When used
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_LOGS_NOTICE_ANDROID" desc="Bullet point text under 'When used' detailing what specific usage metrics are recorded." formatter_data="android_java">
-      Brave logs how you use the feature, such as your requests and your behavior when you accept or ignore suggestions
+      Galeob logs how you use the feature, such as your requests and your behavior when you accept or ignore suggestions
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_ANALYZED_NOTICE_ANDROID" desc="Bullet point text under 'When used' explaining how system data is utilized to enhance the AI model." formatter_data="android_java">
       System data, including form fields and feature performance, is analyzed to improve future suggestions
@@ -64,7 +64,7 @@
       Things to consider
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_HUMANS_NOTICE_ANDROID" desc="Bullet point text under 'Things to consider' detailing the privacy implications and human review process of the shared data." formatter_data="android_java">
-      Your requests, page titles, and URLs are sent to Brave and may be reviewed to improve enhanced autofill
+      Your requests, page titles, and URLs are sent to Galeob and may be reviewed to improve enhanced autofill
     </message>
     <message name="IDS_PERSONAL_CONTEXT_AUTOFILL_SETTINGS_NEVER_SEEN_NOTICE_ANDROID" desc="Bullet point text under 'Things to consider' reassuring the user about the privacy of the actual form data they populate." formatter_data="android_java">
       The info you autofill is never seen by anyone

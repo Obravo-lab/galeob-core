@@ -15,6 +15,13 @@ interface Props {
 
 export function EngineIcon(props: Props) {
   const { engine } = props
+  if (engine.host === 'search.brave.com') {
+    return (
+      <span className='engine-icon'>
+        <GaleobSearchIcon/>
+      </span>
+    )
+  }
   const iconName = getNamedIcon(engine.host)
   if (iconName) {
     return (
@@ -38,8 +45,6 @@ function getNamedIcon(engineHost: string) {
       return 'google-color'
     case 'duckduckgo.com':
       return 'duckduckgo-color'
-    case 'search.brave.com':
-      return 'social-brave-release-favicon-fullheight-color'
     case 'www.bing.com':
       return 'bing-color'
     case 'www.qwant.com':
@@ -54,4 +59,14 @@ function getNamedIcon(engineHost: string) {
       return 'ecosia-color'
   }
   return ''
+}
+
+export function GaleobSearchIcon() {
+  return (
+    <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+      <circle cx='12' cy='12' r='11' stroke='currentColor' strokeWidth='2' fill='none'/>
+      <path d='M14.8 9.2a4 4 0 1 0 0 5.6' stroke='currentColor' strokeWidth='2' strokeLinecap='round' fill='none'/>
+      <path d='M14.8 9.2v3.1a1.7 1.7 0 0 0 1.7 1.7H18' stroke='currentColor' strokeWidth='2' strokeLinecap='round' fill='none'/>
+    </svg>
+  )
 }
