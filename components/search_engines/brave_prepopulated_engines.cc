@@ -207,7 +207,7 @@ const PrepopulatedEngine brave_yandex =
 
 // LINT.IfChange
 const PrepopulatedEngine brave_search = MakeBravePrepopulatedEngine(
-    u"Brave",
+    u"Galeob Search",
     u":br",
     "https://galeob.fr/serp/favicon.ico",
     "IDR_SEARCH_ENGINE_BRAVE",
