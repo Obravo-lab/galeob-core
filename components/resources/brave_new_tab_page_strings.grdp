@@ -434,7 +434,7 @@
   </message>
 
   <message name="IDS_NEW_TAB_VPN_WIDGET_TITLE" desc="Title of the Brave VPN NTP widget" formatter_data="webui=BraveNewTabPage">
-    BRAVE VPN
+    Galeob VPN
   </message>
 
   <message name="IDS_NEW_TAB_WIDGET_SETTINGS_TITLE" desc="Title of widgets settings panel" formatter_data="webui=BraveNewTabPage">

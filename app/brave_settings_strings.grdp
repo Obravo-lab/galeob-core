@@ -1822,7 +1822,7 @@
     The address you entered appears to be from a private network—like your router or a local server. Galeob blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_INSTRUCTIONS" desc="Instructions on how to enable private IPs">
-    To proceed, visit galeob://flags/, search for "brave-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
+    To proceed, visit galeob://flags/, search for "galeob-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_NEW_BUTTON_LABEL" desc="A label for a button that opens a panel with input forms for a user to add model">
     Add new model
