@@ -1418,7 +1418,7 @@ should be covered by unit tests or browser tests appropriate to the code — a C
 test is not required when there is no user-visible interaction to validate.
 
 **Exception:** This rule targets native (Views) UI that `InteractiveBrowserTest`
-can drive. Don't require a CUJ test for WebUI pages such as `brave://settings`
+can drive. Don't require a CUJ test for WebUI pages such as `galeob://settings`
 or `chrome://history`, where `InteractiveBrowserTest`-style testing is not
 available, nor for trivial UI with no meaningful logic to test (e.g. a toggle
 wired to a pref), nor for changes that follow an existing untested pattern in

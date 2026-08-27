@@ -106,7 +106,7 @@ export const WalletSettingsMenu = (props: Props) => {
         throw new Error('Coin not supported')
     }
 
-    chrome.tabs.create({ url: `brave://settings/content/${route}` }, () => {
+    chrome.tabs.create({ url: `galeob://settings/content/${route}` }, () => {
       if (chrome.runtime.lastError) {
         console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
       }

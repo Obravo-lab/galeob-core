@@ -25,7 +25,7 @@ provideStrings({
   braveWelcomeSendReportsLabel: 'Send diagnostic reports if you experience a crash or freeze. $1Learn more.$1',
   braveWelcomeSendInsightsLabel: 'Share private and anonymous product insights about what features are being used by Brave\'s users. $1Learn more.$1',
   braveWelcomeSetupCompleteLabel: 'Setup complete',
-  braveWelcomeChangeSettingsNote: ' Change these choices at any time in Brave at $1brave://settings/privacy$1.',
+  braveWelcomeChangeSettingsNote: ' Change these choices at any time in Brave at $1galeob://settings/privacy$1.',
   braveWelcomePrivacyPolicyNote: 'Read our full $1Privacy Policy$1',
   braveWelcomeSelectThemeLabel: 'Choose your theme',
   braveWelcomeSelectThemeNote: 'You can change this at any time in Brave settings.',

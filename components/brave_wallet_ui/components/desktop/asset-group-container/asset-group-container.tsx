@@ -214,7 +214,7 @@ export const AssetGroupContainer = (props: Props) => {
   const onStartShieldSync = React.useCallback(async () => {
     if (isPanel && account) {
       openTab(
-        'brave://wallet'
+        'galeob://wallet'
           + makeAccountRoute(account, AccountPageTabs.AccountAssetsSub),
       )
       return

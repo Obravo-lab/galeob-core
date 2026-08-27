@@ -1385,7 +1385,7 @@ bool BraveContentBrowserClient::HandleURLOverrideRewrite(
     return false;
   }
 
-  // brave://sync => brave://settings/braveSync
+  // galeob://sync => galeob://settings/braveSync
   if (url->host() == chrome::kBraveUISyncHost) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
@@ -1396,7 +1396,7 @@ bool BraveContentBrowserClient::HandleURLOverrideRewrite(
   }
 
 #if !BUILDFLAG(IS_ANDROID)
-  // brave://adblock => brave://settings/shields/filters
+  // galeob://adblock => galeob://settings/shields/filters
   if (url->host() == kAdblockHost) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);

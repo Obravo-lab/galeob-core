@@ -135,8 +135,8 @@ class BraveRewardsNetworkAuditTest : public InProcessBrowserTest {
 };
 
 IN_PROC_BROWSER_TEST_F(BraveRewardsNetworkAuditTest, BasicTests) {
-  // Load brave://rewards and enable Brave Rewards.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://rewards")));
+  // Load galeob://rewards and enable Brave Rewards.
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("galeob://rewards")));
   ASSERT_TRUE(EnableBraveRewards());
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 }

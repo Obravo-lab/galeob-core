@@ -344,7 +344,7 @@ void BraveTorHandler::GetBridgesConfig(const base::ListValue& args) {
   ResolveJavascriptCallback(args[0], bridges_config.ToValue(false));
 }
 
-// Called from brave://settings/privacy when `Apply changes` is clicked.
+// Called from galeob://settings/privacy when `Apply changes` is clicked.
 void BraveTorHandler::SetBridgesConfig(const base::ListValue& args) {
   CHECK_EQ(2u, args.size());
   CHECK(args[1].is_dict());

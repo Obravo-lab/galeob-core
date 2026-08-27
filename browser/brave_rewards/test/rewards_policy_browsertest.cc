@@ -116,7 +116,7 @@ IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, AppMenuItemDisabled) {
   }
 }
 
-// Verify that brave://rewards and brave://rewards-internals pages aren't
+// Verify that galeob://rewards and galeob://rewards-internals pages aren't
 // reachable when Brave Rewards are disabled by policy.
 IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, RewardsPagesAccess) {
   for (const auto& url :
@@ -129,7 +129,7 @@ IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, RewardsPagesAccess) {
 }
 
 #if BUILDFLAG(ENABLE_BRAVE_ADS)
-// Verify that brave://ads-internals isn't reachable when Brave Rewards are
+// Verify that galeob://ads-internals isn't reachable when Brave Rewards are
 // disabled by policy.
 IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, AdsInternalsPageAccess) {
   auto* rfh =

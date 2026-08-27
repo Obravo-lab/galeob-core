@@ -489,7 +489,7 @@ async function getConversationContent(
   // When adding new varieties of conversation content, add it to one of these
   // cases or create a new case for any sub-variations of the content's rendering.
   // These files are created from real data by enabling the
-  // brave://flags/#brave-ai-chat-export-json feature flag and clicking the
+  // galeob://flags/#brave-ai-chat-export-json feature flag and clicking the
   // "Copy entire conversation" menu item with alt+meta keys pressed.
   // Then get the content in devtools with `copy(JSON.parse(_your_pasted_content_.data))`
   // and paste it as the ConversationDataJson literal of a new file in

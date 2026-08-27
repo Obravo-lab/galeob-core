@@ -1321,7 +1321,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
   BraveAddEmailAliasesStrings(html_source);
   BraveAddBraveAccountStrings(html_source);
 
-  // Load time data for brave://settings/extensions
+  // Load time data for galeob://settings/extensions
   html_source->AddBoolean(
       "signInAllowedOnNextStartupInitialValue",
       profile->GetPrefs()->GetBoolean(prefs::kSigninAllowedOnNextStartup));

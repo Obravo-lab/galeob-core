@@ -37,13 +37,13 @@ class BraveNavigationEntryTest : public testing::Test {
 TEST_F(BraveNavigationEntryTest,
        GetTitleForDisplayConvertsChromeSchemeToBrave) {
   auto entry = CreateEntry(GURL("chrome://settings"));
-  EXPECT_EQ(u"brave://settings", entry->GetTitleForDisplay());
+  EXPECT_EQ(u"galeob://settings", entry->GetTitleForDisplay());
 
   entry = CreateEntry(GURL("chrome://history"));
-  EXPECT_EQ(u"brave://history", entry->GetTitleForDisplay());
+  EXPECT_EQ(u"galeob://history", entry->GetTitleForDisplay());
 
   entry = CreateEntry(GURL("chrome://flags"));
-  EXPECT_EQ(u"brave://flags", entry->GetTitleForDisplay());
+  EXPECT_EQ(u"galeob://flags", entry->GetTitleForDisplay());
 }
 
 TEST_F(BraveNavigationEntryTest, GetTitleForDisplayPreservesExplicitTitle) {
@@ -57,8 +57,8 @@ TEST_F(BraveNavigationEntryTest,
   auto entry = CreateEntry(GURL("https://example.com"));
   EXPECT_EQ(u"example.com", entry->GetTitleForDisplay());
 
-  entry = CreateEntry(GURL("brave://settings"));
-  EXPECT_EQ(u"brave://settings", entry->GetTitleForDisplay());
+  entry = CreateEntry(GURL("galeob://settings"));
+  EXPECT_EQ(u"galeob://settings", entry->GetTitleForDisplay());
 
   entry = CreateEntry(GURL("http://chrome.com"));
   EXPECT_EQ(u"chrome.com", entry->GetTitleForDisplay());

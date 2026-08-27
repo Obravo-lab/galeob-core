@@ -61,17 +61,17 @@ void GetTestDataDir(base::FilePath* test_data_dir) {
 }
 
 GURL GetRewardsUrl() {
-  GURL url("brave://rewards");
+  GURL url("galeob://rewards");
   return url;
 }
 
 GURL GetRewardsInternalsUrl() {
-  GURL url("brave://rewards-internals");
+  GURL url("galeob://rewards-internals");
   return url;
 }
 
 GURL GetNewTabUrl() {
-  GURL url("brave://newtab");
+  GURL url("galeob://newtab");
   return url;
 }
 

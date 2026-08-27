@@ -11,7 +11,7 @@ namespace extensions::features {
 // via component updater on a regular frequency.
 //
 // Can be disabled to prevent automatic extension updates. Folks can still
-// update them manually from the brave://extensions page.
+// update them manually from the galeob://extensions page.
 BASE_FEATURE(kBraveAutoUpdateExtensions, base::FEATURE_ENABLED_BY_DEFAULT);
 
 }  // namespace extensions::features

@@ -334,7 +334,7 @@ class AndroidPageAppearingBrowserTest : public PlatformBrowserTest {
 
   base::span<const std::string_view> GetWebUISchemes() {
     static auto constexpr kWebUISchemes =
-        std::to_array<std::string_view>({"chrome://", "brave://"});
+        std::to_array<std::string_view>({"chrome://", "galeob://"});
     return kWebUISchemes;
   }
 

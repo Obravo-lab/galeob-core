@@ -143,7 +143,7 @@ class DictValue;
 // For example, the following condition matcher will match if the
 // `brave.new_tab_page.show_brave_news` pref path does not exist, the browser
 // was installed 3 or more days ago, the user has fewer than 7 bookmarks, the
-// chosen search provider is Startpage, and both the brave://settings/languages
+// chosen search provider is Startpage, and both the galeob://settings/languages
 // preferred website language and the operating system language are Deutsch:
 //
 //  "conditionMatchers": [
@@ -272,8 +272,8 @@ class DictValue;
 //        ]
 //
 //  NOTE: To identify condition matchers, first create a copy of your
-//  brave://local-state and `Default/Preferences` files. Next, change a
-//  brave://setting or enable a feature, quit the browser and then compare the
+//  galeob://local-state and `Default/Preferences` files. Next, change a
+//  galeob://setting or enable a feature, quit the browser and then compare the
 //  original and modified versions to determine which key/value pairs are
 //  required. Invalid or malformed condition matchers will be logged to the
 //  console, they are not logged to the Rewards log.

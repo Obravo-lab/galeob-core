@@ -845,7 +845,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "Automatically Update Extensions",                                   \
           "Automatically update user-installed Web extensions. When "          \
           "disabled, extensions will not update in the background. Folks can " \
-          "still update them manually from the brave://extensions page.",      \
+          "still update them manually from the galeob://extensions page.",      \
           kOsWin | kOsLinux | kOsMac,                                          \
           FEATURE_VALUE_TYPE(                                                  \
               extensions::features::kBraveAutoUpdateExtensions),               \
@@ -1050,7 +1050,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "brave-adblock-cookie-list-default",                                 \
           "Treat 'Easylist-Cookie List' as a default list source",             \
           "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
-          "brave://adblock hasn't otherwise been modified",                    \
+          "galeob://adblock hasn't otherwise been modified",                    \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(                                                  \
               brave_shields::features::kBraveAdblockCookieListDefault),        \
@@ -1086,7 +1086,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "source",                                                            \
                                                                                \
           "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
-          "its toggle in brave://adblock hasn't otherwise been modified",      \
+          "its toggle in galeob://adblock hasn't otherwise been modified",      \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(brave_shields::features::                         \
                                  kBraveAdblockMobileNotificationsListDefault), \
@@ -1105,7 +1105,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "source",                                                            \
                                                                                \
           "Enables the 'Brave Experimental Adblock Rules' regional list if "   \
-          "its toggle in brave://adblock hasn't otherwise been modified",      \
+          "its toggle in galeob://adblock hasn't otherwise been modified",      \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(                                                  \
               brave_shields::features::kBraveAdblockExperimentalListDefault),  \
@@ -1124,7 +1124,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "brave-adblock-show-hidden-components",                              \
           "Show hidden adblock filter list components",                        \
           "Reveals adblock filter list components in "                         \
-          "brave://settings/shields/filters that would normally be hidden.",   \
+          "galeob://settings/shields/filters that would normally be hidden.",   \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(                                                  \
               brave_shields::features::kBraveAdblockShowHiddenComponents),     \
@@ -1500,7 +1500,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "Adblock-Only mode availability",                                    \
           "Adds an option in settings for Adblock-Only mode, which retains "   \
           "core ad blocking rules of Brave Shields. This is an experimental "  \
-          "mode, go to brave://settings/shields to enable.",                   \
+          "mode, go to galeob://settings/shields to enable.",                   \
           kOsWin | kOsLinux | kOsMac,                                          \
           FEATURE_VALUE_TYPE(brave_shields::features::kAdblockOnlyMode),       \
       },                                                                       \

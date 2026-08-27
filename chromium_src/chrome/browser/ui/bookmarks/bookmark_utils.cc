@@ -86,8 +86,8 @@ bool ShouldShowAppsShortcutInBookmarkBar(Profile* profile) {
   return false;
 }
 
-// WebUI bookmarks are stored as chrome:// but displayed as brave://. Editing a
-// bookmark rewrites the stored URL to brave://, since the editor re-parses this
+// WebUI bookmarks are stored as chrome:// but displayed as galeob://. Editing a
+// bookmark rewrites the stored URL to galeob://, since the editor re-parses this
 // text via FixupURL(); browser_about_handler maps it back on navigation.
 std::u16string FormatBookmarkURLForDisplay(const GURL& url) {
   std::u16string url_string = FormatBookmarkURLForDisplay_ChromiumImpl(url);

@@ -158,7 +158,7 @@ export const ConnectionSection = (props: Props) => {
   const onClickUnblock = React.useCallback(() => {
     chrome.tabs.create(
       {
-        url: 'brave://settings/content/all',
+        url: 'galeob://settings/content/all',
       },
       () => {
         if (chrome.runtime.lastError) {

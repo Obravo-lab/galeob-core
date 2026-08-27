@@ -17,7 +17,7 @@ void ProcessKnownMV2Extensions(
   }
   if (extensions_mv2::IsKnownWebStoreHostedExtension(info.id)) {
     // Suppress mv2 messages for known extensions (which are being replaced with
-    // brave-hosted versions) on brave://extensions
+    // brave-hosted versions) on galeob://extensions
     info.is_affected_by_mv2_deprecation = false;
     info.disable_reasons.unsupported_manifest_version = false;
   }

@@ -28,7 +28,7 @@ class RewardsBrowserTestContextHelper {
   base::WeakPtr<content::WebContents> OpenSiteBanner();
 
   // Visit publisher and verify that the auto-contribution panel on
-  // brave://rewards looks correct
+  // galeob://rewards looks correct
   void VisitPublisher(const GURL& url, bool verified);
 
   void LoadURL(GURL url);

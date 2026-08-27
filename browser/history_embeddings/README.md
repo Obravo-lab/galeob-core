@@ -31,14 +31,14 @@ The upstream extraction pipeline is enabled by chromium_src overrides of
 and `PageContentExtractionServiceFactory` to check `kHistoryEmbeddings` instead
 of the upstream feature flags.
 
-## Enabling / the brave://history toggle
+## Enabling / the galeob://history toggle
 
 Two prefs gate the feature, via the `IsHistoryEmbeddings*` overrides in
 [`chromium_src/.../history_embeddings_utils.cc`](../../chromium_src/chrome/browser/history_embeddings/history_embeddings_utils.cc):
 
 - **`kBraveLocalAIEnabled`** — local-state master switch (Brave Origin "Local
   AI"); gates `IsHistoryEmbeddingsFeatureEnabled()`.
-- **`kBraveHistoryEmbeddingsEnabled`** — per-profile brave://history toggle;
+- **`kBraveHistoryEmbeddingsEnabled`** — per-profile galeob://history toggle;
   gates `IsHistoryEmbeddingsEnabledForProfile()`.
 
 The embedder is built only when an embedding service feeds the controller. Both
@@ -111,9 +111,9 @@ utility through the standard `LoadModels` mojo call.
   filtering.
 
 - **`chromium_src/chrome/browser/passage_embeddings/passage_embedder_model_observer_factory.cc`**
-  — Gates the per-profile `PassageEmbedderModelObserver` on the brave://history
+  — Gates the per-profile `PassageEmbedderModelObserver` on the galeob://history
   toggle so neither embedding service is built when it is off (see "Enabling /
-  the brave://history toggle" above).
+  the galeob://history toggle" above).
 
 - **`chromium_src/chrome/browser/history_embeddings/history_embeddings_service_factory.cc`**
   — Override to use `BravePassageEmbeddingsServiceController` and

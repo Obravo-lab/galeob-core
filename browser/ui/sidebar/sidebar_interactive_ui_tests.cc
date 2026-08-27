@@ -51,7 +51,7 @@ IN_PROC_BROWSER_TEST_F(SidebarInteractiveUITest, IterateBuiltInWebTypeTest) {
 
   // Create NTP and click wallet item. Then wallet tab(index 0) is activated.
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   // NTP is active tab.
@@ -64,7 +64,7 @@ IN_PROC_BROWSER_TEST_F(SidebarInteractiveUITest, IterateBuiltInWebTypeTest) {
 
   // Create NTP.
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   // NTP is active tab and load wallet on it.

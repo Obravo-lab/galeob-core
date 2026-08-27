@@ -286,7 +286,7 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
 #endif
 // NOTE: the actual crash functionality is covered upstream in
 // chrome/browser/crash_recovery_browsertest.cc
-// This test is for the brave:// scheme. This is a regression test added with:
+// This test is for the galeob:// scheme. This is a regression test added with:
 // https://github.com/brave/brave-core/pull/2229)
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest, MAYBE_CrashURLTest) {
   content::RenderProcessHostWatcher crash_observer(
@@ -294,7 +294,7 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest, MAYBE_CrashURLTest) {
       content::RenderProcessHostWatcher::WATCH_FOR_PROCESS_EXIT);
   content::ScopedAllowRendererCrashes allow_renderer_crashes(active_contents());
   browser()->OpenURL(
-      content::OpenURLParams(GURL("brave://crash"), content::Referrer(),
+      content::OpenURLParams(GURL("galeob://crash"), content::Referrer(),
                              WindowOpenDisposition::CURRENT_TAB,
                              ui::PAGE_TRANSITION_TYPED, false),
       /*navigation_handle_callback=*/{});
@@ -304,13 +304,13 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest, MAYBE_CrashURLTest) {
 // Some webuis are not allowed to load in private window.
 // Allowed url list are checked by IsURLAllowedInIncognito().
 // So, corresponding brave scheme url should be filtered as chrome scheme.
-// Ex, brave://settings should be loaded only in normal window because
-// chrome://settings is not allowed. When tyring to loading brave://settings in
+// Ex, galeob://settings should be loaded only in normal window because
+// chrome://settings is not allowed. When tyring to loading galeob://settings in
 // private window, it should be loaded in normal window instead of private
 // window.
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        SettingsPageIsNotAllowedInPrivateWindow) {
-  TestURLIsNotLoadedInPrivateWindow("brave://settings");
+  TestURLIsNotLoadedInPrivateWindow("galeob://settings");
 }
 
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
@@ -321,21 +321,21 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
   // with TestURLIsNotLoadedInPrivateWindow().
   EXPECT_FALSE(IsURLAllowedInIncognito(GURL("chrome://rewards")));
   EXPECT_TRUE(IsURLAllowedInIncognito(GURL("http://rewards")));
-  TestURLIsNotLoadedInPrivateWindow("brave://rewards");
+  TestURLIsNotLoadedInPrivateWindow("galeob://rewards");
 }
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        WalletPageIsNotAllowedInPrivateWindow) {
   EXPECT_TRUE(IsURLAllowedInIncognito(GURL("http://wallet")));
-  TestURLIsNotLoadedInPrivateWindowOrRedirected("brave://wallet");
+  TestURLIsNotLoadedInPrivateWindowOrRedirected("galeob://wallet");
   prefs()->SetBoolean(brave_wallet::kBraveWalletPrivateWindowsEnabled, true);
   TestURLIsLoadedInPrivateWindow("chrome://wallet/crypto/onboarding/welcome");
 }
 
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        WalletPageIsNotAllowedInGuestWindow) {
-  TestURLIsNotLoadedInGuestWindow(GURL("brave://wallet"));
+  TestURLIsNotLoadedInGuestWindow(GURL("galeob://wallet"));
 }
 #endif  // BUILDFLAG(ENABLE_BRAVE_WALLET)
 
@@ -343,17 +343,17 @@ IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        BraveSyncPageIsNotAllowedInPrivateWindow) {
   EXPECT_FALSE(IsURLAllowedInIncognito(GURL("chrome://sync")));
   EXPECT_TRUE(IsURLAllowedInIncognito(GURL("http://sync")));
-  TestURLIsNotLoadedInPrivateWindow("brave://sync");
+  TestURLIsNotLoadedInPrivateWindow("galeob://sync");
 }
 
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        BraveWelcomePageIsNotAllowedInPrivateWindow) {
   EXPECT_FALSE(IsURLAllowedInIncognito(GURL("chrome://welcome")));
   EXPECT_TRUE(IsURLAllowedInIncognito(GURL("http://welcome")));
-  TestURLIsNotLoadedInPrivateWindow("brave://welcome");
+  TestURLIsNotLoadedInPrivateWindow("galeob://welcome");
 }
 
 IN_PROC_BROWSER_TEST_F(BraveSchemeLoadBrowserTest,
                        BraveWelcomePageIsNotAllowedInGuestWindow) {
-  TestURLIsNotLoadedInGuestWindow(GURL("brave://welcome"));
+  TestURLIsNotLoadedInGuestWindow(GURL("galeob://welcome"));
 }

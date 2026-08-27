@@ -11,18 +11,18 @@
 namespace chrome {
 
 TEST(BraveBookmarkUtilsTest, ChromeUISchemeIsDisplayedAsBrave) {
-  EXPECT_EQ(u"brave://settings",
+  EXPECT_EQ(u"galeob://settings",
             FormatBookmarkURLForDisplay(GURL("chrome://settings/")));
 
   // Only the scheme changes; path and query are preserved.
-  EXPECT_EQ(u"brave://settings/clearBrowserData?foo=bar",
+  EXPECT_EQ(u"galeob://settings/clearBrowserData?foo=bar",
             FormatBookmarkURLForDisplay(
                 GURL("chrome://settings/clearBrowserData?foo=bar")));
 }
 
 TEST(BraveBookmarkUtilsTest, BraveUISchemeIsDisplayedUnchanged) {
-  EXPECT_EQ(u"brave://settings",
-            FormatBookmarkURLForDisplay(GURL("brave://settings/")));
+  EXPECT_EQ(u"galeob://settings",
+            FormatBookmarkURLForDisplay(GURL("galeob://settings/")));
 }
 
 TEST(BraveBookmarkUtilsTest, OtherSchemesAreNotRebranded) {

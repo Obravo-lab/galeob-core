@@ -23,8 +23,8 @@ namespace brave_rewards {
 class RewardsService;
 }  // namespace brave_rewards
 
-// Forwards brave://ads-internals' Logs tab to the Brave Rewards diagnostic
-// log, which is the same log shown on brave://rewards-internals.
+// Forwards galeob://ads-internals' Logs tab to the Brave Rewards diagnostic
+// log, which is the same log shown on galeob://rewards-internals.
 class AdsInternalsLogsHandler final : public bat_ads::mojom::AdsInternalsLogs {
  public:
   AdsInternalsLogsHandler(brave_rewards::RewardsService* rewards_service,

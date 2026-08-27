@@ -10,7 +10,7 @@
 
 // `kBraveAutoUpdateExtensions` is enabled by default but can be disabled via
 // CLI using --disable-features=BraveAutoUpdateExtensions or by toggling:
-// brave://flags/#brave-user-extension-auto-update
+// galeob://flags/#brave-user-extension-auto-update
 //
 // These tests checking the two methods that we patch to allow disabling.
 // Manually initiated updates (ex: CheckNow) are unaffected.

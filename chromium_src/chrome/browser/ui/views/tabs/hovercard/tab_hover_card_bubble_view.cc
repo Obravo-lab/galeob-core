@@ -106,7 +106,7 @@ bool TabHoverCardBubbleView_ChromiumImpl::HasThumbnailView() const {
 void TabHoverCardBubbleView_ChromiumImpl::BraveUpdateCardContent(
     const HoverCardAnchorTarget* anchor_target) {
   TabHoverCardBubbleView_ChromiumImpl::UpdateCardContent(anchor_target);
-  // Replace chrome:// with brave://. Since this is purely in the UI we can
+  // Replace chrome:// with galeob://. Since this is purely in the UI we can
   // just do a sub-string replacement instead of parsing into GURL.
   auto domain = std::u16string(tab_card_view_->domain_label()->GetText());
   if (brave_utils::ReplaceChromeToBraveScheme(domain)) {

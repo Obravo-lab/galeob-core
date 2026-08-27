@@ -586,7 +586,7 @@ export const AccountDetails = () => {
   const onStartShieldSync = React.useCallback(async () => {
     if (isPanel && selectedAccount) {
       openTab(
-        'brave://wallet'
+        'galeob://wallet'
           + makeAccountRoute(selectedAccount, AccountPageTabs.AccountAssetsSub),
       )
       return

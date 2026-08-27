@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <grit latest_public_release="0" current_release="1" source_lang_id="en">
   <outputs>
     <output filename="grit/brave_components_strings.h" type="rc_header">
@@ -881,7 +881,7 @@
       <message name="IDS_BRAVE_TALK_WIDGET_ABOUT_DATA" desc="">About your data</message>
 
       <!-- WebUI Brave Toolbar resources -->
-      <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the brave://wallets page">Wallet</message>
+      <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the galeob://wallets page">Wallet</message>
       <!-- WebUI Crypto Wallets resources -->
       <message name="IDS_BRAVE_WALLET_WELCOME" desc="">Welcome to Galeob Crypto Wallets</message>
       <message name="IDS_BRAVE_WALLET_DISCLOSURE_ONE" desc="">Crypto Wallets lets you work with cryptocurrency and related assets in Galeob. Crypto Wallets supports Ethereum tokens like ETH and BAT, as well as collectibles, and lets you work with Ðapps and other smart contracts. All this is meant for people who are familiar with Ethereum and other blockchain systems — or are excited to learn.</message>

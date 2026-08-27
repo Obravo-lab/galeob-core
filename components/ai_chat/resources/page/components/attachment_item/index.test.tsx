@@ -140,11 +140,11 @@ describe('attachment page item', () => {
     render(
       <AttachmentPageItem
         title='Title'
-        url='brave://newtab'
+        url='galeob://newtab'
       />,
     )
     expect(
-      screen.getByText('brave://newtab', {
+      screen.getByText('galeob://newtab', {
         selector: 'leo-tooltip div:first-child',
       }),
     ).toBeInTheDocument()

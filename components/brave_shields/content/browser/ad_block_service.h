@@ -185,7 +185,7 @@ class AdBlockService {
   void ResetCosmeticFilter(std::string_view host);
   bool AreAnyBlockedElementsPresent(std::string_view host);
 
-  // Methods for brave://adblock-internals.
+  // Methods for galeob://adblock-internals.
   using GetDebugInfoCallback =
       base::OnceCallback<void(std::pair<base::DictValue, base::DictValue>)>;
   void GetDebugInfoAsync(GetDebugInfoCallback callback);

@@ -15,7 +15,7 @@ namespace media {
 #if BUILDFLAG(IS_LINUX) && BUILDFLAG(ENABLE_PLATFORM_HEVC)
 // Killswitch for the bundled FFmpeg HEVC software decoder on Linux. Enabled by
 // default; lets us disable HEVC decoding remotely (via Griffin) or locally
-// (via brave://flags) without rebuilding if a regression shows up.
+// (via galeob://flags) without rebuilding if a regression shows up.
 MEDIA_EXPORT BASE_DECLARE_FEATURE(kFFmpegSoftwareHEVCDecoder);
 #endif
 

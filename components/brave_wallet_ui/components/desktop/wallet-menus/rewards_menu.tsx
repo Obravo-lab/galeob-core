@@ -22,7 +22,7 @@ import { ButtonMenu } from './wellet-menus.style'
 const onClickRewardsSettings = () => {
   chrome.tabs.create(
     {
-      url: 'brave://rewards',
+      url: 'galeob://rewards',
     },
     () => {
       if (chrome.runtime.lastError) {

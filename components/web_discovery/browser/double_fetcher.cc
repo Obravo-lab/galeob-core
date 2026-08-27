@@ -52,7 +52,7 @@ constexpr net::NetworkTrafficAnnotationTag kFetchNetworkTrafficAnnotation =
     policy {
       cookies_allowed: NO
       setting:
-        "Users can opt-in or out via brave://settings/search"
+        "Users can opt-in or out via galeob://settings/search"
     })");
 
 }  // namespace

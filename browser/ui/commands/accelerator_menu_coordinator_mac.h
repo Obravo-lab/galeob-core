@@ -22,7 +22,7 @@ namespace commands {
 
 // Keeps the main menu ([NSApp mainMenu]) key equivalents in sync with the
 // last-active profile's customized shortcuts, so that removing or changing a
-// menu-backed default shortcut in brave://settings/system/shortcuts takes
+// menu-backed default shortcut in galeob://settings/system/shortcuts takes
 // effect (menu-backed shortcuts are dispatched by the OS menu, not by the
 // browser's FocusManager - see AcceleratorService).
 //

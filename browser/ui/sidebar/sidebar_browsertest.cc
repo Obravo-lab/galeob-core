@@ -205,13 +205,13 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, BasicTest) {
 
   // Navigate to a non-NTP page first to ensure we can add it to sidebar
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("brave://settings/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("galeob://settings/")));
 
   // If current active tab is not NTP, we can add current url to sidebar.
   EXPECT_TRUE(CanAddCurrentActiveTabToSidebar(browser()));
 
   // If current active tab is NTP, we can't add current url to sidebar.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://newtab/")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("galeob://newtab/")));
   EXPECT_FALSE(CanAddCurrentActiveTabToSidebar(browser()));
 
   // Check |BrowserView::find_bar_host_view_| is the last child view.
@@ -229,7 +229,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, WebTypePanelTest) {
 
   // Add an item
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("brave://settings/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("galeob://settings/")));
   int current_tab_index = tab_model()->active_index();
   EXPECT_EQ(0, current_tab_index);
   EXPECT_TRUE(CanAddCurrentActiveTabToSidebar(browser()));
@@ -239,13 +239,13 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, WebTypePanelTest) {
 
   // Load NTP in a new tab and activate it. (tab index 1)
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   current_tab_index = tab_model()->active_index();
   EXPECT_EQ(1, current_tab_index);
 
-  // Activate sidebar item(brave://settings) and check existing first tab is
+  // Activate sidebar item(galeob://settings) and check existing first tab is
   // activated.
   auto items = model()->GetAllSidebarItems();
   auto iter =
@@ -331,7 +331,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWalletSidePanel,
   ASSERT_TRUE(wallet_item_index.has_value());
 
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_EQ(2, tab_model()->count());
@@ -1144,7 +1144,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWithTabSpecificAIChat,
   ASSERT_TRUE(tab_specific_item_index.has_value());
 
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_EQ(tab_model()->count(), 2);
@@ -1161,11 +1161,11 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWithTabSpecificAIChat,
 
   // Create two more tab for test below.
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_EQ(tab_model()->count(), 3);
@@ -1201,11 +1201,11 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWithTabSpecificAIChat,
   ASSERT_TRUE(tab_specific_item_index.has_value());
   // Open 2 more tabs
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_EQ(tab_model()->count(), 3);
@@ -1273,11 +1273,11 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTestWithTabSpecificAIChat,
   ASSERT_TRUE(tab_specific_item_index.has_value());
   // Open 2 more tabs
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("galeob://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   ASSERT_EQ(tab_model()->count(), 3);

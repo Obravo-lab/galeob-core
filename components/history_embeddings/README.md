@@ -317,7 +317,7 @@ semantically but contain most of the query words can still surface.
     so the Brave singleton can subclass cleanly without patches.
   - Injects `LitertModelRunner` into `PassageEmbedderImpl::BuildExecutionTask`
     so the utility runs EmbeddingGemma on LiteRT.
-  - Default-disables the upstream feature flags; the brave://history toggle opts
+  - Default-disables the upstream feature flags; the galeob://history toggle opts
     in. Swaps the keyed service factory to instantiate
     `BraveHistoryEmbeddingsService`.
 

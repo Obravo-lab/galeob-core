@@ -113,7 +113,7 @@ bool BraveDrmTabHelper::ShouldShowWidevineOptIn() const {
   // convenient single place for turning this class into a no-op:
   return false;
   // Users on non-x64 Linux may still install Widevine manually and enable it in
-  // brave://settings.
+  // galeob://settings.
 #else
   // If the user already opted in, don't offer it.
   PrefService* prefs =

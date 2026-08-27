@@ -56,7 +56,7 @@ class AdsImpl final : public Ads {
   void GetInternals(GetInternalsCallback callback) override;
 
   // TODO(https://github.com/brave/brave-browser/issues/42034): Transition
-  // diagnostics from brave://rewards-internals to brave://ads-internals.
+  // diagnostics from galeob://rewards-internals to galeob://ads-internals.
   void GetDiagnostics(GetDiagnosticsCallback callback) override;
 
   void GetStatementOfAccounts(GetStatementOfAccountsCallback callback) override;

@@ -30,7 +30,7 @@ bool MediaRouterEnabled(content::BrowserContext* context) {
   CHECK(pref->GetValue()->is_bool());
   // Chromium has a pref for Media Router but it is only controlled via
   // enterprise policy. In Brave, the pref can be controlled both via
-  // brave://settings/extensions and enterprise policy, with the latter taking
+  // galeob://settings/extensions and enterprise policy, with the latter taking
   // precedence.
   if (pref->IsManaged()) {
     return MediaRouterEnabled_ChromiumImpl(context);

@@ -109,8 +109,8 @@ TEST_F(BandwidthSavingsPredictorTest, PredictZeroNoData) {
 }
 
 TEST_F(BandwidthSavingsPredictorTest, PredictZeroInternalUrl) {
-  const GURL main_frame("brave://version");
-  auto res = predictors::CreateResourceLoadInfo("brave://version");
+  const GURL main_frame("galeob://version");
+  auto res = predictors::CreateResourceLoadInfo("galeob://version");
   predictor_->OnResourceLoadComplete(main_frame, *res);
 
   EXPECT_EQ(predictor_->PredictSavingsBytes(), 0);

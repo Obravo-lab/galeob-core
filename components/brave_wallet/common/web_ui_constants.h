@@ -9,7 +9,7 @@
 
 inline constexpr char kBraveUIWalletURL[] = "chrome://wallet/";
 inline constexpr char kBraveUIWalletAccountCreationURL[] =
-    "brave://wallet/crypto/accounts/add-account/create/";
+    "galeob://wallet/crypto/accounts/add-account/create/";
 inline constexpr char kBraveUIWalletPanelURL[] =
     "chrome://wallet-panel.top-chrome/";
 // Same host as the bubble; ?isSidePanel=true is the sole isSidePanel signal.
@@ -18,7 +18,7 @@ inline constexpr char kBraveUIWalletSidePanelURL[] =
 inline constexpr char kWalletPanelHost[] = "wallet-panel.top-chrome";
 inline constexpr char kBraveUIWalletPageURL[] = "chrome://wallet/";
 inline constexpr char kWalletPageHost[] = "wallet";
-inline constexpr char kWalletSettingsURL[] = "brave://settings/wallet";
+inline constexpr char kWalletSettingsURL[] = "galeob://settings/wallet";
 inline constexpr char kUntrustedLedgerHost[] = "ledger-bridge";
 inline constexpr char kUntrustedLedgerURL[] =
     "chrome-untrusted://ledger-bridge/";

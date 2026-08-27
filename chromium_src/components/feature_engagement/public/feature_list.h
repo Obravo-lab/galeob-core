@@ -9,7 +9,7 @@
 #include "build/build_config.h"
 
 // This override allows Brave to display Brave-specific in-product help features
-// on the brave://flags page.
+// on the galeob://flags page.
 
 // BRAVE_FEATURE_ENGAGEMENT_VARIATION_PARAMS is patched in after Chromium's
 // variation params are defined, and allows us to define Brave-specific IPH

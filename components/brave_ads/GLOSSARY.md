@@ -29,7 +29,7 @@ A place to define all specific terms and vocabulary for the Brave Ads component,
 | Creatives  | Creatives contain the visual and textual elements developed to convey a message or promote a product or service in advertising aimed at capturing attention and resonating with the target audience to achieve marketing goals.  |
 | Confirmation token  | A blinded token issued by Brave and held by the client, redeemed anonymously to confirm an ad event such as a view or click without revealing the user's identity.  |
 | Day parting  | Day parting is a strategy that involves scheduling and targeting ads based on specific times of the day to maximize their effectiveness.  |
-| Diagnostic  | A report of the current state and health of the Brave Ads system, surfaced in `brave://ads-internals` for debugging purposes.  |
+| Diagnostic  | A report of the current state and health of the Brave Ads system, surfaced in `galeob://ads-internals` for debugging purposes.  |
 | Deposit  | Refers to redeeming a confirmation token in exchange for BAT.  |
 | Eligible ads  | Ads that pass all eligibility criteria, including exclusion rules, frequency caps, and targeting requirements, and qualify to be served at a given moment.  |
 | Exclusion rules  | A set of rules that disqualify individual ads from being served, such as recency, frequency, conversion, and anti-targeting checks. Also known as frequency capping.  |
@@ -49,7 +49,7 @@ A place to define all specific terms and vocabulary for the Brave Ads component,
 | Purchase intent  | Likelihood or inclination of a consumer to make a purchase based on their expressed interest or behavior. It indicates the consumer's readiness to buy a product or service.  |
 | Purchase intent targeting  | Serves relevant ads when a user's browsing and search patterns suggest readiness to make a purchase of a specific product or service.  |
 | Reactions  | Allow a user to give feedback on a category, advertiser, or ad influencing which ads the user can see.  |
-| Resources  | External resources provided by [components](brave://components).  |
+| Resources  | External resources provided by [components](galeob://components).  |
 | Round robin  | An impression delivery strategy that ensures every ad is served at least once per rotation before any repeats, with the actual selection within the remaining eligible ads remaining random.  |
 | Search result ad  | An ad unit displayed within search results and delivered by the search provider, where ad selection is handled server-side.  |
 | Segment  | An advertising taxonomy to target ads to reach the desired audience.  |

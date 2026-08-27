@@ -688,7 +688,7 @@ TEST_F(BraveShieldsSettingsServiceTest, PRNGKnownValuesDifferentSeeds) {
 TEST_F(BraveShieldsSettingsServiceTest, InvalidDomains) {
   const std::array<GURL, 8> test_cases = {
       GURL("about:blank"),
-      GURL("brave://settings"),
+      GURL("galeob://settings"),
       GURL("chrome://version"),
       GURL("file:///etc/passwd"),
       GURL("javascript:alert(1)"),
