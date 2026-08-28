@@ -90,7 +90,7 @@ export function App() {
                 <>
                   <WidgetStack
                     name='left'
-                    tabs={['stats']}
+                    tabs={[]}
                   />
                   <WidgetStack
                     name='center'
@@ -100,7 +100,7 @@ export function App() {
               ) : (
                 <WidgetStack
                   name='left'
-                  tabs={['stats', 'news']}
+                  tabs={['news']}
                 />
               )}
               <WidgetStack

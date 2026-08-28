@@ -14,7 +14,6 @@ import { NtpWidget } from './ntp_widget'
 import { RewardsWidget } from './rewards_widget'
 import { TalkWidget } from './talk_widget'
 import { VpnWidget } from './vpn_widget'
-import { StatsWidget } from './stats_widget'
 import { NewsWidget } from './news_widget'
 
 import { style } from './widget_stack.style'
@@ -106,8 +105,6 @@ export function WidgetStack(props: Props) {
         return <TalkWidget />
       case 'vpn':
         return <VpnWidget />
-      case 'stats':
-        return <StatsWidget />
       case 'news':
         return <NewsWidget />
     }
