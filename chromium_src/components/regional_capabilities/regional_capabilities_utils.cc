@@ -86,9 +86,9 @@ constexpr TemplateURLPrepopulateData::BravePrepopulatedEngineID
 // LINT.IfChange
 constexpr TemplateURLPrepopulateData::BravePrepopulatedEngineID
     kBraveEnginesFR[] = {
+        TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_GOOGLE,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_BRAVE,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_QWANT,
-        TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_GOOGLE,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_BING,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_STARTPAGE,

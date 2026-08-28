@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="en-GB">
 <translation id="1751249301761991853">Personal</translation>
@@ -380,7 +380,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="1336940801687497203">Same as Windows</translation>
 <translation id="8721331068159819483">Same as macOS</translation>
 <translation id="4171684937791228083">Always show toolbar in full screen</translation>
-<translation id="5840822070878669614">Open Brave Web Store</translation>
+<translation id="5840822070878669614">Open Galeob Web Store</translation>
 <translation id="1692470335103807198">Get more themes</translation>
 <translation id="2906510232093002459">Brave default images</translation>
 <translation id="8000020256436988724">Toolbar</translation>

@@ -262,7 +262,7 @@ void BraveProfileManager::SetNonPersonalProfilePrefs(Profile* profile) {
   PrefService* prefs = profile->GetPrefs();
   prefs->SetBoolean(prefs::kSigninAllowed, false);
   prefs->SetBoolean(bookmarks::prefs::kEditBookmarksEnabled, false);
-  prefs->SetBoolean(bookmarks::prefs::kShowBookmarkBar, false);
+  prefs->SetBoolean(bookmarks::prefs::kShowBookmarkBar, true);
 }
 
 BraveProfileManagerWithoutInit::BraveProfileManagerWithoutInit(

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="en-GB">
 <translation id="1001033507375626788">This network is shared with you</translation>
@@ -11092,8 +11092,8 @@ This can include information about installed software, files, your browser, the 
 <translation id="5263632074804780211">Use the web without saving your browsing history with a Private window</translation>
 <translation id="1989101205350450024">Using a shared computer? Try opening a Private window.</translation>
 <translation id="1507871044612694155">To browse privately, click the dots icon menu to open a Private window</translation>
-<translation id="8839398440242019256">Not from Brave Web Store.</translation>
-<translation id="6945695820322143954">This extension violates the Brave Web Store policy.</translation>
+<translation id="8839398440242019256">Not from Galeob Web Store.</translation>
+<translation id="6945695820322143954">This extension violates the Galeob Web Store policy.</translation>
 <translation id="1676595396635191120">New Private Window</translation>
 <translation id="7880076834790511518">{COUNT, plural,
           =1 {Your Private window won't reopen.}
@@ -11107,7 +11107,7 @@ This can include information about installed software, files, your browser, the 
 <translation id="1961291599064731706">Sites you visit aren’t saved in Private</translation>
 <translation id="8904732128631177813">To delete Private browsing history from your device, close all Private tabs</translation>
 <translation id="1001131747196960052">Close Private</translation>
-<translation id="8808478386290700967">Brave Web Store</translation>
+<translation id="8808478386290700967">Galeob Web Store</translation>
 <translation id="433830930456392967">{COUNT, plural,
           =0 {Open all in &amp;Private window}
           =1 {Open in &amp;Private window}
@@ -11134,7 +11134,7 @@ This can include information about installed software, files, your browser, the 
 <translation id="9190752231623502208">{COUNT, plural,
         =1 {Your Private window won't open after you relaunch}
         other {Your {COUNT} Private windows won't reopen after you relaunch}}</translation>
-<translation id="5840822070878669614">Open Brave Web Store</translation>
+<translation id="5840822070878669614">Open Galeob Web Store</translation>
 <translation id="3497049935870467874">See warnings before going to insecure sites in Private mode</translation>
 <translation id="1593610935874634135">A company can define a group of sites that can use cookies to share your activity in the group. This is off in Private.</translation>
 <translation id="6710473112951410470">Current Private session only</translation>
@@ -11146,7 +11146,7 @@ This can include information about installed software, files, your browser, the 
 <translation id="4206852577678288113">Turn on developer mode to use this extension, but only if you trust the extension. It may contain experimental features and has not been reviewed by the Web Store.</translation>
 <translation id="4949006391524401372">This extension has been disabled by enterprise policy because it is no longer available on the Web Store.</translation>
 <translation id="5899585985956756612">Allow in Private</translation>
-<translation id="6436164536244065364">View in Brave Web Store</translation>
+<translation id="6436164536244065364">View in Galeob Web Store</translation>
 <translation id="38046578254905003">Find extensions and themes in the <ph name="BEGIN_LINK"/>Web Store<ph name="END_LINK"/></translation>
 <translation id="5716623990809228300">Discover more extensions and themes on the <ph name="BEGIN_LINK"/>Web Store<ph name="END_LINK"/></translation>
 <translation id="7301533237762923855">Off • This extension violates the Web Store policy</translation>
