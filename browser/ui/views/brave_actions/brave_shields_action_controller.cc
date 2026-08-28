@@ -130,16 +130,6 @@ void BraveShieldsActionController::RemoveObserverFromWebContents(
 gfx::ImageSkia BraveShieldsActionController::GetIconImage(
     bool is_enabled) const {
   const int icon_size = IconDimensionForLayout();
-#if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
-  // In the Brave Origin standalone build the Shields icon is replaced with the
-  // Brave Origin face icon, tinted to match the other location bar icons.
-  const ui::ColorProvider* color_provider =
-      GetColorProviderForWebContents(tab_strip_model_->GetActiveWebContents());
-  return gfx::CreateVectorIcon(
-      is_enabled ? kLeoBraveIconOnlyFaceIcon
-                 : kLeoBraveIconOnlyFaceDisabledIcon,
-      icon_size, color_provider->GetColor(kColorOmniboxResultsIcon));
-#else
   ui::ResourceBundle& rb = ui::ResourceBundle::GetSharedInstance();
   gfx::ImageSkia image;
   const SkBitmap bitmap =
@@ -149,7 +139,6 @@ gfx::ImageSkia BraveShieldsActionController::GetIconImage(
   float scale = static_cast<float>(bitmap.width()) / icon_size;
   image.AddRepresentation(gfx::ImageSkiaRep(bitmap, scale));
   return image;
-#endif  // BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
 }
 
 std::unique_ptr<IconWithBadgeImageSource>

@@ -86,12 +86,10 @@ bool BraveLocationBarModelDelegate::GetURL(GURL* url) const {
 const gfx::VectorIcon* BraveLocationBarModelDelegate::GetVectorIconOverride()
     const {
 #if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
-  // For Brave Origin branded builds, use the branded product icon for
-  // chrome:// URLs instead of the omnibox product icon which uses the
-  // regular Brave branding.
+  // For Origin branded builds, use the default Chromium icon for chrome:// URLs.
   GURL url;
   if (GetURL(&url) && url.SchemeIs(content::kChromeUIScheme)) {
-    return &kLeoBraveIconOnlyFaceIcon;
+    return nullptr;
   }
 #endif
 
