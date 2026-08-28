@@ -5,10 +5,10 @@
 export const images: NewTab.BraveBackground[] = [{
   'type': 'brave',
   'wallpaperImageUrl': 'dylan-malval_sea-min.webp',
-  'author': 'Dylan Malval',
-  'link': 'https://www.instagram.com/vass_captures/',
-  'originalUrl': 'Contributor sent the hi-res version through email',
-  'license': 'used with permission'
+  'author': '',
+  'link': '',
+  'originalUrl': '',
+  'license': ''
 }]
 // If you change the size of this array (e.g. adding a new background, adding a new property),
 // then you must also update `script/generate_licenses.py`
