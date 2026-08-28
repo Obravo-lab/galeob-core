@@ -169,7 +169,6 @@ export function SettingsModal(props: Props) {
               {renderNavItem('top-sites')}
               {renderNavItem('news')}
               {renderNavItem('clock')}
-              {renderNavItem('widgets')}
             </Navigation>
           </nav>
           <section>
