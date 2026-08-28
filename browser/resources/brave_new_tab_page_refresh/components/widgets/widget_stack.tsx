@@ -18,7 +18,7 @@ import { NewsWidget } from './news_widget'
 
 import { style } from './widget_stack.style'
 
-type TabName = 'rewards' | 'talk' | 'vpn' | 'stats' | 'news'
+type TabName = 'rewards' | 'talk' | 'vpn' | 'news'
 
 interface Props {
   name: string
@@ -28,7 +28,6 @@ interface Props {
 export function WidgetStack(props: Props) {
   const showTalkWidget = useNewTabState((s) => s.showTalkWidget)
   const talkFeatureEnabled = useNewTabState((s) => s.talkFeatureEnabled)
-  const showShieldsStats = useNewTabState((s) => s.showShieldsStats)
   const showRewardsWidget = useRewardsState((s) => s.showRewardsWidget)
   const rewardsFeatureEnabled = useRewardsState((s) => s.rewardsFeatureEnabled)
   const vpnFeatureEnabled = useVpnState((s) => s.vpnFeatureEnabled)
@@ -47,8 +46,6 @@ export function WidgetStack(props: Props) {
           return talkFeatureEnabled && showTalkWidget
         case 'vpn':
           return vpnFeatureEnabled && showVpnWidget
-        case 'stats':
-          return showShieldsStats
         case 'news':
           return newsFeatureEnabled && showNews
       }
@@ -61,7 +58,6 @@ export function WidgetStack(props: Props) {
     showRewardsWidget,
     vpnFeatureEnabled,
     showVpnWidget,
-    showShieldsStats,
     showNews,
     newsFeatureEnabled,
   ])
@@ -90,8 +86,6 @@ export function WidgetStack(props: Props) {
         return <Icon name='product-brave-talk' />
       case 'vpn':
         return <Icon name='product-vpn' />
-      case 'stats':
-        return <Icon name='bar-chart' />
       case 'news':
         return <Icon name='product-brave-news' />
     }
@@ -139,7 +133,6 @@ function tabNameIdentity(tabName: TabName): TabName {
     case 'vpn':
     case 'rewards':
     case 'talk':
-    case 'stats':
     case 'news':
       return tabName
   }
