@@ -10,7 +10,7 @@ import {NewTabOption, BraveNewTabBrowserProxy, BraveNewTabBrowserProxyImpl} from
 import {getTemplate} from './brave_new_tab_page.html.js'
 
 /**
- * 'settings-brave-new-tab-page' is the settings page containing
+ * 'settings-galeob-new-tab-page' is the settings page containing
  * brave's new tab features.
  */
 
@@ -21,7 +21,7 @@ const SettingsBraveNewTabPageElementBase =
 
 export class SettingsBraveNewTabPageElement extends SettingsBraveNewTabPageElementBase {
   static get is() {
-    return 'settings-brave-new-tab-page'
+    return 'settings-galeob-new-tab-page'
   }
 
   static get template() {
