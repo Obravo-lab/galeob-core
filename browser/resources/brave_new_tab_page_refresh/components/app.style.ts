@@ -57,8 +57,7 @@ export const style = scoped.css`
     position: absolute;
     z-index: 2;
     inset-block-start: 0;
-    inset-inline-end: 0;
-    margin: 24px;
+    inset-inline-end: 0;    margin: 24px;
 
     padding: 8px;
     border-radius: 50%;
@@ -72,9 +71,18 @@ export const style = scoped.css`
       cursor: pointer;
     }
 
-    @container (width < ${topControlsNarrowBreakpoint}) {
-      margin: 12px;
+    @container (width < ${topControlsNarrowBreakpoint}) {      margin: 12px;
     }
+  }
+
+  .brand-logo {
+    position: fixed;
+    z-index: 2;
+    inset-block-end: 24px;
+    inset-inline-end: 24px;
+    width: 56px;
+    height: 56px;
+    opacity: .9;
   }
 
   .clock {
