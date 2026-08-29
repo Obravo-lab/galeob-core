@@ -78,10 +78,10 @@ export const style = scoped.css`
   .brand-logo {
     position: fixed;
     z-index: 2;
-    inset-block-end: 24px;
-    inset-inline-end: 24px;
-    width: 56px;
-    height: 56px;
+    inset-block-end: 20px;
+    inset-inline-end: 20px;
+    width: 32px;
+    height: 32px;
     opacity: .9;
   }
 
